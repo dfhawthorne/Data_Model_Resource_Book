@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F3F25BF-89D4-8729-32C6-4FA836638D4D" name="Person">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:10:54 UTC</createdTime>
+<notes><![CDATA[Based on Fig 2-2a of book]]></notes>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>pers</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="current last-name" id="30B70709-1A77-0FDF-D950-3F6471420D4F">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:11:38 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current first-name" id="581FE12C-49AA-FD4A-9DFC-751264BE3B11">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:12:43 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current middle-name" id="CF8B68B2-E3CC-A1CB-B868-EAE0A1CB1B3E">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:13:03 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current personal-title" id="CB10EBFF-805A-3943-77F5-7726596C0BAE">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:13:24 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current suffix" id="4746A27F-049D-7EF1-0515-B9CABADDF1B8">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:14:39 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current nickname" id="C91EEC0E-45E2-508F-3D34-F712BE0BDAEE">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:14:51 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="710E0DE4-AED6-1DC5-691A-910B5450B863">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:15:01 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth date" id="05F8F35C-6A69-D5F0-34FE-0E093069FFAB">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:15:07 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="C400790C-6A7E-EAC9-1D3B-8E7AA69BB4CA">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:15:32 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="8881264B-8CA1-A9B2-BC7C-D5E456DF3290">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:15:42 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mothers-maiden-name" id="78DEB820-17BE-0645-F7BE-D0037D270CF4">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:15:48 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marital-status" id="84820ADF-4FC1-7F0C-6798-4E41C0A6C743">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:16:02 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="social-security-no" id="5E7C7F09-8D90-2221-995B-62272DE60949">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:16:21 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current passport-no" id="B76B8C8E-B531-BC4D-0D92-C62CB6E8FA5D">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:16:33 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current passport-expiry-date" id="10E0CB94-F420-3F65-B088-295DDFADBE69">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:16:45 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total years work-experience" id="0BA32FB8-215E-C6FA-E5F7-785863659166">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:16:59 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="4A89C9BF-5CA2-03AA-E5BC-79B6054CEC1D">
+<createdBy>user</createdBy>
+<createdTime>2019-11-29 11:17:16 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<engineerTo>
+<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
