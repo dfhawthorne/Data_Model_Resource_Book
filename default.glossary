@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cwd_glossary name="Default" description="" id="303F8FD2-A15B-63DF-9ED9-ECDF7563A3F6" unique_abbreviations="true" >
+
+   <glossaryWord name="Suffix" plural="Suffixes" abbreviation="sfx" alt_abbreviation="" primary_word="true" id="66E4DBDC-4942-BCD7-AF89-B6B6CCFDA214" import_id="" description="Suffix for a person&apos;s name" />
+   <glossaryWord name="Current" plural="" abbreviation="curr" alt_abbreviation="" modifier="true" id="03594846-B039-C371-ABEF-84C2F0AB63E6" import_id="" description="What the current value is" />
+   <glossaryWord name="last-name" plural="last-names" abbreviation="lstnm" alt_abbreviation="" primary_word="true" id="00104704-4A4E-F87A-AD4D-0F99DD4ADF51" import_id="" description="Person&apos;s last (or family) name" />
+   <glossaryWord name="first-name" plural="first-names" abbreviation="frstnm" alt_abbreviation="" primary_word="true" id="7A098645-D128-35F8-1772-A46FDDA19063" import_id="" description="Peron&apos;s first name" />
+   <glossaryWord name="middle-name" plural="middle-names" abbreviation="midnm" alt_abbreviation="" primary_word="true" id="5B41BE91-4160-039C-077F-703B7409099F" import_id="" description="Person&apos;s middle name (if any)" />
+   <glossaryWord name="personal-title" plural="personal-titles" abbreviation="persttl" alt_abbreviation="" primary_word="true" id="B2B1EC8D-2500-D926-37A0-631782B98EE7" import_id="" description="Person&apos;s title to be used to address them" />
+   <glossaryWord name="nickname" plural="nicknames" abbreviation="ncknm" alt_abbreviation="" primary_word="true" id="D20FB97D-385C-7929-D463-065113A65C89" import_id="" description="Person&apos;s nickname (if any)" />
+   <glossaryWord name="gender" plural="genders" abbreviation="gndr" alt_abbreviation="" primary_word="true" id="F04A35F6-31B7-04CB-881E-4212C4FB281A" import_id="" description="Person&apos;s gender" />
+   <glossaryWord name="birth-date" plural="birth-dates" abbreviation="bthdt" alt_abbreviation="" primary_word="true" id="2234192B-1B32-7964-502B-1CF453BD9E88" import_id="" description="Person&apos;s date of birth" />
+   <glossaryWord name="height" plural="heights" abbreviation="ht" alt_abbreviation="" primary_word="true" id="DDF66E35-C354-D7D1-DB6E-05D12DC359A7" import_id="" description="Person&apos;s height" />
+   <glossaryWord name="weight" plural="weights" abbreviation="wt" alt_abbreviation="" primary_word="true" id="DE6829BA-E73A-CC5A-F924-E85E94766BE5" import_id="" description="Person&apos;s weight" />
+   <glossaryWord name="mothers-maiden-name" plural="" abbreviation="mthrmdnm" alt_abbreviation="" primary_word="true" id="03941C3E-E582-FE13-948E-E33502CA816A" import_id="" description="Maiden name of person&apos;s mother" />
+   <glossaryWord name="social-security-no" plural="social-security-nos" abbreviation="ssn" alt_abbreviation="" primary_word="true" id="F1E725BF-ADDE-CE50-0B6D-BB8B5822E97F" import_id="" description="Person&apos;s social security number" />
+   <glossaryWord name="passport-no" plural="passport-nos" abbreviation="pssptno" alt_abbreviation="" primary_word="true" id="6464098F-AF95-8A7E-B3E5-BCA08AD45465" import_id="" description="Person&apos;s passport number" />
+   <glossaryWord name="passport-expiry-date" plural="passport-expiry-dates" abbreviation="passptexpdt" alt_abbreviation="" primary_word="true" id="D2F00515-15C2-9F5A-883F-A7C54013CD63" import_id="" description="Date when person&apos;s passport expires." />
+   <glossaryWord name="work-experience" plural="" abbreviation="wrkexp" alt_abbreviation="" primary_word="true" id="25FA4E0A-6818-C4F1-F7A9-BC2FBE1DE59B" import_id="" description="Work experience for person" />
+   <glossaryWord name="total" plural="" abbreviation="tot" alt_abbreviation="" modifier="true" id="906EC064-0921-F5F0-E1CB-05D958DFCA91" import_id="" description="" />
+   <glossaryWord name="year" plural="years" abbreviation="yr" alt_abbreviation="" qualifier="true" id="3D93B626-CAC7-470F-2B4B-DC1635C66C3A" import_id="" description="" />
+   <glossaryWord name="comment" plural="comments" abbreviation="comm" alt_abbreviation="" primary_word="true" id="A8A3F9C5-6A79-6D8B-ECAD-64BC496B496B" import_id="" description="" />
+
+</cwd_glossary>
