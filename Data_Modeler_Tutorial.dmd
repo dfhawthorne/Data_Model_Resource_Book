@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Data_Modeler_Tutorial" id="9765E140-CFAA-D894-055D-B9668F216DA5" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 06:29:11 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9765E140-CFAA-D894-055D-B9668F216DA5</designId>
+</OSDM_Design>

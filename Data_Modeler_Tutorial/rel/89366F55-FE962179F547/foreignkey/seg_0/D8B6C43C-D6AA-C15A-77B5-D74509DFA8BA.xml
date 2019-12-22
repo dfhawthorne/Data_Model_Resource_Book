@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8B6C43C-D6AA-C15A-77B5-D74509DFA8BA" containerWithKeyObject="E821CD33-EEDF-3582-E844-0FB5D668C17A" localFKIndex="1ED26041-BC00-2E2C-4620-140744812D4D" name="Transactions_Patrons_FK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>F1444D17-BCCC-4D28-604B-99945853B28A</generatorID>
+<notes><![CDATA[Patrons and Transactions: one-to-many. Each patron can be involved in multiple sequential and simultaneous transactions. Each patron can check out one or many books in a visit to the library, and can have multiple active checkout transactions reflecting several visits; each patron can also return checked out books at any time.]]></notes>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<referredTableLongName>Patrons</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>122914B1-3150-1D41-971C-3263FFD8C10A</referredTableID>
+<keyObject>B94BB915-0F05-B422-72E0-53042B9148F3</keyObject>
+<referredKeyID>B94BB915-0F05-B422-72E0-53042B9148F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>patron_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

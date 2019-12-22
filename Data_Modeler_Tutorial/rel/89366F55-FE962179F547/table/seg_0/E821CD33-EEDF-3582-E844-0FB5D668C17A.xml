@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E821CD33-EEDF-3582-E844-0FB5D668C17A" name="Transactions">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<comment><![CDATA[The Transactions entity describes each transaction that involves a patron and a book, such as someone checking out or returning a book. Each record is a single transaction, regardless of how many books the patron brings to the library desk. For example, a patron returning two books and checking out three books causes five transactions to be recorded (two returns and three checkouts).]]></comment>
+<generatorID>D6315545-C2B7-A52B-420A-7508CC45B84E</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="C46D97BC-87A0-CD8D-7D75-119A2B509438">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique transaction ID number]]></commentInRDBMS>
+<generatorID>6B96F593-3E0C-0956-E28B-0A70D051B61B</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>127D1FDF-63CC-C9F9-0749-66A88830EDB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_date" id="4DF7CCD8-F968-F555-074E-836CA9561829">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date and time of the transaction.]]></commentInRDBMS>
+<generatorID>8D119938-59A2-DD65-A453-FE2D07AF77A9</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_type" id="D334C9A8-67C6-3D80-DF70-04B80B79CB36">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numeric code indicating the type of transaction, such as 1 for checking out a book.]]></commentInRDBMS>
+<generatorID>18B3272D-6552-5ABA-5115-84D47C73DDBE</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_book_id" id="A041D243-AE80-47FC-44DE-FB59442B1B3D">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>2FA510E5-4F42-DFD4-1A15-C58221CAD200</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36A92084-A867-F866-03AF-69354D44AA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8486D2EB-49DB-E259-39EF-F65007618FBA" referredColumn="E3BF9444-70DE-27A5-8307-3A244AB79ABC"/>
+</associations>
+</Column>
+<Column name="Patrons_patron_id" id="ABE37BF0-4DF9-54F5-B630-7E822F2A1CE3">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>24540D01-4105-A956-080A-298BAA466F8C</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>127D1FDF-63CC-C9F9-0749-66A88830EDB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8B6C43C-D6AA-C15A-77B5-D74509DFA8BA" referredColumn="72281488-03E2-17DC-3167-DBD1480B88E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03BBD1C0-776B-7213-E711-68742D5074EC" name="Transactions_PK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>0839E928-814B-0A0B-59F7-4DB45DD41AA8</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C46D97BC-87A0-CD8D-7D75-119A2B509438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94A57966-843F-C967-9CE0-4E93088EB550" name="Transactions_Books_FK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>FBB0F683-C1D0-9E34-E4D8-322D36D8F68D</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A041D243-AE80-47FC-44DE-FB59442B1B3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1ED26041-BC00-2E2C-4620-140744812D4D" name="Transactions_Patrons_FK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>F1444D17-BCCC-4D28-604B-99945853B28A</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE37BF0-4DF9-54F5-B630-7E822F2A1CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

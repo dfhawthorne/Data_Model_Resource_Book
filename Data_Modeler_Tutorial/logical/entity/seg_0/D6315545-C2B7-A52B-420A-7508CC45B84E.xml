@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6315545-C2B7-A52B-420A-7508CC45B84E" name="Transactions">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:56:11 UTC</createdTime>
+<comment><![CDATA[The Transactions entity describes each transaction that involves a patron and a book, such as someone checking out or returning a book. Each record is a single transaction, regardless of how many books the patron brings to the library desk. For example, a patron returning two books and checking out three books causes five transactions to be recorded (two returns and three checkouts).]]></comment>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="transaction_id" id="6B96F593-3E0C-0956-E28B-0A70D051B61B">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:59:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique transaction ID number]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>127D1FDF-63CC-C9F9-0749-66A88830EDB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transaction_date" id="8D119938-59A2-DD65-A453-FE2D07AF77A9">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:00:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date and time of the transaction.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transaction_type" id="18B3272D-6552-5ABA-5115-84D47C73DDBE">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:00:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numeric code indicating the type of transaction, such as 1 for checking out a book.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_id" id="2FA510E5-4F42-DFD4-1A15-C58221CAD200">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:06:17 UTC</createdTime>
+<generatorID>FBB0F683-C1D0-9E34-E4D8-322D36D8F68D</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<referedAttribute>08DA1E3B-7F80-14F4-B105-DD21F2AE3665</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36A92084-A867-F866-03AF-69354D44AA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patron_id" id="24540D01-4105-A956-080A-298BAA466F8C">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:07:45 UTC</createdTime>
+<generatorID>F1444D17-BCCC-4D28-604B-99945853B28A</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<referedAttribute>C064D774-114C-617B-5803-E574416C8C35</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>127D1FDF-63CC-C9F9-0749-66A88830EDB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0839E928-814B-0A0B-59F7-4DB45DD41AA8" name="Transactions PK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:59:34 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B96F593-3E0C-0956-E28B-0A70D051B61B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

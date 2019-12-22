@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="119C2DB2-08AF-69AB-3527-0B69E55FCB80" name="Books">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:43:12 UTC</createdTime>
+<notes><![CDATA[The Books entity describes each book in the library.]]></notes>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book_id" id="08DA1E3B-7F80-14F4-B105-DD21F2AE3665">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[The Dewey code or other book identifier.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36A92084-A867-F866-03AF-69354D44AA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="711C1C4B-F129-B73F-F1E2-499BCB4DA7D0">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:44:54 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3B52AFC-27C9-E6AB-D83F-BA3DFCAEDE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_last_name" id="2CBEB068-B3B5-BEBA-95A0-906F89C733CA">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:45:17 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_first_name" id="E9082104-2F57-5CC6-8199-C10C9EA8E2A8">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:45:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Author's first name; not mandatory, but enter it if the author has a first name.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="4C57059C-B490-6765-94E2-CFC1456AC365">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:46:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Librarian's personal rating of the book, from 1 (poor) to 10 (great).]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04F060AF-99C6-7915-84DB-C4A0E39DB928" name="Books PK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:44:06 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08DA1E3B-7F80-14F4-B105-DD21F2AE3665</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

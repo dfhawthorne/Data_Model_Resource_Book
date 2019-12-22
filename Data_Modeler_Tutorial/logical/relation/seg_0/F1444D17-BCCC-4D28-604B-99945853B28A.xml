@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="F1444D17-BCCC-4D28-604B-99945853B28A">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:07:45 UTC</createdTime>
+<notes><![CDATA[Patrons and Transactions: one-to-many. Each patron can be involved in multiple sequential and simultaneous transactions. Each patron can check out one or many books in a visit to the library, and can have multiple active checkout transactions reflecting several visits; each patron can also return checked out books at any time.]]></notes>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<sourcePk>13C715BE-6B81-A576-9D84-138011A66894</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F30DABA1-E9F3-7D08-0843-E7F0E6A57E67</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D6315545-C2B7-A52B-420A-7508CC45B84E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

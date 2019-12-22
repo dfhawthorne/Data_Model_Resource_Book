@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA6C4C69-72EA-1575-6291-C7386BCBE38C" name="Books">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>119C2DB2-08AF-69AB-3527-0B69E55FCB80</generatorID>
+<notes><![CDATA[The Books entity describes each book in the library.]]></notes>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_id" id="E3BF9444-70DE-27A5-8307-3A244AB79ABC">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[The Dewey code or other book identifier.]]></commentInRDBMS>
+<generatorID>08DA1E3B-7F80-14F4-B105-DD21F2AE3665</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36A92084-A867-F866-03AF-69354D44AA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="DE30147F-DBE3-96A1-74F7-B721C7DA5CF0">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>711C1C4B-F129-B73F-F1E2-499BCB4DA7D0</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3B52AFC-27C9-E6AB-D83F-BA3DFCAEDE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_last_name" id="06992537-648D-FA2B-1EE3-3A3190050EA1">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>2CBEB068-B3B5-BEBA-95A0-906F89C733CA</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_first_name" id="7F02D8EA-5772-02FA-316F-CB27CC27C5D3">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Author's first name; not mandatory, but enter it if the author has a first name.]]></commentInRDBMS>
+<generatorID>E9082104-2F57-5CC6-8199-C10C9EA8E2A8</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="A9A4356B-6B50-7897-D9E9-12726B6987E9">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Librarian's personal rating of the book, from 1 (poor) to 10 (great).]]></commentInRDBMS>
+<generatorID>4C57059C-B490-6765-94E2-CFC1456AC365</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16F1C7CC-C454-973C-EB54-50C6FC0E4DBA" name="Books_PK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:13:54 UTC</createdTime>
+<generatorID>04F060AF-99C6-7915-84DB-C4A0E39DB928</generatorID>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3BF9444-70DE-27A5-8307-3A244AB79ABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

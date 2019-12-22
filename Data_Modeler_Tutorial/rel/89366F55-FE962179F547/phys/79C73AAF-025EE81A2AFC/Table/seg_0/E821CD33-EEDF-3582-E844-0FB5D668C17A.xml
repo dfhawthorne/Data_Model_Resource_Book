@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Transactions" directorySegmentName="seg_0" id="E821CD33-EEDF-3582-E844-0FB5D668C17A">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="transaction_date" id="4DF7CCD8-F968-F555-074E-836CA9561829">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Books_book_id" id="A041D243-AE80-47FC-44DE-FB59442B1B3D">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Patrons_patron_id" id="ABE37BF0-4DF9-54F5-B630-7E822F2A1CE3">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="transaction_id" id="C46D97BC-87A0-CD8D-7D75-119A2B509438">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="transaction_type" id="D334C9A8-67C6-3D80-DF70-04B80B79CB36">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Transactions_Patrons_FK" id="1ED26041-BC00-2E2C-4620-140744812D4D">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Transactions_Books_FK" id="94A57966-843F-C967-9CE0-4E93088EB550">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Transactions_PK" id="03BBD1C0-776B-7213-E711-68742D5074EC">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

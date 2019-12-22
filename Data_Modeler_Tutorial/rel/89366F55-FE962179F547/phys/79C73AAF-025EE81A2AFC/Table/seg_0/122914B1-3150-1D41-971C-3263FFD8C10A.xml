@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Patrons" directorySegmentName="seg_0" id="122914B1-3150-1D41-971C-3263FFD8C10A">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="street_address" id="1726CB31-FAA2-1E66-E4F5-F98D3BD5C90B">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="2BC5FC27-A5A8-FA05-A93F-0EC2D65BD295">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="location" id="37712448-9DD2-E4E4-E043-3712448286CD">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="patron_id" id="72281488-03E2-17DC-3167-DBD1480B88E1">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="zip" id="8CD65D7D-E203-DED0-1387-B06B580656C3">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="9A155ACD-C57D-EBD3-C3C9-08936B7A1F62">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="state" id="9CEB3716-B0AC-EC65-4DB2-BD44F562A9C1">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city" id="D05E90FA-CC8E-4FF4-3DA1-6BEA81417F06">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Patrons_PK" id="B94BB915-0F05-B422-72E0-53042B9148F3">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

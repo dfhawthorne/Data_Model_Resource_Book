@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Books" directorySegmentName="seg_0" id="BA6C4C69-72EA-1575-6291-C7386BCBE38C">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="author_last_name" id="06992537-648D-FA2B-1EE3-3A3190050EA1">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="author_first_name" id="7F02D8EA-5772-02FA-316F-CB27CC27C5D3">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rating" id="A9A4356B-6B50-7897-D9E9-12726B6987E9">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="title" id="DE30147F-DBE3-96A1-74F7-B721C7DA5CF0">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="book_id" id="E3BF9444-70DE-27A5-8307-3A244AB79ABC">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Books_PK" id="16F1C7CC-C454-973C-EB54-50C6FC0E4DBA">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 08:19:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

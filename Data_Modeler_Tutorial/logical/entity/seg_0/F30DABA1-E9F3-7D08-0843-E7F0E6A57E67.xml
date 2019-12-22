@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F30DABA1-E9F3-7D08-0843-E7F0E6A57E67" name="Patrons">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:49:16 UTC</createdTime>
+<notes><![CDATA[The Patrons entity describes each library patron (that is, each person who has a library card and is thus able to borrow books).]]></notes>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patron_id" id="C064D774-114C-617B-5803-E574416C8C35">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:49:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique patron ID number, also called the library card number.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>127D1FDF-63CC-C9F9-0749-66A88830EDB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="D7859DBB-4360-3D8D-F23B-25E398E5836C">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:51:01 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="AB8629FE-B989-8F59-A667-DBC30860FA99">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:51:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Paton's first name]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="2B1AE4AD-0F7D-F7A6-8471-87FEEF73E74C">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:52:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Patron's street address]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E7F026E5-3377-9CD7-0F14-D63844D7D997</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="5CBDB50C-016E-EA58-3BC6-9107807C4D1E">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[City or town where the patron lives.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4814A822-091E-1F6C-E097-A409000C994F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="52068CE0-398B-05D4-0544-A30C77E8E2D1">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:53:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[2-letter code for the state where the patron lives.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2753F043-3B4E-4656-C36A-E212AF4FC0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="0137D7F6-6F5D-A137-0FDB-0196CE17B46C">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:54:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Postal code where the patron lives.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5770F6FD-322C-90AB-B108-AF6E99A8806F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="00CF5208-632D-85E1-C2C6-364A4D75B737">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:54:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Oracle Spatial and Graph geometry object representing the patron's geocoded address.]]></commentInRDBMS>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13C715BE-6B81-A576-9D84-138011A66894" name="Patrons PK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-22 07:49:57 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Tutorial</ownerDesignName>
+<engineerTo>
+<item key="89366F55-DB82-F7F1-7EA3-FE962179F547" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C064D774-114C-617B-5803-E574416C8C35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
