@@ -242,6 +242,8 @@
 		</lwc_object>
 		<lwc_object classname="Type Substitution" color="-16725996" width="1">
 		</lwc_object>
+		<lwc_object classname="Implied Foreign Key" color="-2472729" width="1">
+		</lwc_object>
 		<lwc_object classname="Datatype Reference" color="-16776961" width="1">
 		</lwc_object>
 		<lwc_object classname="Datatype Inheritance" color="-65536" width="1">

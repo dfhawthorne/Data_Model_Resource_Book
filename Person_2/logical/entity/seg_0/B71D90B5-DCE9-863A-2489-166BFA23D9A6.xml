@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E3D658E-C18B-727A-A94F-48C30F01BCB7" name="Person">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B71D90B5-DCE9-863A-2489-166BFA23D9A6" name="Person Name">
 <createdBy>user</createdBy>
-<createdTime>2019-12-16 14:52:55 UTC</createdTime>
+<createdTime>2019-12-23 09:15:45 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
@@ -15,72 +15,82 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Birth Date" id="2B0AF08D-08E3-AA3F-2FE5-51224152459D">
+<Attribute name="Name Seq ID" id="C8EB45E6-767E-8239-BEE1-64EC05C4DB65">
 <createdBy>user</createdBy>
-<createdTime>2019-12-16 14:54:17 UTC</createdTime>
+<createdTime>2019-12-23 09:16:00 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="From Date" id="1C8196CE-B847-4D93-3D49-FF68BC42CA35">
+<createdBy>user</createdBy>
+<createdTime>2019-12-23 09:16:23 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Thru Date" id="BE495D66-4F4C-6F1E-F066-3EF2BDDA9FAF">
+<createdBy>user</createdBy>
+<createdTime>2019-12-23 09:16:48 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Mothers Maiden Name" id="17FC5F01-3E22-D0EE-B059-7456291919E4">
+<Attribute name="Name" id="9D51FEAD-2B1B-688C-2D0B-3B2C72D5399B">
 <createdBy>user</createdBy>
-<createdTime>2019-12-16 14:54:49 UTC</createdTime>
+<createdTime>2019-12-23 09:16:56 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Social Security No" id="0242E7B9-6196-4DBB-5C6E-DBC136A17508">
+<Attribute name="Person Type ID" id="2DE5DAAB-7B75-F417-04A7-37B7A9B6B416">
 <createdBy>user</createdBy>
-<createdTime>2019-12-16 14:55:11 UTC</createdTime>
+<createdTime>2019-12-23 09:23:16 UTC</createdTime>
+<generatorID>8375CFDA-BB65-D5D3-8D82-24323094C4F7</generatorID>
 <ownerDesignName>Person_2</ownerDesignName>
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Total Years Work Experience" id="7ED5DD80-F73F-8F41-BB17-3489B5E6D584">
-<createdBy>user</createdBy>
-<createdTime>2019-12-16 14:55:30 UTC</createdTime>
-<ownerDesignName>Person_2</ownerDesignName>
-<engineerTo>
-<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Comment" id="A3216E08-3586-8247-4715-7FF9ADE8BDEE">
-<createdBy>user</createdBy>
-<createdTime>2019-12-16 14:56:01 UTC</createdTime>
-<ownerDesignName>Person_2</ownerDesignName>
-<engineerTo>
-<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Gender Type ID" id="1EBFAA65-0204-1EC7-094E-C87E491538E9">
-<createdBy>user</createdBy>
-<createdTime>2019-12-23 09:01:51 UTC</createdTime>
-<generatorID>8AA7E42B-2FC2-09BB-EEED-58BD1BCDD785</generatorID>
-<ownerDesignName>Person_2</ownerDesignName>
-<engineerTo>
-<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
-</engineerTo>
-<referedAttribute>0EBCDDF2-18F1-9814-7173-C2122481EB72</referedAttribute>
-<use>0</use>
+<referedAttribute>A4BBD681-EBD7-953C-F6B0-B234A5B30C57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF44A0BC-1F23-4A05-4763-F528EFA5DD5C" name="Person Name PK">
+<createdBy>user</createdBy>
+<createdTime>2019-12-23 09:16:19 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8EB45E6-767E-8239-BEE1-64EC05C4DB65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

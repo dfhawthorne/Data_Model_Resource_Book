@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8BC0542-8BE9-DBCE-5EDD-F437536C9AD5" name="Gender Type">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FE3C492-2A75-D3D1-7225-DB5C606D6047" name="Citizenship">
 <createdBy>user</createdBy>
-<createdTime>2019-12-16 14:56:39 UTC</createdTime>
+<createdTime>2019-12-23 09:20:37 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
@@ -15,40 +15,43 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Gender Type ID" id="0EBCDDF2-18F1-9814-7173-C2122481EB72">
+<Attribute name="From Date" id="4F5C10FB-E1D2-0BE5-0ED0-297454C6963E">
 <createdBy>user</createdBy>
-<createdTime>2019-12-16 14:57:24 UTC</createdTime>
-<ownerDesignName>Person_2</ownerDesignName>
-<engineerTo>
-<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Description" id="39EC1271-0D52-67A2-937C-479F1145C16A">
-<createdBy>user</createdBy>
-<createdTime>2019-12-16 14:57:38 UTC</createdTime>
+<createdTime>2019-12-23 09:20:52 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Thru Date" id="440A266B-5E75-4D8C-5243-3B91E0BD19B8">
+<createdBy>user</createdBy>
+<createdTime>2019-12-23 09:21:07 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3B85EB2A-7EDD-3973-169E-D17A1047F0AB" name="Gender Type PK">
+<identifier id="4F6BF741-C57F-60D4-24C0-39C0DB18476F" name="Citizenship PK">
 <createdBy>user</createdBy>
-<createdTime>2019-12-23 09:01:07 UTC</createdTime>
+<createdTime>2019-12-23 09:21:04 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0EBCDDF2-18F1-9814-7173-C2122481EB72</attributeRef>
+<attributeRef>4F5C10FB-E1D2-0BE5-0ED0-297454C6963E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
