@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Passport" directorySegmentName="seg_0" id="546FFFB6-7B4C-84EE-9582-DEBF8CD09A53">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Issue_Date" id="C1C8E784-1154-BB5E-D84E-878BB8793BE6">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Passport_Num" id="D2855DD5-02EE-5FA7-DDBD-848E4E5DF5E7">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Passport_ID" id="EC19F286-2959-F9BE-569F-49B99D1736F7">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Citizenship_From_Date" id="F065CC27-BC60-335A-3FF7-AFB49B34086F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Expiry_Date" id="F38F2018-11C6-2E74-C0C9-A55181EDE337">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Passport_Citizenship_FK" id="DF2F0257-CBDF-C76A-5DF5-24B61DF533A2">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Passport_PK" id="AA173E45-D8E7-D41E-C38F-02E1EAED1F76">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -40,14 +40,30 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Country Code" id="3661560A-B94C-EE48-04E4-B54D9658D9A9">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:05:42 UTC</createdTime>
+<generatorID>A4477DE1-41EB-F789-7D91-2A2BFED9F82F</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+</engineerTo>
+<referedAttribute>40BD14D3-2329-6F0A-F1A7-94409967C9C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4F6BF741-C57F-60D4-24C0-39C0DB18476F" name="Citizenship PK">
 <createdBy>user</createdBy>
 <createdTime>2019-12-23 09:21:04 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

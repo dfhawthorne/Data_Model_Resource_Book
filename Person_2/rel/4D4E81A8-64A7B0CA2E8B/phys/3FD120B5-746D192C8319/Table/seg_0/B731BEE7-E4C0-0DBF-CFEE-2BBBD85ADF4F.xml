@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Physical_Characteristic_Type" directorySegmentName="seg_0" id="B731BEE7-E4C0-0DBF-CFEE-2BBBD85ADF4F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Description" id="0028534C-EBE2-B49F-DCAB-60F99FA48FDF">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Characteristic_Type_ID" id="3CCB8188-E398-8B66-AC35-E72E37E98263">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Physical_Characteristic_Type_PK" id="214729FF-A18E-F0AD-2C3F-1098FC205603">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

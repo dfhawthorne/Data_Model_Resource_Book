@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1900840-069B-80A7-718F-87E5DD84A4CF" name="Physical_Characteristic">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>7F5CA922-31AA-C5EA-3CAE-D6F569F2515C</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="2D373DDA-1AA6-71AA-E081-E0C91BD1AB44">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>74B29B4A-EB7B-E595-85BD-C62FF2CEAEE0</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Thru_Date" id="7C1E2D94-4FCD-2223-4D22-3DA0B1B15B9E">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>D5ACFB5F-893A-B540-D4C7-269579A7A70C</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Physical_Characteristic_Type_Characteristic_Type_ID" id="91AC7C6E-90A8-D7A0-D4BE-EE746BA3BCC7">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>CB14D6B5-B252-A8DB-BC85-37AA40E4DBF2</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC83FFF4-D865-E867-CC03-7DBBEA5746CD" referredColumn="3CCB8188-E398-8B66-AC35-E72E37E98263"/>
+</associations>
+</Column>
+<Column name="Person_Person_ID" id="6D82EAAA-0307-035E-67FF-D409B06A71BC">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:16 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93768F43-513A-25B4-0F62-FDC7E6A36904" referredColumn="37D2B66C-639C-DF73-A991-07E484FD952F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEB43A54-624C-9E09-92A9-5F62A45F577C" name="Physical_Characteristic_PK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>C40DD3A0-DB4C-1ECE-FB8D-C073665968CE</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="EB5E4C78-1035-1B3E-F1FD-AB31F28C2B81" name="Physical_Characteristic_Person_FK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:16 UTC</createdTime>
+<generatorID>98F81F99-2E78-B229-28D1-D3A3A762ED10</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D82EAAA-0307-035E-67FF-D409B06A71BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED5A6C0D-CA63-D3FE-61D5-DE4030D355AD" name="Physical_Characteristic_Physical_Characteristic_Type_FK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:16 UTC</createdTime>
+<generatorID>8B45306A-53F9-0A94-9BCA-EB2405181704</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91AC7C6E-90A8-D7A0-D4BE-EE746BA3BCC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

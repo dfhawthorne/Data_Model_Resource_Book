@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45A2F387-29D5-DDA4-E47F-6BC1A82CBFE3" name="Marital_Status_Type">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>6C574C73-CE58-AFB5-3698-D905DFD08AA5</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Marital_Status_Type_ID" id="527A8268-AE20-AD76-6750-7359021EC266">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>333AE76B-0FD0-B08F-DE0E-7E5869385818</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="B422CC94-DEEB-E40E-3666-395996CC69D0">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>E56F8270-19D6-D253-0D45-CF26D49FC8EA</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF63F62C-7DE7-2AAE-CD58-946F59D9FCE3" name="Marital_Status_Type_PK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>99678B00-8837-C90C-AE86-9A0E9190C412</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="527A8268-AE20-AD76-6750-7359021EC266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

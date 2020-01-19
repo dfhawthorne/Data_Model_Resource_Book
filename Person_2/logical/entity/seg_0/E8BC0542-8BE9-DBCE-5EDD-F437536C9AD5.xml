@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Description" id="39EC1271-0D52-67A2-937C-479F1145C16A">
 <createdBy>user</createdBy>
@@ -43,8 +46,9 @@
 <createdBy>user</createdBy>
 <createdTime>2019-12-23 09:01:07 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

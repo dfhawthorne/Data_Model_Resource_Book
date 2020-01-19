@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Country Code" id="40BD14D3-2329-6F0A-F1A7-94409967C9C9">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:04:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[ISO Country code]]></commentInRDBMS>
+<ownerDesignName>Person_2</ownerDesignName>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country Name" id="71A49384-5780-C269-6852-1A403F24099F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:04:37 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BA695C1-7EDB-6BDC-1738-01386B02E83C" name="Country PK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:04:28 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40BD14D3-2329-6F0A-F1A7-94409967C9C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

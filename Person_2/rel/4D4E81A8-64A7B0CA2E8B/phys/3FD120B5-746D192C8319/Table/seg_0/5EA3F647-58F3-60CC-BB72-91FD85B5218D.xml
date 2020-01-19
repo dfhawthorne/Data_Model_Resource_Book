@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Citizenship" directorySegmentName="seg_0" id="5EA3F647-58F3-60CC-BB72-91FD85B5218D">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Country_Country_Code" id="655EA7BC-CDA8-2463-AF4A-D5150257A79C">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Person_Person_ID" id="6CCCF82E-FE1D-B83B-D65B-22545B6E3590">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="From_Date" id="7642D0E7-2FE0-C329-AE8B-FE1183D96D12">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Thru_Date" id="D0F12EBC-70BB-DC2C-6224-FC8D1E4E7983">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Citizenship_Person_FK" id="19AE6FB7-26E5-125A-420B-E5CF29DD7800">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Citizenship_Country_FK" id="4F2B085A-6AA3-BADC-86CA-E8EA80EEE013">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Citizenship_PK" id="6E2BB6E8-93DA-87CB-E78D-9F1E9EE0F01B">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

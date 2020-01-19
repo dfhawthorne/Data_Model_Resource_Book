@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Marital_Status_Type" directorySegmentName="seg_0" id="45A2F387-29D5-DDA4-E47F-6BC1A82CBFE3">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Marital_Status_Type_ID" id="527A8268-AE20-AD76-6750-7359021EC266">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Description" id="B422CC94-DEEB-E40E-3666-395996CC69D0">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Marital_Status_Type_PK" id="CF63F62C-7DE7-2AAE-CD58-946F59D9FCE3">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

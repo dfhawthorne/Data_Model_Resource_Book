@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CFFE07F-A452-351F-7B0D-4909526283C0" name="Person">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>0E3D658E-C18B-727A-A94F-48C30F01BCB7</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Birth_Date" id="84618654-D11F-B88A-62D8-D529D5AEB8E6">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>2B0AF08D-08E3-AA3F-2FE5-51224152459D</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mothers_Maiden_Name" id="B65ECA2B-C084-644D-FD24-4AEC60B5ADE9">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>17FC5F01-3E22-D0EE-B059-7456291919E4</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Social_Security_No" id="233DD5B5-9187-FC38-2940-C614826CF655">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>0242E7B9-6196-4DBB-5C6E-DBC136A17508</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Years_Work_Experience" id="72C0A4A6-26B1-37ED-846B-679DA47EECCE">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>7ED5DD80-F73F-8F41-BB17-3489B5E6D584</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comm" id="9ECD3325-2A36-A1CD-2A1A-EBD119D74B24">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>A3216E08-3586-8247-4715-7FF9ADE8BDEE</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender_Type_Gender_Type_ID" id="3331C090-CD9D-F879-F6AB-103DF1A680EF">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>1EBFAA65-0204-1EC7-094E-C87E491538E9</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05926137-7CAA-C310-E082-C937120D18B2" referredColumn="BF6A37FE-1080-800B-9FAE-17F46140FFB8"/>
+</associations>
+</Column>
+<Column name="Person_ID" id="37D2B66C-639C-DF73-A991-07E484FD952F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90403B63-AFAA-6D5D-1DCE-7BA34B351719" name="Person_PK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="37D2B66C-639C-DF73-A991-07E484FD952F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C23638CF-6456-1A79-F162-ECE8BF791B6C" name="Person_Gender_Type_FK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:16 UTC</createdTime>
+<generatorID>8AA7E42B-2FC2-09BB-EEED-58BD1BCDD785</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3331C090-CD9D-F879-F6AB-103DF1A680EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

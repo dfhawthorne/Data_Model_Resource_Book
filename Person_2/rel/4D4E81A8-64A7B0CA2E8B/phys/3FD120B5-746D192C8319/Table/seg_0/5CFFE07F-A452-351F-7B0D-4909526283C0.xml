@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Person" directorySegmentName="seg_0" id="5CFFE07F-A452-351F-7B0D-4909526283C0">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Social_Security_No" id="233DD5B5-9187-FC38-2940-C614826CF655">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Gender_Type_Gender_Type_ID" id="3331C090-CD9D-F879-F6AB-103DF1A680EF">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Person_ID" id="37D2B66C-639C-DF73-A991-07E484FD952F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Total_Years_Work_Experience" id="72C0A4A6-26B1-37ED-846B-679DA47EECCE">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Birth_Date" id="84618654-D11F-B88A-62D8-D529D5AEB8E6">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comm" id="9ECD3325-2A36-A1CD-2A1A-EBD119D74B24">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Mothers_Maiden_Name" id="B65ECA2B-C084-644D-FD24-4AEC60B5ADE9">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Person_Gender_Type_FK" id="C23638CF-6456-1A79-F162-ECE8BF791B6C">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Person_PK" id="90403B63-AFAA-6D5D-1DCE-7BA34B351719">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:19:45 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

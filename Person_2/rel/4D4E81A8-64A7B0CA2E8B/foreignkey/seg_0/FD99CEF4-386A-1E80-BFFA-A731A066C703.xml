@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD99CEF4-386A-1E80-BFFA-A731A066C703" containerWithKeyObject="546FFFB6-7B4C-84EE-9582-DEBF8CD09A53" localFKIndex="DF2F0257-CBDF-C76A-5DF5-24B61DF533A2" name="Passport_Citizenship_FK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>0D84C177-1342-4DF8-C9A9-169A9A6093B6</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<referredTableLongName>Citizenship</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5EA3F647-58F3-60CC-BB72-91FD85B5218D</referredTableID>
+<keyObject>6E2BB6E8-93DA-87CB-E78D-9F1E9EE0F01B</keyObject>
+<referredKeyID>6E2BB6E8-93DA-87CB-E78D-9F1E9EE0F01B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>From_Date</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

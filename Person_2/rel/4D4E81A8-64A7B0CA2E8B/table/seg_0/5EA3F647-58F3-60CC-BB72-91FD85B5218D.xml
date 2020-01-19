@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EA3F647-58F3-60CC-BB72-91FD85B5218D" name="Citizenship">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>5FE3C492-2A75-D3D1-7225-DB5C606D6047</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="7642D0E7-2FE0-C329-AE8B-FE1183D96D12">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>4F5C10FB-E1D2-0BE5-0ED0-297454C6963E</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Thru_Date" id="D0F12EBC-70BB-DC2C-6224-FC8D1E4E7983">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>440A266B-5E75-4D8C-5243-3B91E0BD19B8</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_Country_Code" id="655EA7BC-CDA8-2463-AF4A-D5150257A79C">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>3661560A-B94C-EE48-04E4-B54D9658D9A9</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56E9F624-FC5D-6C28-9B26-C0039FF6BBBA" referredColumn="4EE55393-7E64-4B57-A01F-D86C3112459C"/>
+</associations>
+</Column>
+<Column name="Person_Person_ID" id="6CCCF82E-FE1D-B83B-D65B-22545B6E3590">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<ownerDesignName>Person_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C32BA012-CBC3-8B31-5B73-C7972BD3D901" referredColumn="37D2B66C-639C-DF73-A991-07E484FD952F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E2BB6E8-93DA-87CB-E78D-9F1E9EE0F01B" name="Citizenship_PK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>4F6BF741-C57F-60D4-24C0-39C0DB18476F</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7642D0E7-2FE0-C329-AE8B-FE1183D96D12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19AE6FB7-26E5-125A-420B-E5CF29DD7800" name="Citizenship_Person_FK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:15 UTC</createdTime>
+<generatorID>E8D9EC0B-34B7-CB8D-DCED-35DDFE38E410</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CCCF82E-FE1D-B83B-D65B-22545B6E3590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F2B085A-6AA3-BADC-86CA-E8EA80EEE013" name="Citizenship_Country_FK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 07:06:16 UTC</createdTime>
+<generatorID>A4477DE1-41EB-F789-7D91-2A2BFED9F82F</generatorID>
+<ownerDesignName>Person_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655EA7BC-CDA8-2463-AF4A-D5150257A79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
