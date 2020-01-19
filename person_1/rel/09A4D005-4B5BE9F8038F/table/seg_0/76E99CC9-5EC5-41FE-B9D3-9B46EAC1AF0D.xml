@@ -1,57 +1,45 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F3F25BF-89D4-8729-32C6-4FA836638D4D" name="Person">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76E99CC9-5EC5-41FE-B9D3-9B46EAC1AF0D" name="pers">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:10:54 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>9F3F25BF-89D4-8729-32C6-4FA836638D4D</generatorID>
 <notes><![CDATA[Based on Fig 2-2a of book]]></notes>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<preferredAbbreviation>pers</preferredAbbreviation>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="current last_name" id="30B70709-1A77-0FDF-D950-3F6471420D4F">
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="current_last_name" id="06CB383D-3126-D430-D5AB-2EF08BA043D5">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:11:38 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>30B70709-1A77-0FDF-D950-3F6471420D4F</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
 <domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="current first_name" id="581FE12C-49AA-FD4A-9DFC-751264BE3B11">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_first_name" id="552C4FFE-18DD-23EA-C498-1A43D4345BDE">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:12:43 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>581FE12C-49AA-FD4A-9DFC-751264BE3B11</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
 <domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="current middle_name" id="CF8B68B2-E3CC-A1CB-B868-EAE0A1CB1B3E">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_middle_name" id="AB080AEF-BF48-6901-5F73-D7DBD119A347">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:13:03 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>CF8B68B2-E3CC-A1CB-B868-EAE0A1CB1B3E</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -59,193 +47,180 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="current personal_title" id="CB10EBFF-805A-3943-77F5-7726596C0BAE">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_personal_title" id="5E502F7D-8A56-5EF5-6481-8D54BF95F80F">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:13:24 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>CB10EBFF-805A-3943-77F5-7726596C0BAE</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>16 CHAR</dataTypeSize>
 <ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="current suffix" id="4746A27F-049D-7EF1-0515-B9CABADDF1B8">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_suffix" id="33BE9E77-060A-5F56-110A-CB9C471A3DD5">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:14:39 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>4746A27F-049D-7EF1-0515-B9CABADDF1B8</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>16 CHAR</dataTypeSize>
 <ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="current nickname" id="C91EEC0E-45E2-508F-3D34-F712BE0BDAEE">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_nickname" id="6C9820C9-3B3B-CB54-BD77-295277D4504D">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:14:51 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>C91EEC0E-45E2-508F-3D34-F712BE0BDAEE</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="gender" id="710E0DE4-AED6-1DC5-691A-910B5450B863">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="323ADE47-7090-FFEF-2BAD-0C26FAA89046">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:15:01 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>710E0DE4-AED6-1DC5-691A-910B5450B863</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>8 CHAR</dataTypeSize>
 <ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="birth date" id="05F8F35C-6A69-D5F0-34FE-0E093069FFAB">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="00839027-218E-4C33-4843-4B650DBB6E16">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:15:07 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>05F8F35C-6A69-D5F0-34FE-0E093069FFAB</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="height" id="C400790C-6A7E-EAC9-1D3B-8E7AA69BB4CA">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height" id="48D2A54A-FBC3-6235-347B-7E7774D587A9">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:15:32 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>C400790C-6A7E-EAC9-1D3B-8E7AA69BB4CA</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="weight" id="8881264B-8CA1-A9B2-BC7C-D5E456DF3290">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="2A4556AB-1F78-2CDB-8151-C4E53D42F27E">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:15:42 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>8881264B-8CA1-A9B2-BC7C-D5E456DF3290</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="mothers_maiden_name" id="78DEB820-17BE-0645-F7BE-D0037D270CF4">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mothers_maiden_name" id="220D2996-6174-B9BE-7287-01D77D330E92">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:15:48 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>78DEB820-17BE-0645-F7BE-D0037D270CF4</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="marital_status" id="84820ADF-4FC1-7F0C-6798-4E41C0A6C743">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marital_status" id="F5759250-1554-9575-59EE-FF6F073DEFCC">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:16:02 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>84820ADF-4FC1-7F0C-6798-4E41C0A6C743</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="social_security_no" id="5E7C7F09-8D90-2221-995B-62272DE60949">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="social_security_no" id="F8AB6CD5-29D8-3338-C854-B121C8CBF164">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:16:21 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>5E7C7F09-8D90-2221-995B-62272DE60949</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>16 CHAR</dataTypeSize>
 <ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="current passport_no" id="B76B8C8E-B531-BC4D-0D92-C62CB6E8FA5D">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_passport_no" id="C5F18A71-D82B-DE10-E273-9B97DEE3F1BF">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:16:33 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>B76B8C8E-B531-BC4D-0D92-C62CB6E8FA5D</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="current passport_expiry_date" id="10E0CB94-F420-3F65-B088-295DDFADBE69">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_passport_expiry_date" id="7C9EC967-1038-57FE-9584-ED3A5946F32F">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:16:45 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>10E0CB94-F420-3F65-B088-295DDFADBE69</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="total years work_experience" id="0BA32FB8-215E-C6FA-E5F7-785863659166">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_years_work_experience" id="B8105F02-536E-A744-2E2A-1D11C46CC564">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:16:59 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>0BA32FB8-215E-C6FA-E5F7-785863659166</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="comment" id="4A89C9BF-5CA2-03AA-E5BC-79B6054CEC1D">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="C255C14E-444D-FEBA-691A-532F5F8ADB2D">
 <createdBy>user</createdBy>
-<createdTime>2019-11-29 11:17:16 UTC</createdTime>
+<createdTime>2020-01-19 05:47:42 UTC</createdTime>
+<generatorID>4A89C9BF-5CA2-03AA-E5BC-79B6054CEC1D</generatorID>
 <ownerDesignName>person_1</ownerDesignName>
-<engineerTo>
-<item key="09A4D005-10BE-5211-8135-4B5BE9F8038F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-</Entity>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -13,4 +13,10 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="76E99CC9-5EC5-41FE-B9D3-9B46EAC1AF0D" otype="Table" vid="4DE4EFF3-BA1A-C510-AEB9-E1E9B2D1DABA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="41" y="45" width="179" height="264"/>
+</OView>
+</objectViews>
 </Diagram>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="pers" directorySegmentName="seg_0" id="76E99CC9-5EC5-41FE-B9D3-9B46EAC1AF0D">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="birth_date" id="00839027-218E-4C33-4843-4B650DBB6E16">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_last_name" id="06CB383D-3126-D430-D5AB-2EF08BA043D5">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mothers_maiden_name" id="220D2996-6174-B9BE-7287-01D77D330E92">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="weight" id="2A4556AB-1F78-2CDB-8151-C4E53D42F27E">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gender" id="323ADE47-7090-FFEF-2BAD-0C26FAA89046">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_suffix" id="33BE9E77-060A-5F56-110A-CB9C471A3DD5">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="height" id="48D2A54A-FBC3-6235-347B-7E7774D587A9">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_first_name" id="552C4FFE-18DD-23EA-C498-1A43D4345BDE">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_personal_title" id="5E502F7D-8A56-5EF5-6481-8D54BF95F80F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_nickname" id="6C9820C9-3B3B-CB54-BD77-295277D4504D">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_passport_expiry_date" id="7C9EC967-1038-57FE-9584-ED3A5946F32F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_middle_name" id="AB080AEF-BF48-6901-5F73-D7DBD119A347">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total_years_work_experience" id="B8105F02-536E-A744-2E2A-1D11C46CC564">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comment" id="C255C14E-444D-FEBA-691A-532F5F8ADB2D">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_passport_no" id="C5F18A71-D82B-DE10-E273-9B97DEE3F1BF">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="marital_status" id="F5759250-1554-9575-59EE-FF6F073DEFCC">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="social_security_no" id="F8AB6CD5-29D8-3338-C854-B121C8CBF164">
+<createdBy>user</createdBy>
+<createdTime>2020-01-19 06:43:31 UTC</createdTime>
+<ownerDesignName>person_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

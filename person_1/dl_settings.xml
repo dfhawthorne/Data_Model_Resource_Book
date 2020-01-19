@@ -242,6 +242,8 @@
 		</lwc_object>
 		<lwc_object classname="Type Substitution" color="-16725996" width="1">
 		</lwc_object>
+		<lwc_object classname="Implied Foreign Key" color="-2472729" width="1">
+		</lwc_object>
 		<lwc_object classname="Datatype Reference" color="-16776961" width="1">
 		</lwc_object>
 		<lwc_object classname="Datatype Inheritance" color="-65536" width="1">
@@ -297,7 +299,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>
@@ -428,6 +430,36 @@
 				<schemas value="70"/>
 				<subviews value="70"/>
 				<arcs value="70"/>
+				<physical_models_estimates>
+							<physical_model_09A4D005-10BE-5211-8135-4B5BE9F8038F_Oracle_Database_12c>
+								<physical_model_name value="Oracle Database 12c"/>
+								<clusters value="70"/>
+								<contexts value="70"/>
+								<dBs value="70"/>
+								<dimensions value="70"/>
+								<directories value="70"/>
+								<diskGroups value="70"/>
+								<externalTables value="70"/>
+								<snapshots value="70"/>
+								<roles value="70"/>
+								<rollbackSegments value="70"/>
+								<segments value="70"/>
+								<sequences value="70"/>
+								<storedProcedures value="70"/>
+								<functions value="70"/>
+								<packages value="70"/>
+								<collectionTypes value="70"/>
+								<structuredTypes value="70"/>
+								<synonyms value="70"/>
+								<tables value="70"/>
+								<tableSpaces value="70"/>
+								<temporaryTableSpaces value="70"/>
+								<undoTableSpaces value="70"/>
+								<users value="70"/>
+								<views value="70"/>
+								<triggers value="70"/>
+							</physical_model_09A4D005-10BE-5211-8135-4B5BE9F8038F_Oracle_Database_12c>
+				</physical_models_estimates>
 			</relational_model_0_estimates>
 		</relational_model_estimates>
 	</design_estimates>
