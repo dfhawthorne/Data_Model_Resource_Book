@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="317E0A3C-BD5F-CAEB-76FF-1304D3865E31" name="Party Classification">
+<createdBy>user</createdBy>
+<createdTime>2020-01-29 11:35:43 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="From Date" id="DF7A448B-CC89-7CB5-35DE-BB71C8D065CF">
+<createdBy>user</createdBy>
+<createdTime>2020-01-29 11:36:07 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Thru Date" id="8B3284BE-E711-F32E-D014-31D45C5CB5A3">
+<createdBy>user</createdBy>
+<createdTime>2020-01-29 11:36:24 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party Type ID" id="32B7D454-DDE2-25A0-1E3A-ECA863EEEF60">
+<createdBy>user</createdBy>
+<createdTime>2020-01-29 11:43:32 UTC</createdTime>
+<generatorID>500E5ADE-5B99-B595-0416-09F8A7F31DC0</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<referedAttribute>07AE142C-C45E-493D-814B-7521820F4B96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="From Date1" id="CAE72E02-5074-FAA8-1076-F97AAF195994">
+<createdBy>user</createdBy>
+<createdTime>2020-01-29 11:46:41 UTC</createdTime>
+<generatorID>E444608D-4F00-0522-AEB8-8AFCDA6D4CF0</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<referedAttribute>DF7A448B-CC89-7CB5-35DE-BB71C8D065CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47953C91-AE0C-AE7F-73ED-D4A6713710C1" name="Party Classification PK">
+<createdBy>user</createdBy>
+<createdTime>2020-01-29 11:36:22 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF7A448B-CC89-7CB5-35DE-BB71C8D065CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
