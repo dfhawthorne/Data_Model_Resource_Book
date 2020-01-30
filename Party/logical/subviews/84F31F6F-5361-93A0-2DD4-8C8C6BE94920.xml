@@ -30,6 +30,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="201" y="110" width="89" height="30"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="82DE572D-7B85-E5AB-F5BB-999736307DD8" otype="Entity" vid="FAE06C64-FF85-69ED-EFAA-09061C605827">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="203" y="373" width="179" height="252"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="94025F56-9FFC-655E-1452-18B8B60D40AD" otype="Entity" vid="844206A3-60BC-1EDC-CC68-DA5BA1CAA0C2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="39" y="375" width="164" height="141"/>
@@ -60,7 +64,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E43D0B2B-71D8-90EF-89D7-7388F21713F3" otype="Entity" vid="4C6211D1-71B9-4322-40CA-5D8BAD12ED34">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="34" y="338" width="358" height="188"/>
+<bounds x="34" y="338" width="358" height="314"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E8CB6991-A051-E90E-7D97-F8F5F49E165D" otype="Entity" vid="D11E0A49-FD14-6206-E8CB-9F95350526D2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -98,6 +102,11 @@
 <lineWidth>1</lineWidth>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="87D8D5AB-C90C-52AC-07D9-387ED04168A3" otype="Hierarchy relation" vid_source="D11E0A49-FD14-6206-E8CB-9F95350526D2" vid_target="21EB67A8-6956-16C1-3027-D6C6FB5EEA5F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
+<lineWidth>1</lineWidth>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="A1D2F6F6-2DDB-0B15-EE04-A8B1DB81F346" otype="Hierarchy relation" vid_source="4C6211D1-71B9-4322-40CA-5D8BAD12ED34" vid_target="FAE06C64-FF85-69ED-EFAA-09061C605827">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-65536</backgroundColor>
 <lineWidth>1</lineWidth>

@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82DE572D-7B85-E5AB-F5BB-999736307DD8" name="Person">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<notes><![CDATA[Based on Fig 2-2a of book]]></notes>
+<ownerDesignName>Party</ownerDesignName>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E43D0B2B-71D8-90EF-89D7-7388F21713F3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="current last_name" id="F5B30510-8C0C-7D92-792C-8BBB11C928AB">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>30B70709-1A77-0FDF-D950-3F6471420D4F</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current first_name" id="6DCB7975-D3C1-EF5B-5388-8B9ACF0DCE2B">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>581FE12C-49AA-FD4A-9DFC-751264BE3B11</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current middle_name" id="05444037-1C5A-1463-51FA-D63B7AF3B304">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>CF8B68B2-E3CC-A1CB-B868-EAE0A1CB1B3E</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current personal_title" id="1BD17F54-4E93-73B8-326C-66F4FC8869FC">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>CB10EBFF-805A-3943-77F5-7726596C0BAE</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current suffix" id="E80658BB-9977-6FD8-74D8-24BD889BA0F7">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>4746A27F-049D-7EF1-0515-B9CABADDF1B8</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current nickname" id="D8652178-3798-C4FA-811A-5A2892AE70A7">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>C91EEC0E-45E2-508F-3D34-F712BE0BDAEE</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="0002D9C0-E5D1-C981-4CEC-C4A82D0027BB">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>710E0DE4-AED6-1DC5-691A-910B5450B863</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth date" id="AA3E43DF-D5A5-B282-D218-686128E5D7A8">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>05F8F35C-6A69-D5F0-34FE-0E093069FFAB</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="6A2525D9-0D2D-84A1-33F1-7DBEDFD2A25C">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>C400790C-6A7E-EAC9-1D3B-8E7AA69BB4CA</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="F28C6A9A-E9B5-DB14-921F-ADA989828978">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>8881264B-8CA1-A9B2-BC7C-D5E456DF3290</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mothers_maiden_name" id="CAD5F708-0062-17E2-5633-02B714D697D6">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>78DEB820-17BE-0645-F7BE-D0037D270CF4</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marital_status" id="8F8A6FBC-8DC3-641C-43F8-27F81506CC9D">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>84820ADF-4FC1-7F0C-6798-4E41C0A6C743</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="social_security_no" id="EDC493C5-EFB9-407A-128D-58F8D631BD4B">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>5E7C7F09-8D90-2221-995B-62272DE60949</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current passport_no" id="9933205A-DD0D-256A-0D65-61326ED47C6A">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>B76B8C8E-B531-BC4D-0D92-C62CB6E8FA5D</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current passport_expiry_date" id="FCCF6F0F-F3A6-C640-6D5B-4F4B5AE47573">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>10E0CB94-F420-3F65-B088-295DDFADBE69</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total years work_experience" id="31B446EF-7A9B-01E9-FBBF-78DC6FE0A7A4">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>0BA32FB8-215E-C6FA-E5F7-785863659166</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="83FF22E6-7021-EDFC-A64E-F79ED3042C6F">
+<createdBy>user</createdBy>
+<createdTime>2020-01-30 13:59:52 UTC</createdTime>
+<ownerDesignName>Party</ownerDesignName>
+<importedID>4A89C9BF-5CA2-03AA-E5BC-79B6054CEC1D</importedID>
+<engineerTo>
+<item key="CAC5498B-89D1-C1A9-A548-8DFD65B28976" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
