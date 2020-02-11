@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD0C5899-757A-39C8-02F6-807F13AB67F6" name="Legal Organisation">
+<createdBy>user</createdBy>
+<createdTime>2020-02-11 13:34:11 UTC</createdTime>
+<ownerDesignName>Organisation</ownerDesignName>
+<engineerTo>
+<item key="39F03A1B-E422-090A-CB5F-E0ED4811E96F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1BFD4FFF-8D3B-0654-9A4E-185D6364E594</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Federal Tax ID Num" id="11D9662A-FC52-B2B6-84BB-412D4F8EF67A">
+<createdBy>user</createdBy>
+<createdTime>2020-02-11 13:34:23 UTC</createdTime>
+<ownerDesignName>Organisation</ownerDesignName>
+<engineerTo>
+<item key="39F03A1B-E422-090A-CB5F-E0ED4811E96F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
