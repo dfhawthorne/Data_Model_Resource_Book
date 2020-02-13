@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Party_Role" id="983B1DB6-577C-51F1-90DC-6AC01D874CCB" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2020-02-12 21:20:16 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>983B1DB6-577C-51F1-90DC-6AC01D874CCB</designId>
+</OSDM_Design>
