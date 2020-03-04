@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6914B65-EC2F-1584-B8DB-B671BA97A285" name="Employment">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:34:05 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C8590FAD-0FCB-FB09-43B7-7382CA1951E6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Party Role ID" id="0298CFEB-B31B-6996-2935-763A28655133">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:36:01 UTC</createdTime>
+<generatorID>B06D2CC5-0745-EE90-24C2-445DA284F2D3</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<referedAttribute>E951BD9C-8AFF-5804-29CE-7A972C334EE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role Type ID" id="7AD8B40A-6E28-17DB-6D03-E9664BFB1C02">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:36:01 UTC</createdTime>
+<generatorID>B06D2CC5-0745-EE90-24C2-445DA284F2D3</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<referedAttribute>3F79F611-72D9-57D0-3C0A-9A24663AD01C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party Role ID1" id="64C5186C-C5EB-9DC8-3F7F-03A34D1E551B">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:36:24 UTC</createdTime>
+<generatorID>0B688FB1-E291-1D02-7727-BEF7AA4FC07B</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<referedAttribute>E951BD9C-8AFF-5804-29CE-7A972C334EE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role Type ID1" id="90CE895F-8F07-AE4F-FAED-C8921BEE1909">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:36:24 UTC</createdTime>
+<generatorID>0B688FB1-E291-1D02-7727-BEF7AA4FC07B</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<referedAttribute>3F79F611-72D9-57D0-3C0A-9A24663AD01C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B2035D1-7EA2-7820-57A9-B75D4692D069" name="Employment PK">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:36:24 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64C5186C-C5EB-9DC8-3F7F-03A34D1E551B</attributeRef>
+<attributeRef>90CE895F-8F07-AE4F-FAED-C8921BEE1909</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

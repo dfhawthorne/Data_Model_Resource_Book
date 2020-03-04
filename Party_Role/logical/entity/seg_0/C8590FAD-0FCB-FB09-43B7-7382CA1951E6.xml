@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8590FAD-0FCB-FB09-43B7-7382CA1951E6" name="Party Relationship">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:32:54 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="From Date" id="355C3B16-2727-057E-8F32-5C458BD4ACDD">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:33:12 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Thru Date" id="04EBA7B5-56E2-36D7-0013-CCF5039E160F">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:33:32 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DE26E45-23AB-7797-706E-F276270257EE" name="Party Relationship PK">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:33:24 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>355C3B16-2727-057E-8F32-5C458BD4ACDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

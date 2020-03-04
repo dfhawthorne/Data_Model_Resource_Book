@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F279659-2E4F-6811-FFE8-5479D6218A35" name="Employee">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E390DD7-EF9A-C10C-2F8E-B56D5428E201" name="Customer Relationship">
 <createdBy>user</createdBy>
-<createdTime>2020-02-13 01:34:30 UTC</createdTime>
+<createdTime>2020-03-04 12:37:31 UTC</createdTime>
 <ownerDesignName>Party_Role</ownerDesignName>
 <engineerTo>
 <item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
@@ -11,7 +11,7 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>5E31B4B6-57EC-7E51-3152-A81DDE257278</hierarchicalParent>
+<hierarchicalParent>C8590FAD-0FCB-FB09-43B7-7382CA1951E6</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
