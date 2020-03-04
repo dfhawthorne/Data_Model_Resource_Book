@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="365EC8E3-0062-4F9B-6271-B72D0F38C867" name="Person">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<notes><![CDATA[Based on Fig 2-2a of book]]></notes>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B5FB9816-4AC8-0F77-F7F6-54C890153050</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="current last_name" id="E4B6814E-F02A-8C10-CF56-7BED0A27EE41">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>30B70709-1A77-0FDF-D950-3F6471420D4F</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current first_name" id="65EF247D-7B7D-F36B-4FCB-D2F14B15C255">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>581FE12C-49AA-FD4A-9DFC-751264BE3B11</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current middle_name" id="291EA673-74F9-AA9E-D536-9A78555DE68B">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>CF8B68B2-E3CC-A1CB-B868-EAE0A1CB1B3E</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current personal_title" id="EBD315D4-60AE-8817-C06C-2B68C9BAB932">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>CB10EBFF-805A-3943-77F5-7726596C0BAE</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current suffix" id="E34DE389-B1B0-67DA-2717-F070088775AD">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>4746A27F-049D-7EF1-0515-B9CABADDF1B8</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current nickname" id="3ADC92E4-4F20-BC68-9B1D-7190B82C46D1">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>C91EEC0E-45E2-508F-3D34-F712BE0BDAEE</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="61160CEE-95EA-ED83-6FF2-FE344FCB665C">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>710E0DE4-AED6-1DC5-691A-910B5450B863</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth date" id="59DADA27-1DDC-04C6-7B98-FA299F4328DF">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>05F8F35C-6A69-D5F0-34FE-0E093069FFAB</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="A3824261-B270-8BD3-EAFB-46002D17DD2E">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>C400790C-6A7E-EAC9-1D3B-8E7AA69BB4CA</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="F33B9CA9-83AF-EE0C-1217-DF3CEA764B71">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>8881264B-8CA1-A9B2-BC7C-D5E456DF3290</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mothers_maiden_name" id="E814453A-C969-10A0-EC31-6C06F5383DBB">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>78DEB820-17BE-0645-F7BE-D0037D270CF4</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marital_status" id="063D3E27-370D-E3BD-FF50-83BA63D72859">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>84820ADF-4FC1-7F0C-6798-4E41C0A6C743</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="social_security_no" id="5A34757E-A1E3-9059-FD08-2A57FBC42F0B">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>5E7C7F09-8D90-2221-995B-62272DE60949</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current passport_no" id="627DB98C-2A96-D53A-36BA-F0DF7168C1BC">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>B76B8C8E-B531-BC4D-0D92-C62CB6E8FA5D</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current passport_expiry_date" id="F26121C2-BECA-9710-9769-AB13FAFDE02B">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>10E0CB94-F420-3F65-B088-295DDFADBE69</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total years work_experience" id="927EBC6C-202C-62F4-FFE7-011B0488E1D8">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>0BA32FB8-215E-C6FA-E5F7-785863659166</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="1FCE53A1-C2A6-82BF-6F3A-2FEFF1F0CEF0">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:17:21 UTC</createdTime>
+<ownerDesignName>Party_Role</ownerDesignName>
+<importedID>4A89C9BF-5CA2-03AA-E5BC-79B6054CEC1D</importedID>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

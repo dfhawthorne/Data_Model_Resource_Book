@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2C43D61-280B-8607-BD0D-40449C217865" name="Organisation Role">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BFA3252-5241-56C4-8C96-30C2A0C3DE54" name="Organisation">
 <createdBy>user</createdBy>
-<createdTime>2020-02-13 01:36:37 UTC</createdTime>
+<createdTime>2020-03-04 12:19:14 UTC</createdTime>
 <ownerDesignName>Party_Role</ownerDesignName>
 <engineerTo>
 <item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
@@ -11,24 +11,24 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>BE39CD41-DB43-5E5F-2E94-5CE1A5E74000</hierarchicalParent>
+<hierarchicalParent>B5FB9816-4AC8-0F77-F7F6-54C890153050</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Party ID" id="E74596BC-177C-3053-9437-B81E5645A820">
+<Attribute name="Name" id="23F854A2-C22F-7D34-10B3-9B3049D53374">
 <createdBy>user</createdBy>
-<createdTime>2020-03-04 12:10:52 UTC</createdTime>
-<generatorID>980B01BB-157C-0DA0-71C5-4F96E5EEDE34</generatorID>
+<createdTime>2020-03-04 12:19:14 UTC</createdTime>
 <ownerDesignName>Party_Role</ownerDesignName>
+<importedID>C16EEB61-A8F5-2492-FBD7-7D071E0BAC9E</importedID>
 <engineerTo>
 <item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
 </engineerTo>
-<referedAttribute>A5953D55-059D-25AF-6115-B211F65EEE3A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

@@ -50,6 +50,48 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Party Role ID1" id="5E4B9E38-DEE5-6E15-27A7-AF66787C885A">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:12:02 UTC</createdTime>
+<generatorID>0198164F-D9F1-ABE8-0E2C-A1FF537F72CF</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<referedAttribute>E951BD9C-8AFF-5804-29CE-7A972C334EE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party ID" id="A7A0E495-8FC5-943E-6D16-9B01E3D3DEEB">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:14:16 UTC</createdTime>
+<generatorID>980B01BB-157C-0DA0-71C5-4F96E5EEDE34</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<referedAttribute>A5953D55-059D-25AF-6115-B211F65EEE3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role Type ID" id="3F79F611-72D9-57D0-3C0A-9A24663AD01C">
+<createdBy>user</createdBy>
+<createdTime>2020-03-04 12:14:48 UTC</createdTime>
+<generatorID>0D12635D-0E5F-2184-8149-5643C465B164</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<engineerTo>
+<item key="BE52738B-2C9C-7091-300E-28567AD75CA7" value="true"/>
+</engineerTo>
+<referedAttribute>541170AD-B756-D341-F18C-E07FC71C7B44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9712D9B5-B31F-8455-05E1-48B5C5CC088E" name="Party Role PK">
@@ -62,6 +104,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E951BD9C-8AFF-5804-29CE-7A972C334EE0</attributeRef>
+<attributeRef>3F79F611-72D9-57D0-3C0A-9A24663AD01C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
