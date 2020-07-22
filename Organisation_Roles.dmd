@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Organisation_Roles" id="D41DFF72-7B00-4F96-B78A-AAAD4C267C08" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2020-07-22 09:08:20 UTC</createdTime>
+<ownerDesignName>Organisation_Roles</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D41DFF72-7B00-4F96-B78A-AAAD4C267C08</designId>
+</OSDM_Design>
