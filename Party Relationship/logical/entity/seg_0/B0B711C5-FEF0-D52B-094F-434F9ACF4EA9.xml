@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0B711C5-FEF0-D52B-094F-434F9ACF4EA9" name="Priority Type">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 12:08:51 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Priority Type ID" id="FBCEB0C7-DE4A-F1A6-BED1-91B117E6557A">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 12:09:15 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="E694CAE3-4157-9CD3-AEBA-2FF9DD723866">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 12:09:43 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6113FC74-CCA9-02F9-A169-14D69525B8E3" name="Priority Type PK">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 12:09:38 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBCEB0C7-DE4A-F1A6-BED1-91B117E6557A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

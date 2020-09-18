@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8597B3D5-7F30-5421-402C-DDF397F635F4" name="Communication Event">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 11:44:26 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Communication Event ID" id="00A4E16E-8846-CD50-D61F-77373D27C2B7">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 11:44:46 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datetime Started" id="F7B6881E-1555-3454-6013-933EA5921D5B">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 11:45:44 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datetime Ended" id="456C257A-DA8B-55F7-5264-FC56595856FC">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 11:46:13 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Note" id="30A514B9-1603-B4C3-2020-A5EEA47BFD16">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 11:46:32 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="From Date" id="61ED5F50-2FC0-AEF3-E1C8-0953B86043D4">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 11:51:09 UTC</createdTime>
+<generatorID>1F7120DF-6615-877D-9981-38819D9B4597</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>936AD435-883A-E514-B535-1AC27081B93D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF1B56A0-9C86-3AC5-D574-8A60A61BDEB4" name="Communication Event PK">
+<createdBy>user</createdBy>
+<createdTime>2020-09-18 11:45:16 UTC</createdTime>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<engineerTo>
+<item key="37F2D170-DD21-B9C6-2B72-B5F10FD71680" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00A4E16E-8846-CD50-D61F-77373D27C2B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
