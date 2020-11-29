@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B55E071-3D62-7D07-CFAC-E0AF5006B719" name="Party Postal Address">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:49:58 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="From Data" id="8738ABB4-7148-27F4-CD99-46B672BF7765">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:50:30 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Thru Date" id="68FCFDF7-34CA-4A38-0E37-C51C1E3F360F">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:51:14 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comment" id="D0513411-5F71-EFDB-E189-249CFFC797C3">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:51:33 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address1" id="A6B52CF4-2D69-460E-9485-A267C53ECA0B">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:57:03 UTC</createdTime>
+<generatorID>7682A53A-E45C-29B4-C9A8-5D68B8515B7F</generatorID>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<referedAttribute>AF470AA4-7351-29F4-BF34-2A4F121C8FA1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E7F026E5-3377-9CD7-0F14-D63844D7D997</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party ID" id="4438874D-0DED-792B-56B0-2BA92B322188">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:58:01 UTC</createdTime>
+<generatorID>C2338502-30DB-CB8A-B222-5E11236AE16C</generatorID>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<referedAttribute>51788F11-BC04-305F-9D65-8A03499D6527</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D153E40C-5421-EA02-0EAB-4F9C82E39E60" name="Party Postal Address PK">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:51:07 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8738ABB4-7148-27F4-CD99-46B672BF7765</attributeRef>
+<attributeRef>A6B52CF4-2D69-460E-9485-A267C53ECA0B</attributeRef>
+<attributeRef>4438874D-0DED-792B-56B0-2BA92B322188</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

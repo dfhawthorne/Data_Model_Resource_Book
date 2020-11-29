@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78956EB9-2CBB-F259-1A80-DF06193BBB0A" name="Sales Territory">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:57:22 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5CA4842D-E073-F4E4-F8A7-646F518A840D</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

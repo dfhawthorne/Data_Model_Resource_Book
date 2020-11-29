@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="720163BC-C3E4-D8B4-9B0D-390C5745F65B" name="Geographic Boundary Association">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:59:39 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GEO ID" id="473AE510-C5CC-B52F-9F9B-B0F171D71A3A">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:02:19 UTC</createdTime>
+<generatorID>8DB82B2E-A026-EEAD-AAE2-B62F9E1EB053</generatorID>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<referedAttribute>33314C0A-A087-CEB0-CF3A-FF6197CA4774</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GEO ID1" id="042C07BA-F242-8BC6-EC0E-1EA7E0E73EBE">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:02:40 UTC</createdTime>
+<generatorID>92549531-9543-F93C-4DBB-EBC97CE03248</generatorID>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<referedAttribute>33314C0A-A087-CEB0-CF3A-FF6197CA4774</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42A1F0F3-D379-6EE5-0919-A6334B35B466" name="Geographic Boundary Association PK">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:02:19 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>473AE510-C5CC-B52F-9F9B-B0F171D71A3A</attributeRef>
+<attributeRef>042C07BA-F242-8BC6-EC0E-1EA7E0E73EBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

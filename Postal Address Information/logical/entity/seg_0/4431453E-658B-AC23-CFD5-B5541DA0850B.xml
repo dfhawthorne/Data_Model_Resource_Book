@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4431453E-658B-AC23-CFD5-B5541DA0850B" name="County City">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:56:47 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5CA4842D-E073-F4E4-F8A7-646F518A840D</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GEO ID" id="62E71DE7-E574-F14A-F45C-05BE08FBA408">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:59:11 UTC</createdTime>
+<generatorID>3FAD4272-181E-A634-55F0-311BC2A62611</generatorID>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<referedAttribute>33314C0A-A087-CEB0-CF3A-FF6197CA4774</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GEO ID1" id="A7EA8AEB-168D-67CD-5C42-56EC78A8F39A">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:59:45 UTC</createdTime>
+<generatorID>5A649863-D237-34A6-4CBA-5F12961A8319</generatorID>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<referedAttribute>33314C0A-A087-CEB0-CF3A-FF6197CA4774</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7B3175C-4FF5-EDA2-7E43-C30C58E3B036" name="County City PK">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:59:11 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62E71DE7-E574-F14A-F45C-05BE08FBA408</attributeRef>
+<attributeRef>A7EA8AEB-168D-67CD-5C42-56EC78A8F39A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

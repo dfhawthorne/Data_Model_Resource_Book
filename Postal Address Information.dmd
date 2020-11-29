@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Postal Address Information" id="A591184C-433B-4A60-0363-76F834EFB71E" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 02:49:38 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A591184C-433B-4A60-0363-76F834EFB71E</designId>
+</OSDM_Design>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1066DAF5-0FF6-229D-FC57-89AAFBDA6662" name="State">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:07:32 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5CA4842D-E073-F4E4-F8A7-646F518A840D</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GEO ID" id="45A350F7-C6AB-D663-6F21-911AFE04A7FF">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:08:10 UTC</createdTime>
+<generatorID>638E3F5D-2D81-7DF5-C698-3D8B0F411273</generatorID>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<referedAttribute>33314C0A-A087-CEB0-CF3A-FF6197CA4774</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16294742-1F0A-9D3A-CFCA-6C3F35CFE5C7" name="State PK">
+<createdBy>user</createdBy>
+<createdTime>2020-11-29 03:08:10 UTC</createdTime>
+<ownerDesignName>Postal Address Information</ownerDesignName>
+<engineerTo>
+<item key="4487468B-1A4D-D9C6-04F3-2F8AA7701E2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45A350F7-C6AB-D663-6F21-911AFE04A7FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
