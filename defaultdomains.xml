@@ -1,86 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="Numeric Id" id="127D1FDF-63CC-C9F9-0749-66A88830EDB6">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:32:46 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypePrecision>7</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT019</logicalDatatype>
-</Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="State" id="2753F043-3B4E-4656-C36A-E212AF4FC0AB">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:30:35 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypeSize>2</dataTypeSize>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="Book Id" id="36A92084-A867-F866-03AF-69354D44AA81">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:32:15 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypeSize>20</dataTypeSize>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="City" id="4814A822-091E-1F6C-E097-A409000C994F">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:30:03 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypeSize>25</dataTypeSize>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="Zip" id="5770F6FD-322C-90AB-B108-AF6E99A8806F">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:31:00 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypeSize>10</dataTypeSize>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="Title" id="C3B52AFC-27C9-E6AB-D83F-BA3DFCAEDE52">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:33:29 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypeSize>50</dataTypeSize>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="Person Name" id="D1654399-2BB8-856F-FE7F-9C8F8595A466">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:28:39 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypeSize>25</dataTypeSize>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
-<createdBy>user</createdBy>
-<createdTime>2019-11-29 09:06:52 UTC</createdTime>
+<createdBy>PC</createdBy>
+<createdTime>2022-09-05 11:33:04 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT017</logicalDatatype>
-</Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="Address Line" id="E7F026E5-3377-9CD7-0F14-D63844D7D997">
-<createdBy>user</createdBy>
-<createdTime>2019-12-22 07:29:33 UTC</createdTime>
-<ownerDesignName>System</ownerDesignName>
-<avTSortOrder>0</avTSortOrder>
-<dataTypeSize>40</dataTypeSize>
-<fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
 </domains>
 </DomainFile>
