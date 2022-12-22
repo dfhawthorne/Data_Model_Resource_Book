@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="party_contact_mechanism" id="3892D193-1064-92C0-1DD7-5BAA133D83E8" version="3.5">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-22 07:11:52 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3892D193-1064-92C0-1DD7-5BAA133D83E8</designId>
+</OSDM_Design>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5A27F61-5C3D-A7CD-885D-DC4F7012896E" name="CONTACT MECHANISM">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-22 07:15:14 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CONTACT MECHANISM ID" id="6FC3FD16-49E3-7A17-E7B8-BA99B6A50368">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-22 07:15:37 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACT MECHANISM ID1" id="71F8F632-CC16-47C1-2B8F-7C832515353B">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-22 07:29:14 UTC</createdTime>
+<generatorID>61CB0C18-9D20-BAC4-C951-28655ADE10EC</generatorID>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<referedAttribute>6FC3FD16-49E3-7A17-E7B8-BA99B6A50368</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4175DA70-B9E4-3691-E468-17BADBB8AA25" name="CONTACT MECHANISM PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-22 07:16:07 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FC3FD16-49E3-7A17-E7B8-BA99B6A50368</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
