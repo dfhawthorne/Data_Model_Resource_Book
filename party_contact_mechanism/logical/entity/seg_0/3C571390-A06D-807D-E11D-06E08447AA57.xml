@@ -97,6 +97,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PARTY ROLE TYPE ID" id="00C4C986-01AA-F99E-19F0-E6BD06841B5A">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-24 15:05:10 UTC</createdTime>
+<generatorID>7A17866C-4D4E-ADB2-8059-B6F1FB9607E4</generatorID>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<referedAttribute>77961F82-422F-D058-36ED-2105F4975FE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AD645AD1-BAC4-928E-523D-7A2E542DD8F2" name="PARTY CONTACT MECHANISM PK">

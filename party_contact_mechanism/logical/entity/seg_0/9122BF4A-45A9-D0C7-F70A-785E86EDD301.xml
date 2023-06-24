@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5A27F61-5C3D-A7CD-885D-DC4F7012896E" name="CONTACT MECHANISM">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9122BF4A-45A9-D0C7-F70A-785E86EDD301" name="Contact Mechanism Purpose Type">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:15:14 UTC</createdTime>
+<createdTime>2023-06-24 14:54:39 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CONTACT MECHANISM ID" id="6FC3FD16-49E3-7A17-E7B8-BA99B6A50368">
+<Attribute name="CONTACT MECHANISM PURPOSE TYPE ID" id="79898DF9-8CAF-5B21-5BE0-77155342BF42">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:15:37 UTC</createdTime>
+<createdTime>2023-06-24 14:55:03 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
@@ -27,32 +27,31 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CONTACT MECHANISM ID1" id="71F8F632-CC16-47C1-2B8F-7C832515353B">
+<Attribute name="DESCRIPTION" id="AFD0ED9F-A1FA-FB3F-A70A-94DE7F5F6550">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:29:14 UTC</createdTime>
-<generatorID>61CB0C18-9D20-BAC4-C951-28655ADE10EC</generatorID>
+<createdTime>2023-06-24 14:55:57 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
 </engineerTo>
-<referedAttribute>6FC3FD16-49E3-7A17-E7B8-BA99B6A50368</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4175DA70-B9E4-3691-E468-17BADBB8AA25" name="CONTACT MECHANISM PK">
+<identifier id="9EFA8568-4ECD-CBD1-4E23-7AA652B05900" name="Contact Mechanism Purpose Type PK">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:16:07 UTC</createdTime>
+<createdTime>2023-06-24 14:55:46 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6FC3FD16-49E3-7A17-E7B8-BA99B6A50368</attributeRef>
+<attributeRef>79898DF9-8CAF-5B21-5BE0-77155342BF42</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

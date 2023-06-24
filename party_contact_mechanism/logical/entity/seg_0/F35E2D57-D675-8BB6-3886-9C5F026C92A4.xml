@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F35E2D57-D675-8BB6-3886-9C5F026C92A4" name="Party Contact Mechanism Purpose">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-24 14:52:08 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FROM DATE" id="7FC2337A-ABA3-A772-036A-07A6261790E9">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-24 14:52:34 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="THRU DATE" id="CE861046-69BF-153B-57F3-6E57FF821118">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-24 14:53:08 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FROM DATE1" id="F3E36387-9381-29FA-AE93-EEA07253FDB2">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-24 15:03:14 UTC</createdTime>
+<generatorID>69D8D6A4-A915-BD7E-DC9C-13AC7C5AE068</generatorID>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<referedAttribute>880F7AFF-9719-932C-C02F-EA280A802C19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACT MECHANISM PURPOSE TYPE ID" id="372497B6-4A9E-F5C2-9446-100975CC4ADC">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-24 15:05:48 UTC</createdTime>
+<generatorID>3E806B82-1422-7647-387A-40BD68DA0F6E</generatorID>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<referedAttribute>79898DF9-8CAF-5B21-5BE0-77155342BF42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7E4DE50-8D9D-7A73-4FD3-2FFF94BB4C49" name="Party Contact Mechanism Purpose PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-24 14:52:59 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FC2337A-ABA3-A772-036A-07A6261790E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
