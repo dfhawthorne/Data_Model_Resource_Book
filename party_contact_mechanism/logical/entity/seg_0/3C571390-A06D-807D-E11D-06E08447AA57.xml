@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NON-SOLICITATIOn IND" id="A2F4E8DE-4D32-A884-05B3-CC229A91EFA6">
+<Attribute name="NON-SOLICITATION IND" id="A2F4E8DE-4D32-A884-05B3-CC229A91EFA6">
 <createdBy>PC</createdBy>
 <createdTime>2022-12-22 07:13:43 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
@@ -53,6 +53,20 @@
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXTENSION" id="586C7D5E-AE56-F570-FAD0-697868CDF3E5">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:28:00 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COMMENT" id="6BC17EDE-4FFF-E60F-4579-9E96E29A1FB3">
 <createdBy>PC</createdBy>

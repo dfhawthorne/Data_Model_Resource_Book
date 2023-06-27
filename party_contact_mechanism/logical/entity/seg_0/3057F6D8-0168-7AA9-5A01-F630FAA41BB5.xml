@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3057F6D8-0168-7AA9-5A01-F630FAA41BB5" name="FACILITY">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:38:28 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FACILITY ID" id="C926D720-7F6A-C27B-B7C4-B130C48B1D90">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:38:44 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION" id="A5A926C2-3226-D627-1B72-A63BC8850D4B">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:39:07 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SQUARE FOOTAGE" id="BDF8AA66-25A5-0FB6-B3F1-7B17C66B6600">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:39:39 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY ID1" id="8BDE5BF9-ECB0-CDAC-037A-9AF40AD85655">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:48:05 UTC</createdTime>
+<generatorID>A48381DE-E1A7-8756-90FB-57F142D43E27</generatorID>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C926D720-7F6A-C27B-B7C4-B130C48B1D90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY TYPE ID" id="D7249F96-5503-04BD-7CA7-FC8DFF7FC185">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:50:02 UTC</createdTime>
+<generatorID>2A7CFB21-8636-4729-34E5-12142DD91668</generatorID>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<referedAttribute>26F6CCC2-E137-0D44-BB9E-84120C0E48FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9E127F1-169D-51C0-1C22-01F3B307554E" name="FACILITY PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:39:03 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C926D720-7F6A-C27B-B7C4-B130C48B1D90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

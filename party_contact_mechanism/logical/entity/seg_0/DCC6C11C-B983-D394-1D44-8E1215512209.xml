@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC930349-27DE-AE2C-8C40-2D4C2B6FFD2F" name="PARTY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCC6C11C-B983-D394-1D44-8E1215512209" name="FACILITY ROLE">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:25:17 UTC</createdTime>
+<createdTime>2023-06-27 16:37:22 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
@@ -15,31 +15,33 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PARTY ID" id="AD6BDF8E-8537-98E3-5740-8FDD25E8EFF3">
+<Attribute name="PARTY ID" id="01D5AD97-49A0-B9E4-B425-8692550BF604">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:25:24 UTC</createdTime>
+<createdTime>2023-06-27 16:41:24 UTC</createdTime>
+<generatorID>ABDB03FE-5A6D-AC8B-080F-B55CA465751C</generatorID>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
 </engineerTo>
+<referedAttribute>AD6BDF8E-8537-98E3-5740-8FDD25E8EFF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY ID" id="D42293EF-AEC7-E3A4-E682-9EFA59DBBE17">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:42:56 UTC</createdTime>
+<generatorID>E97A439F-0AD7-D4FB-834F-157DC7998D62</generatorID>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<referedAttribute>C926D720-7F6A-C27B-B7C4-B130C48B1D90</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BC2790E0-5050-E016-E59D-EC53E6DD5A19" name="PARTY PK">
-<createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:25:37 UTC</createdTime>
-<ownerDesignName>party_contact_mechanism</ownerDesignName>
-<engineerTo>
-<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>AD6BDF8E-8537-98E3-5740-8FDD25E8EFF3</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

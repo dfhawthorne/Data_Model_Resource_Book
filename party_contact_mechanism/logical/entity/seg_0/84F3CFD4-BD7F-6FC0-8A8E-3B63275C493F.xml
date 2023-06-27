@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC930349-27DE-AE2C-8C40-2D4C2B6FFD2F" name="PARTY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84F3CFD4-BD7F-6FC0-8A8E-3B63275C493F" name="FACILTY TYPE">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:25:17 UTC</createdTime>
+<createdTime>2023-06-27 16:48:37 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PARTY ID" id="AD6BDF8E-8537-98E3-5740-8FDD25E8EFF3">
+<Attribute name="FACILITY TYPE ID" id="26F6CCC2-E137-0D44-BB9E-84120C0E48FE">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:25:24 UTC</createdTime>
+<createdTime>2023-06-27 16:48:51 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
@@ -27,18 +27,31 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DESCRIPTION" id="FDEB7FB6-CD2C-AC57-63C1-63F212A20A9B">
+<createdBy>PC</createdBy>
+<createdTime>2023-06-27 16:49:21 UTC</createdTime>
+<ownerDesignName>party_contact_mechanism</ownerDesignName>
+<engineerTo>
+<item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BC2790E0-5050-E016-E59D-EC53E6DD5A19" name="PARTY PK">
+<identifier id="948689B8-0E40-7578-AF1A-9E7F736D4C22" name="FACILTY TYPE PK">
 <createdBy>PC</createdBy>
-<createdTime>2022-12-22 07:25:37 UTC</createdTime>
+<createdTime>2023-06-27 16:49:18 UTC</createdTime>
 <ownerDesignName>party_contact_mechanism</ownerDesignName>
 <engineerTo>
 <item key="71C69B98-10D1-8CE5-CC78-E5CC1EEC650B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AD6BDF8E-8537-98E3-5740-8FDD25E8EFF3</attributeRef>
+<attributeRef>26F6CCC2-E137-0D44-BB9E-84120C0E48FE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
