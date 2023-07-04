@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contact mechanism to communication event" directorySegmentName="seg_0" id="CEE6ED5F-D61A-96BB-D86D-827BDB9959BC">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:27:17 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<sourcePk>6137C6C9-7E90-2FE1-467F-903DD4B28092</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>the contact medium for</nameOnSource>
+<nameOnTarget>occurs via</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2096DC6D-285F-B487-0884-8B733C7C5B9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF5D9B13-D7A3-3557-4E67-6CD118C8D6B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

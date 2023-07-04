@@ -1,6 +1,40 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="datetime" id="3CBBDE0D-B1DF-66CF-CB5D-5F0CB49BA5D7">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:25:24 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="description" id="8227C841-06AA-EFC1-D048-22ED2ACE3899">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:20:03 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="note" id="9DC8CD70-3498-6E55-8E26-C8ABA5FB4D22">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:23:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2048 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="date" id="AA45A5AC-A97B-5247-7CA5-3A6925320017">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:21:47 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>PC</createdBy>
 <createdTime>2022-09-05 11:33:04 UTC</createdTime>
@@ -8,6 +42,23 @@
 <avTSortOrder>0</avTSortOrder>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="identification" id="E39694A6-4330-D633-6A0D-8B420696591B">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:22:39 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="comment" id="FF8F287E-1D7D-9828-513A-4293447C926F">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:24:32 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1024</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
 </domains>
 </DomainFile>

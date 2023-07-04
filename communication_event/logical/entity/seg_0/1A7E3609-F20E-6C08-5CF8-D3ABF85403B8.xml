@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A7E3609-F20E-6C08-5CF8-D3ABF85403B8" name="Communication Event Purpose">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:26:05 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Description" id="0121CE48-77E1-A84B-44F7-82EA6EDD0EA1">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:26:27 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8227C841-06AA-EFC1-D048-22ED2ACE3899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comm Event Purpose Type ID" id="3911AFC0-9848-5426-E27F-D211404F9234">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:33:17 UTC</createdTime>
+<generatorID>98F6A2EF-D996-9220-1E4F-2FFE0789406D</generatorID>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<referedAttribute>319864C5-B267-5439-6B29-EBE2143711B3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Communication Event ID" id="A906D597-3D66-E672-A1C5-85477B40FD91">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:36:29 UTC</createdTime>
+<generatorID>023DC603-65CA-463D-BDA7-50CE37108CB4</generatorID>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<referedAttribute>1B33A9DC-1B55-D0B6-0E15-2DDE58618923</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0857B50-2640-B0DB-9634-851BE08F1599" name="Communication Event Purpose PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 12:33:17 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3911AFC0-9848-5426-E27F-D211404F9234</attributeRef>
+<attributeRef>A906D597-3D66-E672-A1C5-85477B40FD91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3912ADF1-FCC6-C1E9-23B3-277C66CEF651" name="Communication Event Role">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:29:58 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Communication Event ID" id="71E747C0-F2B2-533C-915A-D06705985D3F">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:30:50 UTC</createdTime>
+<generatorID>4656F5B5-CDBC-6910-3E93-3E91B39B7AFD</generatorID>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<referedAttribute>1B33A9DC-1B55-D0B6-0E15-2DDE58618923</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party ID" id="1837CCCF-0D53-A038-1205-A42B588E02A6">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:33:44 UTC</createdTime>
+<generatorID>3A4982F1-94E3-BAB6-6E36-1C860153A2FB</generatorID>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<referedAttribute>D064AA0F-EA94-D1FB-6E45-F9D49ACAF394</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAA2E085-A491-460D-77EA-FBE015981883" name="Communication Event Role PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:30:50 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71E747C0-F2B2-533C-915A-D06705985D3F</attributeRef>
+<attributeRef>1837CCCF-0D53-A038-1205-A42B588E02A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

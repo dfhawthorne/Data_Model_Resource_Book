@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0824F2D7-0324-B3E7-CC2F-BA5843CC2154" name="Party Role">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:11:46 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Party Role ID" id="06E07823-6313-C3BB-89A7-39485AA063F1">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:12:00 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party ID" id="C32AC995-7F41-5767-65B6-E70BB31F2953">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:25:35 UTC</createdTime>
+<generatorID>82F22796-5B45-F1F3-9692-9772B7979149</generatorID>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<referedAttribute>D064AA0F-EA94-D1FB-6E45-F9D49ACAF394</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="086302AD-C4FA-8234-E1A7-908C4754E964" name="Party Role PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-04 13:25:27 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06E07823-6313-C3BB-89A7-39485AA063F1</attributeRef>
+<attributeRef>C32AC995-7F41-5767-65B6-E70BB31F2953</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
