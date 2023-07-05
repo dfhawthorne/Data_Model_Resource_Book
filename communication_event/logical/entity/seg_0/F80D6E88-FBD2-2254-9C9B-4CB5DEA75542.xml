@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F80D6E88-FBD2-2254-9C9B-4CB5DEA75542" name="Case Role">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:26:27 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Party ID" id="72151ACF-F8E3-7EBE-4FCA-657567897B83">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:30:12 UTC</createdTime>
+<generatorID>D92D881E-71CC-6FCC-C226-580F7F0AAD4D</generatorID>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<referedAttribute>D064AA0F-EA94-D1FB-6E45-F9D49ACAF394</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCB88097-F179-7C58-BD83-0D92E7CFC7C1" name="Case Role PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:30:12 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72151ACF-F8E3-7EBE-4FCA-657567897B83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

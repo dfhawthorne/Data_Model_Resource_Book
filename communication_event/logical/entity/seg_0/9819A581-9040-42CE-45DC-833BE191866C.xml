@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9819A581-9040-42CE-45DC-833BE191866C" name="Work Effort">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:05 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Work Effort ID" id="3D8EB588-80CD-486C-285C-179856488C9F">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:31 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="117F38AA-5AAB-B36B-4865-36DAD157EA3C">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:31 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="03F37420-BA74-0059-1693-B14BFD92016A">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:32 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8227C841-06AA-EFC1-D048-22ED2ACE3899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Scheduled Start Date" id="78BEF3BA-B2F2-B2E8-4190-E89E0AF4F8BB">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:32 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Scheduled Completion Date" id="87E79D96-9E00-7CC6-6F60-530B813D58EF">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:33 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total Dollars Allowed" id="616316BA-A9A0-62E7-EFE3-B9225F3CDB9D">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:33 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B4582E89-E6C5-3026-A90C-152377824396</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total Hours Allowed" id="A1CD1980-7375-F436-89D1-12EFDB5769C9">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:34 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>EE44E771-8A60-6EE7-679D-1D86314F7ECB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estimated Hours" id="BBF8A39A-1967-9B61-22EE-DF3E5532A4A7">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:35 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>EE44E771-8A60-6EE7-679D-1D86314F7ECB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7D60179-3004-8F8F-0724-89884CBD93B9" name="Work Effort PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:36:54 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D8EB588-80CD-486C-285C-179856488C9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

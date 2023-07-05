@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="10A340BD-0F84-F6F5-2178-DF3D6FD12D5C">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:23:59 UTC</createdTime>
+<ownerDesignName>communication_event</ownerDesignName>
+<engineerTo>
+<item key="68BA8E7E-C9D0-8538-522C-9DAC6EA276C7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>the status of</nameOnSource>
+<nameOnTarget>in the state of</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>515050E5-F854-D148-8904-ACD7202CC778</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>26A28416-6A47-B783-C384-3806217CAF42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,6 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="name" id="13E2C71D-E2FA-9677-C06B-D19BFF7E85A9">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 11:40:12 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="datetime" id="3CBBDE0D-B1DF-66CF-CB5D-5F0CB49BA5D7">
 <createdBy>PC</createdBy>
 <createdTime>2023-07-04 12:25:24 UTC</createdTime>
@@ -35,6 +44,17 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT008</logicalDatatype>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="money" id="B4582E89-E6C5-3026-A90C-152377824396">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 04:43:47 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<unitOfMeasure>AUD</unitOfMeasure>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>PC</createdBy>
 <createdTime>2022-09-05 11:33:04 UTC</createdTime>
@@ -50,6 +70,17 @@
 <avTSortOrder>0</avTSortOrder>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="hours" id="EE44E771-8A60-6EE7-679D-1D86314F7ECB">
+<createdBy>PC</createdBy>
+<createdTime>2023-07-05 04:44:09 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<unitOfMeasure>hours</unitOfMeasure>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="comment" id="FF8F287E-1D7D-9828-513A-4293447C926F">
 <createdBy>PC</createdBy>
