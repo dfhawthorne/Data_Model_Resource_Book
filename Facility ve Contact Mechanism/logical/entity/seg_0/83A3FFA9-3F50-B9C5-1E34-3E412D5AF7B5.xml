@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83A3FFA9-3F50-B9C5-1E34-3E412D5AF7B5" name="POSTAL ADDRESS">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:45:13 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>42400412-2A3C-49BA-21D6-DA1D198184E3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ADDRESS1" id="B330ACD3-A1A3-BB19-A2BB-7A078CCF605C">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:45:38 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9BEA9296-55CF-FB1F-680E-EAB4653A9AA0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS2" id="5E39D0A5-83B9-9738-71C1-D1BC48675CCB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:45:38 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9BEA9296-55CF-FB1F-680E-EAB4653A9AA0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECTIONS" id="1D49EAB6-0FFE-7402-95AC-09BE85C6D1D8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:45:39 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8227C841-06AA-EFC1-D048-22ED2ACE3899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

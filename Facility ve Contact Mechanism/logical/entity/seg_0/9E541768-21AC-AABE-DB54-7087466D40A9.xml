@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E541768-21AC-AABE-DB54-7087466D40A9" name="PARTY">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:04:20 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PARTY ID" id="64CA6322-5D94-5D9E-A567-D22429ACCF3F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:04:29 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAAB8AA9-517B-3DB3-4AAB-2DF087B61BA4" name="PARTY PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:04:45 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64CA6322-5D94-5D9E-A567-D22429ACCF3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

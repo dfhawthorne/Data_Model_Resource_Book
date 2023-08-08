@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53CA701F-5667-F80E-2205-545D47D25B21" name="OFFICE">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:59:56 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>402416FE-B0C0-96CF-A002-C45F4575F773</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FACILITY TYPE ID" id="EC302684-BE7C-3744-7A98-36AECDE3CAE9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:10:17 UTC</createdTime>
+<generatorID>F37F3AFA-A6BF-3284-1872-BD2CAB3F5B1C</generatorID>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<referedAttribute>BBBCA6AA-4D79-F35E-0B63-B681CFD7BCEF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F35A832-AEB2-FB2F-963C-3F2901B2B646" name="OFFICE PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:10:17 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC302684-BE7C-3744-7A98-36AECDE3CAE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

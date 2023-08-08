@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57A75143-C79B-C308-075B-A9C1EB0B8097" name="Party Contct Mechanism">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:39:56 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FROM DATA" id="2E2745EA-9E87-E409-662A-3ED2A4B704D2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:40:23 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="THRU DATE" id="1F5DF359-98B2-B2C5-68A7-277EA85B5E9B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:40:24 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NON-SOLICITATION INDICATOR" id="37578BAA-0D2C-E255-0739-142F21788FAB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:40:24 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>C0E99AB4-D3FF-6F0F-2E6C-4F7FCACAA53D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXTENSION" id="306BDC53-DA15-2B54-E1DB-6503BFE79F66">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:40:25 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>80323986-7BEF-3393-B8EE-5EC2F61D8B54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMMENT" id="788C0EB7-55DE-216D-B131-0BF9F3131648">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:40:26 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8F287E-1D7D-9828-513A-4293447C926F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACT MECHANISM ID" id="98466FB7-79FB-F455-B4EA-50D0B853620B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:06:05 UTC</createdTime>
+<generatorID>FD053F78-23F8-3455-48E3-562DDC84174E</generatorID>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<referedAttribute>8E11DD4D-970B-E1BE-A3CF-6E1381E066A1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARTY ID" id="23ABB487-A9F4-4D09-B06E-15F430637B5D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:07:09 UTC</createdTime>
+<generatorID>FE5E8FAF-F9CA-8293-142A-EF005FA005F3</generatorID>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<referedAttribute>64CA6322-5D94-5D9E-A567-D22429ACCF3F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D436AFDD-0382-5924-4AAD-96BF97D6B1E2" name="Party Contct Mechanism PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:40:46 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E2745EA-9E87-E409-662A-3ED2A4B704D2</attributeRef>
+<attributeRef>98466FB7-79FB-F455-B4EA-50D0B853620B</attributeRef>
+<attributeRef>23ABB487-A9F4-4D09-B06E-15F430637B5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

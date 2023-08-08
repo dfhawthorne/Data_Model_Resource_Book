@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="746A8D33-1EDA-0F50-0930-06A452D7C0C7" name="FACILITY CONTACT MECHANISM">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:03:40 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CONTACT MECHANISM ID" id="2AC0C350-6BF6-F208-4893-995667E6ADA6">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:06:45 UTC</createdTime>
+<generatorID>8A6CF6A1-CD54-1732-C8A0-D3146F0BF86D</generatorID>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<referedAttribute>8E11DD4D-970B-E1BE-A3CF-6E1381E066A1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY ID" id="D10A432B-4935-1742-92F7-454B9FBF8D98">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:09:47 UTC</createdTime>
+<generatorID>99880269-8CD4-1A0C-A02C-BD2139E143A3</generatorID>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<referedAttribute>332749F7-A916-83D2-5168-1804CB3253F8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DDB5269-B6A1-B048-7326-615953C9CE2E" name="FACILITY CONTACT MECHANISM PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 11:06:45 UTC</createdTime>
+<ownerDesignName>Facility ve Contact Mechanism</ownerDesignName>
+<engineerTo>
+<item key="95D5D1C5-A511-9565-4E0B-9C888A74319A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AC0C350-6BF6-F208-4893-995667E6ADA6</attributeRef>
+<attributeRef>D10A432B-4935-1742-92F7-454B9FBF8D98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
