@@ -1,6 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="email address" id="0C426A4C-4F4B-263B-015D-693D091130F9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:54:41 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1024</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="name" id="13E2C71D-E2FA-9677-C06B-D19BFF7E85A9">
 <createdBy>PC</createdBy>
 <createdTime>2023-07-05 11:40:12 UTC</createdTime>
@@ -18,12 +27,37 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT008</logicalDatatype>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="number" id="76FD3E0E-7612-889E-664D-76118636535F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:54:19 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="phone number" id="80323986-7BEF-3393-B8EE-5EC2F61D8B54">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:43:00 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="description" id="8227C841-06AA-EFC1-D048-22ED2ACE3899">
 <createdBy>PC</createdBy>
 <createdTime>2023-07-04 12:20:03 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>1024 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="address" id="9BEA9296-55CF-FB1F-680E-EAB4653A9AA0">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:46:59 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>256</dataTypeSize>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
@@ -54,6 +88,14 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <unitOfMeasure>AUD</unitOfMeasure>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="flag" id="C0E99AB4-D3FF-6F0F-2E6C-4F7FCACAA53D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-08 10:42:35 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT006</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>PC</createdBy>
