@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8F40920-A68A-DC92-A5E8-8D8421DFC0B7" name="Valid Contact Mechanism Role">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:51:38 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Contact Mechanism type ID" id="83679FD1-D510-E65F-838C-6F35CF544923">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 12:11:29 UTC</createdTime>
+<generatorID>62394C46-BC01-596C-FA42-A0C2AE1265CA</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<referedAttribute>973161F5-83ED-D808-F1FF-28096F9CE10B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F9F85F1-F0C7-D307-700C-24B186F32D46" name="Valid Contact Mechanism Role PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 12:11:29 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83679FD1-D510-E65F-838C-6F35CF544923</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

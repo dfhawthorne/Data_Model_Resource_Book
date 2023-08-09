@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB9E299C-B55C-DB25-3C7C-A9B51059C028" name="Party Role">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:49:51 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Party Role ID" id="08DAEA58-91B3-60DF-E79A-B2432289A6E5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:50:03 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party ID" id="CE3DE334-F88D-D87C-E2E8-A86F36FC1047">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 12:09:24 UTC</createdTime>
+<generatorID>E8A30789-A1DA-0C1F-93A4-099AC86031CD</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<referedAttribute>F4DDD523-6266-1A94-6F2C-C152EF8B2CFE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD64FE3F-7833-EF24-6BA5-7FDE8CEAB183" name="Party Role PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:50:19 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08DAEA58-91B3-60DF-E79A-B2432289A6E5</attributeRef>
+<attributeRef>CE3DE334-F88D-D87C-E2E8-A86F36FC1047</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="party_communication_event" id="CCA7DA34-F3E9-FF22-41F0-3D83188336C7" version="3.5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 08:30:32 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CCA7DA34-F3E9-FF22-41F0-3D83188336C7</designId>
+</OSDM_Design>

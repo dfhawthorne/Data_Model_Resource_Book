@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D7ACF74-392F-201B-0FC1-9EA2BA5866A9" name="Party Relationship">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:48:33 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="From Date" id="D03DC1DB-B17B-B339-B15E-6F6D854F8C09">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:48:50 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Thru Date" id="277E9C40-8FD9-DC7C-FB87-61F7F81F623D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:48:51 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comment" id="AEE836C8-2E21-FA4D-6663-B29B22B31656">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:48:52 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8F287E-1D7D-9828-513A-4293447C926F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party Role ID" id="9D0BB665-F715-69C6-998F-15316287B373">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 12:06:45 UTC</createdTime>
+<generatorID>BED5ACA0-E592-3808-D2B8-DE3E1841FBEC</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<referedAttribute>08DAEA58-91B3-60DF-E79A-B2432289A6E5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party Role ID1" id="04CA2742-AE20-24DE-BE5F-B9AD3AB62108">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 12:08:33 UTC</createdTime>
+<generatorID>73CCAE8A-2703-C18E-D750-1387EB777047</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<referedAttribute>08DAEA58-91B3-60DF-E79A-B2432289A6E5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party ID" id="9ACBC968-9421-0F34-2F1C-1EF441BD9228">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 12:09:24 UTC</createdTime>
+<generatorID>73CCAE8A-2703-C18E-D750-1387EB777047</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<referedAttribute>CE3DE334-F88D-D87C-E2E8-A86F36FC1047</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party ID1" id="9AF0EF44-4049-845A-1943-159C3066C468">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 12:09:24 UTC</createdTime>
+<generatorID>BED5ACA0-E592-3808-D2B8-DE3E1841FBEC</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<referedAttribute>CE3DE334-F88D-D87C-E2E8-A86F36FC1047</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D976911-0EBC-1F8B-48A7-22A9647AC6D2" name="Party Relationship PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:49:04 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D03DC1DB-B17B-B339-B15E-6F6D854F8C09</attributeRef>
+<attributeRef>9D0BB665-F715-69C6-998F-15316287B373</attributeRef>
+<attributeRef>9AF0EF44-4049-845A-1943-159C3066C468</attributeRef>
+<attributeRef>04CA2742-AE20-24DE-BE5F-B9AD3AB62108</attributeRef>
+<attributeRef>9ACBC968-9421-0F34-2F1C-1EF441BD9228</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

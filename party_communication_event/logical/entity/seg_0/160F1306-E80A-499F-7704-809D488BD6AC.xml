@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="160F1306-E80A-499F-7704-809D488BD6AC" name="Activity Request">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 08:38:03 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>9C389810-9173-EA0C-9940-B2EE112A2D5B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Communication Event ID" id="3F0F3A8C-994E-CA7C-9E40-26220EC5946A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:57:33 UTC</createdTime>
+<generatorID>1EFC33A0-F18E-F6EB-309E-B0A4D6BE049B</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<referedAttribute>A99D5B49-3D8E-D0AC-4E0F-0E45421C2D1E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34A1EBE3-E8AC-593F-7C38-67CFA4EF78FA" name="Activity Request PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-09 11:57:33 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<engineerTo>
+<item key="026B720C-7456-9C59-A527-5F6C40F8F48B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F0F3A8C-994E-CA7C-9E40-26220EC5946A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
