@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Marital_Status_Type_Marital_Status_Type_ID" id="878D2122-3D99-2322-21DF-252CED799C14">
+<Column name="martl_stat_typ_ID" id="878D2122-3D99-2322-21DF-252CED799C14">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>EC23B3DE-8F41-90E6-2342-99C18CA1D863</generatorID>
@@ -46,7 +46,7 @@
 <colAssociation fkAssociation="292111EB-A807-FF36-4860-0A81D36B9BC3" referredColumn="527A8268-AE20-AD76-6750-7359021EC266"/>
 </associations>
 </Column>
-<Column name="Person_Person_ID" id="D4BD2DEB-9C5E-A767-8A7F-27A6C173862E">
+<Column name="pers_pers_ID" id="D4BD2DEB-9C5E-A767-8A7F-27A6C173862E">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
@@ -62,7 +62,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E4B7FB41-74DA-4AAF-6D44-5455CCF7D45C" name="Marital_Status_PK">
+<ind_PK_UK id="E4B7FB41-74DA-4AAF-6D44-5455CCF7D45C" name="martl_stat_PK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>03AF821D-4461-5947-7726-ECF3B11C857D</generatorID>
@@ -74,7 +74,7 @@
 <colUsage columnID="E886E695-1B80-2153-EA8E-5ED7F438288B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1838BCDD-0158-86B8-7936-A19CCB80D024" name="Marital_Status_Person_FK">
+<ind_PK_UK id="1838BCDD-0158-86B8-7936-A19CCB80D024" name="martl_stat_pers_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <generatorID>3749B9FF-9A92-8550-9CBB-54659067A81F</generatorID>
@@ -85,7 +85,7 @@
 <colUsage columnID="D4BD2DEB-9C5E-A767-8A7F-27A6C173862E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6556390F-9B65-B014-C307-8AD7124CE730" name="Marital_Status_Marital_Status_Type_FK">
+<ind_PK_UK id="6556390F-9B65-B014-C307-8AD7124CE730" name="martl_stat_martl_stat_typ_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <generatorID>FB5C3221-FF10-D0C4-EE7D-EB0AF4FF8AFF</generatorID>

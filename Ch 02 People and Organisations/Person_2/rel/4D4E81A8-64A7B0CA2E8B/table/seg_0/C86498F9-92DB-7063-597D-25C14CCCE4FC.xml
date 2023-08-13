@@ -25,14 +25,15 @@
 <generatorID>14FB0576-3258-24F7-1C17-582BB7AA74DD</generatorID>
 <ownerDesignName>Person_2</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8227C841-06AA-EFC1-D048-22ED2ACE3899</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E4EF599E-77CB-FDB7-C6BF-50710448F46C" name="Person_Name_Type_PK">
+<ind_PK_UK id="E4EF599E-77CB-FDB7-C6BF-50710448F46C" name="pers_Name_typ_PK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>59EB5AE8-3D0C-DCA7-0036-2636685827DC</generatorID>

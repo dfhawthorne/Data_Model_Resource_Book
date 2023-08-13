@@ -40,14 +40,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="56E9F624-FC5D-6C28-9B26-C0039FF6BBBA" referredColumn="4EE55393-7E64-4B57-A01F-D86C3112459C"/>
 </associations>
 </Column>
-<Column name="Person_Person_ID" id="6CCCF82E-FE1D-B83B-D65B-22545B6E3590">
+<Column name="pers_pers_ID" id="6CCCF82E-FE1D-B83B-D65B-22545B6E3590">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
@@ -63,7 +63,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6E2BB6E8-93DA-87CB-E78D-9F1E9EE0F01B" name="Citizenship_PK">
+<ind_PK_UK id="6E2BB6E8-93DA-87CB-E78D-9F1E9EE0F01B" name="citzn_PK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>4F6BF741-C57F-60D4-24C0-39C0DB18476F</generatorID>
@@ -75,7 +75,7 @@
 <colUsage columnID="7642D0E7-2FE0-C329-AE8B-FE1183D96D12"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="19AE6FB7-26E5-125A-420B-E5CF29DD7800" name="Citizenship_Person_FK">
+<ind_PK_UK id="19AE6FB7-26E5-125A-420B-E5CF29DD7800" name="citzn_pers_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>E8D9EC0B-34B7-CB8D-DCED-35DDFE38E410</generatorID>
@@ -86,7 +86,7 @@
 <colUsage columnID="6CCCF82E-FE1D-B83B-D65B-22545B6E3590"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4F2B085A-6AA3-BADC-86CA-E8EA80EEE013" name="Citizenship_Country_FK">
+<ind_PK_UK id="4F2B085A-6AA3-BADC-86CA-E8EA80EEE013" name="citzn_Country_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <generatorID>A4477DE1-41EB-F789-7D91-2A2BFED9F82F</generatorID>

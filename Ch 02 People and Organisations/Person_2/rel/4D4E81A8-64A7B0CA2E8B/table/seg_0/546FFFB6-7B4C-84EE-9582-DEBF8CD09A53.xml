@@ -52,7 +52,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Citizenship_From_Date" id="F065CC27-BC60-335A-3FF7-AFB49B34086F">
+<Column name="citzn_From_Date" id="F065CC27-BC60-335A-3FF7-AFB49B34086F">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>5DD42982-9C3B-CA88-515B-B8A1C66EA455</generatorID>
@@ -81,7 +81,7 @@
 <colUsage columnID="EC19F286-2959-F9BE-569F-49B99D1736F7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DF2F0257-CBDF-C76A-5DF5-24B61DF533A2" name="Passport_Citizenship_FK">
+<ind_PK_UK id="DF2F0257-CBDF-C76A-5DF5-24B61DF533A2" name="Passport_citzn_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>0D84C177-1342-4DF8-C9A9-169A9A6093B6</generatorID>

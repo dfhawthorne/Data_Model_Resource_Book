@@ -48,12 +48,13 @@
 <generatorID>9D51FEAD-2B1B-688C-2D0B-3B2C72D5399B</generatorID>
 <ownerDesignName>Person_2</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Person_Name_Type_Person_Type_ID" id="292E9BF5-C61A-E6B5-D450-F579D03FD210">
+<Column name="pers_Name_typ_pers_typ_ID" id="292E9BF5-C61A-E6B5-D450-F579D03FD210">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>2DE5DAAB-7B75-F417-04A7-37B7A9B6B416</generatorID>
@@ -68,7 +69,7 @@
 <colAssociation fkAssociation="638632F6-2D42-466B-0255-1FC291C5BA38" referredColumn="64BF6566-FFB0-E0D2-ED8C-12A8647A15F5"/>
 </associations>
 </Column>
-<Column name="Person_Person_ID" id="33A7C099-5906-62E8-B258-B6301A45C077">
+<Column name="pers_pers_ID" id="33A7C099-5906-62E8-B258-B6301A45C077">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
@@ -84,7 +85,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="03244060-0913-4836-AE09-2B5624AEAA85" name="Person_Name_PK">
+<ind_PK_UK id="03244060-0913-4836-AE09-2B5624AEAA85" name="pers_Name_PK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>AF44A0BC-1F23-4A05-4763-F528EFA5DD5C</generatorID>
@@ -96,7 +97,7 @@
 <colUsage columnID="90515226-E637-C0E3-CD4E-F627A924B82E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="217471EE-1085-CFB2-FCA9-D94851620E4E" name="Person_Name_Person_Name_Type_FK">
+<ind_PK_UK id="217471EE-1085-CFB2-FCA9-D94851620E4E" name="pers_Name_pers_Name_typ_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <generatorID>8375CFDA-BB65-D5D3-8D82-24323094C4F7</generatorID>
@@ -107,7 +108,7 @@
 <colUsage columnID="292E9BF5-C61A-E6B5-D450-F579D03FD210"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D8DBDD23-59E8-C1AA-3000-DA35942FD03A" name="Person_Name_Person_FK">
+<ind_PK_UK id="D8DBDD23-59E8-C1AA-3000-DA35942FD03A" name="pers_Name_pers_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <generatorID>5EFF1767-0790-0F38-C975-9DD2E457D836</generatorID>

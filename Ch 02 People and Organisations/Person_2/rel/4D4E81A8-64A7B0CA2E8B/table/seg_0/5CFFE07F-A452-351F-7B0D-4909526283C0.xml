@@ -28,7 +28,7 @@
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -57,7 +57,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="comm" id="9ECD3325-2A36-A1CD-2A1A-EBD119D74B24">
+<Column name="Comment" id="9ECD3325-2A36-A1CD-2A1A-EBD119D74B24">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>A3216E08-3586-8247-4715-7FF9ADE8BDEE</generatorID>
@@ -70,7 +70,7 @@
 <ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Gender_Type_Gender_Type_ID" id="3331C090-CD9D-F879-F6AB-103DF1A680EF">
+<Column name="Gender_typ_Gender_typ_ID" id="3331C090-CD9D-F879-F6AB-103DF1A680EF">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <generatorID>1EBFAA65-0204-1EC7-094E-C87E491538E9</generatorID>
@@ -79,14 +79,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="05926137-7CAA-C310-E082-C937120D18B2" referredColumn="BF6A37FE-1080-800B-9FAE-17F46140FFB8"/>
 </associations>
 </Column>
-<Column name="Person_ID" id="37D2B66C-639C-DF73-A991-07E484FD952F">
+<Column name="pers_ID" id="37D2B66C-639C-DF73-A991-07E484FD952F">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
@@ -101,7 +101,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="90403B63-AFAA-6D5D-1DCE-7BA34B351719" name="Person_PK">
+<ind_PK_UK id="90403B63-AFAA-6D5D-1DCE-7BA34B351719" name="pers_PK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:15 UTC</createdTime>
 <ownerDesignName>Person_2</ownerDesignName>
@@ -111,7 +111,7 @@
 <colUsage columnID="37D2B66C-639C-DF73-A991-07E484FD952F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C23638CF-6456-1A79-F162-ECE8BF791B6C" name="Person_Gender_Type_FK">
+<ind_PK_UK id="C23638CF-6456-1A79-F162-ECE8BF791B6C" name="pers_Gender_typ_FK">
 <createdBy>user</createdBy>
 <createdTime>2020-01-19 07:06:16 UTC</createdTime>
 <generatorID>8AA7E42B-2FC2-09BB-EEED-58BD1BCDD785</generatorID>

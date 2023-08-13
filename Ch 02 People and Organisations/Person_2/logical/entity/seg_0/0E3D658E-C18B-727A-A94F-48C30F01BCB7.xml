@@ -38,7 +38,7 @@
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1654399-2BB8-856F-FE7F-9C8F8595A466</domain>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Social Security No" id="0242E7B9-6196-4DBB-5C6E-DBC136A17508">
@@ -91,10 +91,11 @@
 <item key="4D4E81A8-8FA2-CBE2-BFA2-64A7B0CA2E8B" value="true"/>
 </engineerTo>
 <referedAttribute>0EBCDDF2-18F1-9814-7173-C2122481EB72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
