@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74ECF85E-40ED-03C0-BFA9-1A321283B329" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="PERSON">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PERSON</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BIRTH_DATE" id="72BF5094-3D48-C9EC-6041-7DE6DE4E6312">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>BIRTH_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOTHERS_MAIDEN_NAME" id="5456C524-9FB4-E784-1B54-33633EED495C">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>MOTHERS_MAIDEN_NAME</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOCIAL_SECURITY_NO" id="3E9B1094-DA40-9E95-27B9-3BB5AF1BC837">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>SOCIAL_SECURITY_NO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_YEARS_WORK_EXPERIENCE" id="0B3F01B1-FCD2-FD83-B04C-7F4A6DCD5250">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>TOTAL_YEARS_WORK_EXPERIENCE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comment" id="D073D9E1-D790-F0D0-5DA5-71D50D984D93">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>Comment</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER_TYP_GENDER_TYP_ID" id="32A6E0AD-2D93-E061-51F9-CB56EB269A7F">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>GENDER_TYP_GENDER_TYP_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E96F0B1C-E49B-33DA-8D05-04D9D9C94981" referredColumn="4B6E3641-9E70-87DC-1EFF-7300FF206622"/>
+</associations>
+</Column>
+<Column name="PERS_ID" id="F6E77457-411B-E93B-2C7C-52A45BFC1DBD">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PERS_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>person_pers_id_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>PERSON_PERS_ID_TRG</autoIncrementTriggerName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F5A8890-22A1-37F4-9516-C730074C775F" name="PERS_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PERS_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E77457-411B-E93B-2C7C-52A45BFC1DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE573738-D72E-FFA8-8B76-5D3A1724AEB9" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="PERS_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PERS_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E77457-411B-E93B-2C7C-52A45BFC1DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADADF8C3-2E6C-DCDB-E81B-3649DC0997B8" name="PERS_GENDER_TYP_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32A6E0AD-2D93-E061-51F9-CB56EB269A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

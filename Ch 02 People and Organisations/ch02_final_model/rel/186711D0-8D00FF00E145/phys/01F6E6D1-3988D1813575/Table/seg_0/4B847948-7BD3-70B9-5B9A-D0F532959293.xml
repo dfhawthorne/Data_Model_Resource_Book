@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Supplier" directorySegmentName="seg_0" id="4B847948-7BD3-70B9-5B9A-D0F532959293">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Party_Role_ID" id="5B2729C8-35A1-3DF8-A6CA-0410DD176E75">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Role_Type_ID" id="5C3C6EB2-52B2-94E3-CB80-855E642E9BA0">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Supplier_Organisation_Role_FK" id="B568E80A-C53E-18DB-F34A-50E6BC5FA513">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Supplier_PK" id="33C5CE1C-0268-A1BA-36D4-2EE57C30E12F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

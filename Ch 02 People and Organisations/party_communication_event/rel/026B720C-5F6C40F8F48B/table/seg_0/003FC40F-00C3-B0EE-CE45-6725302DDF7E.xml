@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="003FC40F-00C3-B0EE-CE45-6725302DDF7E" name="Valid_Contact_Mechanism_Role">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>F8F40920-A68A-DC92-A5E8-8D8421DFC0B7</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contact_Mechanism_Type_Contact_Mechanism_type_ID" id="3E687B55-5BA2-610E-6D71-A4012CC46A7F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>83679FD1-D510-E65F-838C-6F35CF544923</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289B82BE-CAA9-BFC2-F232-1079C151DCE8" referredColumn="28A4F7A5-4232-FAA3-A2A8-7F2E4C91AC20"/>
+</associations>
+</Column>
+<Column name="Communication_Event_Role_Type_Communication_Event_Role_Type_ID" id="BBF79F93-3674-E1FB-82CF-B3248CAA7F81">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32048500-29B5-5792-6FAC-5A371B68C137" referredColumn="34632CA2-A0D2-FA25-664F-BAC181B6E56A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43E383D0-B7B0-DB34-0A08-1C3B0BEB197E" name="Valid_Contact_Mechanism_Role_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>9F9F85F1-F0C7-D307-700C-24B186F32D46</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E687B55-5BA2-610E-6D71-A4012CC46A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A1900FD-922F-C678-E599-40E085E91E99" name="Valid_Contact_Mechanism_Role_Contact_Mechanism_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>62394C46-BC01-596C-FA42-A0C2AE1265CA</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E687B55-5BA2-610E-6D71-A4012CC46A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAA770B8-45EE-9E65-5BD2-535CD7A113DE" name="Valid_Contact_Mechanism_Role_Communication_Event_Role_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>2356DA7B-6458-EA69-2067-DEF1E1DDBD49</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBF79F93-3674-E1FB-82CF-B3248CAA7F81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

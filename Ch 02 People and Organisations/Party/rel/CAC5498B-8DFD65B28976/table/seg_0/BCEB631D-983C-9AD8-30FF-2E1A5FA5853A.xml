@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCEB631D-983C-9AD8-30FF-2E1A5FA5853A" name="Party">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>E43D0B2B-71D8-90EF-89D7-7388F21713F3</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_ID" id="E6F66E8A-3F43-B0C3-775B-C54D081D9F3F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>6A449C2D-ADD5-1F8D-AE65-3727A4889339</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B323188A-47A6-DE5C-CC00-4B3F1377626C" name="Party_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>DC45A2FA-8244-6763-110A-DBBC3961AA96</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6F66E8A-3F43-B0C3-775B-C54D081D9F3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

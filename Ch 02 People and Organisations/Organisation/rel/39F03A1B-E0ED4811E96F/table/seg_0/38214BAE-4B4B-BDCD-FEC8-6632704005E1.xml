@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38214BAE-4B4B-BDCD-FEC8-6632704005E1" name="Other_Informal_Organisation">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<generatorID>2B4495F9-A22C-8282-EED3-A2FF7BE976CB</generatorID>
+<ownerDesignName>Organisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Informal_Organisation_Organisation_Organisation_ID" id="91CF5F7C-1AE6-CBC3-2061-8A372F8E239F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<ownerDesignName>Organisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E5B56AD-3EA1-4636-8957-D472CBFCD7CA" referredColumn="7DF49F75-133B-69CA-3DF9-DF88267019CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="036B07C9-50B7-40BF-CC2B-73A2A0D37B78" name="Other_Informal_Organisation_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<ownerDesignName>Organisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="91CF5F7C-1AE6-CBC3-2061-8A372F8E239F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11E3557B-00C7-06FC-5BF0-8084056CC8D7" name="Other_Informal_Organisation_Informal_Organisation_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<generatorID>5BE24469-FB5F-D6B0-A51C-F33BA1239598</generatorID>
+<ownerDesignName>Organisation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91CF5F7C-1AE6-CBC3-2061-8A372F8E239F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

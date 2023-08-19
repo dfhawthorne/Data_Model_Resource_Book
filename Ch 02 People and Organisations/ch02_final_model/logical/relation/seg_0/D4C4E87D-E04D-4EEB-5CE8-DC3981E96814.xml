@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PHYS_CHAR_PHYS_CHAR_TYP_FK" directorySegmentName="seg_0" id="D4C4E87D-E04D-4EEB-5CE8-DC3981E96814">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>9D73716D-BCD3-4943-5BEF-7B2E5E3E7817</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<sourcePk>B41E7AEA-83A3-2E4A-5D44-63636CCA0983</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>201B7B14-672F-5108-C44E-C95E7850994A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ABCA036E-8780-23AA-0246-9377BC057DDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

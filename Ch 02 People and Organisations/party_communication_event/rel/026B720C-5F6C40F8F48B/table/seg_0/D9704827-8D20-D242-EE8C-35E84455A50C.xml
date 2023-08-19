@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9704827-8D20-D242-EE8C-35E84455A50C" name="Activity_Request">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>160F1306-E80A-499F-7704-809D488BD6AC</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Communication_Event_ID1" id="8681C851-140F-7EDC-D230-A56A5A6225C9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>3F0F3A8C-994E-CA7C-9E40-26220EC5946A</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comm_Event_Purpose_Type_ID" id="A44BDDF9-991B-F55C-6876-05383FA248BF">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>8FA10F22-1A27-4499-59E3-EF62BC398C9B</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9417B58-AB58-B052-3611-69D022C9619C" referredColumn="2B256DC7-9194-3DE6-3A17-58B6ADB1E99F"/>
+</associations>
+</Column>
+<Column name="Communication_Event_ID" id="30DDF80C-A915-8C8B-CD20-0091637D63E7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>9D5A800B-2980-6536-0BB7-CFF32D3F7803</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9417B58-AB58-B052-3611-69D022C9619C" referredColumn="1568C334-7E0C-BE8D-6055-9BAF46A6073F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E51F1430-D53C-23A7-3CC1-A1FC3E54C367" name="Activity_Request_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>1D33F80E-86B2-F6A3-AE1C-F11CE9C9D511</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44BDDF9-991B-F55C-6876-05383FA248BF"/>
+<colUsage columnID="30DDF80C-A915-8C8B-CD20-0091637D63E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2870910C-22CA-E773-9191-20E4CF72894E" name="Activity_Request_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>34A1EBE3-E8AC-593F-7C38-67CFA4EF78FA</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8681C851-140F-7EDC-D230-A56A5A6225C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D565E8-F615-C6BA-417C-1AF3931DF3FA" name="Activity_Request_COMMUNICATION_EVENT_PURPOSE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>10326DCA-4346-4687-CF91-AC9A8442080C</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44BDDF9-991B-F55C-6876-05383FA248BF"/>
+<colUsage columnID="30DDF80C-A915-8C8B-CD20-0091637D63E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

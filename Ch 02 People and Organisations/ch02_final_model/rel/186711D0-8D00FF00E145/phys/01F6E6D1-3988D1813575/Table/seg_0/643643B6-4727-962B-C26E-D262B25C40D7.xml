@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Party_Classification" directorySegmentName="seg_0" id="643643B6-4727-962B-C26E-D262B25C40D7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Thru_Date" id="15EE0497-DA39-350B-D576-929AC17427CF">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Party_Type_Party_Type_ID" id="4BB08F73-AB0D-F751-9D7D-8FB734F83C8B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="From_Date" id="4DA4DAAB-3933-91FD-33B3-0FC52DEF44E9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="From_Date1" id="FDA27C3B-5815-84CB-B087-B27FFA424649">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Party_Classification_Party_FK" id="720DB933-606C-3202-AB4A-C45DF9DED60A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Party_Classification_Party_Type_FK" id="9B2C1814-3B2B-ED07-1669-74CA6F177F85">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Party_Classification_PK" id="90DC4378-6D4F-3CEE-01C2-96FE0B045649">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

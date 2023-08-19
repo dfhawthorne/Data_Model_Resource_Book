@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="8E1AC134-3ABD-0AAF-10A8-5997A3A4A4D1" name="Meeting">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>95D534B6-059A-B075-DC52-B5D34C395D21</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Communication_Event_ID" id="3FBD4277-664A-C22F-0AA6-8A6410FE2708">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>7B0A0D6D-BDF7-38B6-2159-5E38B9C4FE45</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2C67E57-5FF4-0457-A3B4-328BD1753B57" referredColumn="81389263-9629-83EE-C42E-ADAC005B9EAF"/>
+</associations>
+</Column>
+<Column name="Comm_Event_Purpose_Type_ID" id="5C3C0B8B-4138-033A-1D4E-4DC75C61D26F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>BA51DB92-D67C-D968-91BB-F81CD91A46AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2C67E57-5FF4-0457-A3B4-328BD1753B57" referredColumn="1C1EC087-3557-6323-FCCA-EB5BC5E737BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D967A8F1-CBD1-BA6C-9790-7ED157380097" name="Meeting_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>705E0C6E-9F49-CA3E-92D6-35BE008EA0E4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3C0B8B-4138-033A-1D4E-4DC75C61D26F"/>
+<colUsage columnID="3FBD4277-664A-C22F-0AA6-8A6410FE2708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A18000A-D713-EDFE-0333-2AD7BBC3FC04" name="Meeting_COMMUNICATION_EVENT_PURPOSE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3C0B8B-4138-033A-1D4E-4DC75C61D26F"/>
+<colUsage columnID="3FBD4277-664A-C22F-0AA6-8A6410FE2708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

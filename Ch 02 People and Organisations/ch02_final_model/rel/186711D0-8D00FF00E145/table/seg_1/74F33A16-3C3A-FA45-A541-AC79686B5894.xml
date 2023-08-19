@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="74F33A16-3C3A-FA45-A541-AC79686B5894" name="Status_Type">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>3F9C8446-808D-8814-FF32-E346FE3EEE0E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Status_Type_ID" id="9D23CE6E-BA00-3B23-783C-D7069930A661">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>F84C1DF4-FAE7-7546-D1F1-3F5DADD33380</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="BE539D71-6350-017A-A46B-0D439E4623CE">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>B3FBF2B7-F0EF-7638-1FF0-3BD8BA3E6241</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB156FD6-F148-6019-4F53-066685F37F4E" name="Status_Type_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>8CFC4907-B256-52F7-B511-823A5D3B16C3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D23CE6E-BA00-3B23-783C-D7069930A661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB011CCB-328A-F77D-91FF-86A4F2995D1C" name="Agent">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>5C3DBD37-7D96-6435-A3E7-EDFC056C9858</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="E85DF786-8431-591D-D6A2-9CE37A41D77F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>5F7A55B2-819D-70CB-37F0-FDEF5854497E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F4A4E72-71E3-4B07-4D59-522659A22987" referredColumn="8F9024C5-8D6A-647E-8ED5-6A7F1B30977B"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="BA78CEEE-53AB-D2E7-A39E-33A7501194FB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>AAB5C0E9-7C7D-3A0F-6ACE-F15AA5B773ED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F4A4E72-71E3-4B07-4D59-522659A22987" referredColumn="614D75BF-4205-B598-6088-5A13BFF2F40B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A25EAEA-B0BB-BE8F-AA60-8C1A2AF783E3" name="Agent_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>E4BEA821-98C0-2FA9-E302-EBA651F78E1F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E85DF786-8431-591D-D6A2-9CE37A41D77F"/>
+<colUsage columnID="BA78CEEE-53AB-D2E7-A39E-33A7501194FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62C1A77D-FFE7-E416-A3C9-DE0DD42E66E0" name="Agent_Distribution_Channel_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E85DF786-8431-591D-D6A2-9CE37A41D77F"/>
+<colUsage columnID="BA78CEEE-53AB-D2E7-A39E-33A7501194FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

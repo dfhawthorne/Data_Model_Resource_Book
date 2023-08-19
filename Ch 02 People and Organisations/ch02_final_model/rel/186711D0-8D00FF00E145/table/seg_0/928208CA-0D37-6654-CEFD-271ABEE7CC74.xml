@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="928208CA-0D37-6654-CEFD-271ABEE7CC74" name="Organisation_Rollup">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>8E4994DD-C84E-72D8-4797-97A814473A13</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="7EF27A50-F9A3-B3D5-C2DF-AF263FD3077A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>656828E7-8AB5-5BD3-3AC2-F729B22E92D5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD702AA5-1431-DEF0-0D18-165850E8A0D2" referredColumn="77796512-A9E9-9B55-B5E8-FD9F6990B1CE"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Party_Role_ID2" id="7AA3F480-CB15-1A02-7DD4-B1C4E6581A77">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>98D5133D-F673-90D4-ED5A-59244743FD9F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19C008B9-EB0E-997A-77CE-95BC4A8CD6B6" referredColumn="0A2E80BC-3DA0-9FA0-0CC0-EC885A08B718"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Role_Type_ID2" id="47CD5717-3CAD-682D-D9A8-C66A31FB2AD8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>F21FB838-1959-2A55-7F74-654DB0D4C5F7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19C008B9-EB0E-997A-77CE-95BC4A8CD6B6" referredColumn="ADFAD2A0-85C9-8EF3-54EA-BCCE72052FF2"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Party_Role_ID" id="6552BC56-A2C7-3D60-1290-C7CE358E81D1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>88FB337C-3301-98F9-A69F-1798B6674706</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDA133C6-1B94-8A17-A66A-A670B464D834" referredColumn="0A2E80BC-3DA0-9FA0-0CC0-EC885A08B718"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Role_Type_ID" id="265E3B29-6437-2892-97E6-2C86DA375F76">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>6C9006E4-4075-DB30-9EBF-2206F7728620</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDA133C6-1B94-8A17-A66A-A670B464D834" referredColumn="ADFAD2A0-85C9-8EF3-54EA-BCCE72052FF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BF18FCE-F5E1-B6ED-9208-B7CA9766E0D9" name="Organisation_Rollup_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>CD01F5E8-F9FF-72F4-8A89-29C42EEDCEE5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EF27A50-F9A3-B3D5-C2DF-AF263FD3077A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9AAC9D5-0358-E6A3-A334-6A8079976510" name="Organisation_Rollup_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>12157488-8846-4DEC-DEE2-7AA294D15C23</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6552BC56-A2C7-3D60-1290-C7CE358E81D1"/>
+<colUsage columnID="265E3B29-6437-2892-97E6-2C86DA375F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8F211E9-B0D0-59C4-3221-0BE9383F69D0" name="Organisation_Rollup_Organisation_Unit_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6552BC56-A2C7-3D60-1290-C7CE358E81D1"/>
+<colUsage columnID="265E3B29-6437-2892-97E6-2C86DA375F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C2109D-21BC-6CB0-E8E0-95A98E8606C7" name="Organisation_Rollup_Organisation_Unit_FKv2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AA3F480-CB15-1A02-7DD4-B1C4E6581A77"/>
+<colUsage columnID="47CD5717-3CAD-682D-D9A8-C66A31FB2AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72D5B97C-E26F-7129-2884-44A076F526FD" name="Organisation_Rollup_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EF27A50-F9A3-B3D5-C2DF-AF263FD3077A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

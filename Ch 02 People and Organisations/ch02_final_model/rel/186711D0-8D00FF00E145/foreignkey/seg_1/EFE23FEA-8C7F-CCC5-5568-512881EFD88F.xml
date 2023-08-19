@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="EFE23FEA-8C7F-CCC5-5568-512881EFD88F" containerWithKeyObject="6A3E995A-D085-1E67-17C7-CD37C412CDEF" localFKIndex="983841DF-48AC-7226-8F74-CADAC669AE6E" name="Communication_Event_Communication_Event_Status_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>5B6554DC-DC43-96A9-000B-A2551157B303</importedID>
+<referredTableLongName>Communication_Event_Status_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8DA59C6E-9ACD-6CFC-A715-36F31ED1AAE5</referredTableID>
+<keyObject>1AE9EB44-03B4-636C-73A0-6FD59E23B104</keyObject>
+<referredKeyID>1AE9EB44-03B4-636C-73A0-6FD59E23B104</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Communication_Event_Status_Type_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

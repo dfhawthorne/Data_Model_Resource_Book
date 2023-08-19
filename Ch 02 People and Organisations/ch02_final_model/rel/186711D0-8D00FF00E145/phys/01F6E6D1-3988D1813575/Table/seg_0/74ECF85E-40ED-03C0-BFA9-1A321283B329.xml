@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PERSON" directorySegmentName="seg_0" id="74ECF85E-40ED-03C0-BFA9-1A321283B329">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AADEE81A-A3B9-D6C9-ACA5-08E902611604</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TOTAL_YEARS_WORK_EXPERIENCE" id="0B3F01B1-FCD2-FD83-B04C-7F4A6DCD5250">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENDER_TYP_GENDER_TYP_ID" id="32A6E0AD-2D93-E061-51F9-CB56EB269A7F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOCIAL_SECURITY_NO" id="3E9B1094-DA40-9E95-27B9-3BB5AF1BC837">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOTHERS_MAIDEN_NAME" id="5456C524-9FB4-E784-1B54-33633EED495C">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BIRTH_DATE" id="72BF5094-3D48-C9EC-6041-7DE6DE4E6312">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Comment" id="D073D9E1-D790-F0D0-5DA5-71D50D984D93">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="PERS_ID" id="F6E77457-411B-E93B-2C7C-52A45BFC1DBD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PERS_PK" id="AE573738-D72E-FFA8-8B76-5D3A1724AEB9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<segment>3063BAA0-A6D1-94E1-4105-2D542B2F08AB</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERS_GENDER_TYP_FK" id="ADADF8C3-2E6C-DCDB-E81B-3649DC0997B8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERS_PK" id="1F5A8890-22A1-37F4-9516-C730074C775F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<segment>3063BAA0-A6D1-94E1-4105-2D542B2F08AB</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<existingIndex>AE573738-D72E-FFA8-8B76-5D3A1724AEB9</existingIndex>
+<indexSegment>3063BAA0-A6D1-94E1-4105-2D542B2F08AB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

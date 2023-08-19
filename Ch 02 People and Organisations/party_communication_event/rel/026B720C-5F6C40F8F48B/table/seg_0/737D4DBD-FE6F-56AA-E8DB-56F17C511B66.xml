@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="737D4DBD-FE6F-56AA-E8DB-56F17C511B66" name="Email_Communication">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>C046A4FA-7AE4-7CDB-AAF3-AF87BB3C8EB0</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Communication_Event_ID" id="7431960D-693C-0FFF-170A-AF0B02D3581E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>A99D5B49-3D8E-D0AC-4E0F-0E45421C2D1E</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE11BEC-FF22-26F2-4635-C87ED527D20E" referredColumn="4837D69A-8C83-3718-A45E-E5FD1C67E18D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82B2B3B4-6D5D-1CBF-5395-2EA4DA981793" name="Email_Communication_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>18BA82CE-3A9A-3A52-B997-5802A263300D</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7431960D-693C-0FFF-170A-AF0B02D3581E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CEB2868-BC87-A361-97E8-1FDC703658D8" name="Email_Communication_Communication_Event_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>9E9CB95E-E8AF-C906-A48A-41E76CD83E0E</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7431960D-693C-0FFF-170A-AF0B02D3581E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

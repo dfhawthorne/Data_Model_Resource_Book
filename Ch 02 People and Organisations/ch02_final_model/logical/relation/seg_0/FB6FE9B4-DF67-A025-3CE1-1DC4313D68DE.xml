@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MARTL_STAT_MARTL_STAT_TYP_FK" directorySegmentName="seg_0" id="FB6FE9B4-DF67-A025-3CE1-1DC4313D68DE">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>86FBDD7E-FA08-DBFE-303E-165A8AD17FF3</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<sourcePk>2525C2A9-DB55-4625-0559-3BD2406704D6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF8101F5-C078-6030-8D5D-2FC9E9AAFF55</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B8FA8CE-F950-51E7-3DCA-45B17445A23E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

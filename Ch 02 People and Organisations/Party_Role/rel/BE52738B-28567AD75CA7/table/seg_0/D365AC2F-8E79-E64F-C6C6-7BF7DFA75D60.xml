@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D365AC2F-8E79-E64F-C6C6-7BF7DFA75D60" name="Customer_Relationship">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>0E390DD7-EF9A-C10C-2F8E-B56D5428E201</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="3B98D45B-E741-0C1D-D44B-C531FC0996FD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>355C3B16-2727-057E-8F32-5C458BD4ACDD</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FE334B6-AE41-9346-DD00-EF237D769838" referredColumn="BDDCDCF0-6B24-D575-77FC-D1D08FA36FAC"/>
+</associations>
+</Column>
+<Column name="Customer_Party_Role_ID" id="ECF66DCA-8E97-62C6-D918-586924BBA331">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>312A9E04-FB58-24C0-88BB-738D134E49F4</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ED93720-3F12-0887-C6A6-6CD0E0A00666" referredColumn="7F4DC882-50D4-A7C2-8306-F060377B75EE"/>
+</associations>
+</Column>
+<Column name="Customer_Role_Type_ID" id="F04C3B94-1E8A-052A-379B-1F12DD77A799">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>CA2EA26B-5626-3551-5807-5051AB3D4806</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ED93720-3F12-0887-C6A6-6CD0E0A00666" referredColumn="0AA880AE-1ACE-6AE5-29C9-23EE4133EE3A"/>
+</associations>
+</Column>
+<Column name="Internal_Organisation_Party_Role_ID" id="457DCA0D-D7D0-3C17-3C1A-D59F82BF69AB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>3F7D94CA-04DC-D30D-3678-95BF7D5317A5</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3277B067-38C3-F3ED-4324-5260FE43E61A" referredColumn="19E64F82-C073-EC99-78BA-345C42E389CA"/>
+</associations>
+</Column>
+<Column name="Internal_Organisation_Role_Type_ID" id="F522043D-DC0C-B918-0F67-9181709C8281">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>D3D9955D-4389-20F3-40EF-73053ECE1C65</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3277B067-38C3-F3ED-4324-5260FE43E61A" referredColumn="D2717335-5140-A987-D9CA-E3C4676DDBB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AFA8A39-A27E-53D6-C9CE-B6D3C3741064" name="Customer_Relationship_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9DE26E45-23AB-7797-706E-F276270257EE</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B98D45B-E741-0C1D-D44B-C531FC0996FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A0CFB5F-F934-3060-7975-1A1E74CAF379" name="Customer_Relationship_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>C84CF5B7-579E-6E4E-EF43-F841EF151D83</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECF66DCA-8E97-62C6-D918-586924BBA331"/>
+<colUsage columnID="F04C3B94-1E8A-052A-379B-1F12DD77A799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F189FB02-23A3-AAE2-91D0-BD3410AF2711" name="Customer_Relationship_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>46A2764E-6FCC-4040-A813-5E45CFAC1E14</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B98D45B-E741-0C1D-D44B-C531FC0996FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADCCF336-C0B7-2DED-91AF-7F0CBA151FC9" name="Customer_Relationship_Customer_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>2E115AD6-01A0-06AC-06F5-170895CCD0E5</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECF66DCA-8E97-62C6-D918-586924BBA331"/>
+<colUsage columnID="F04C3B94-1E8A-052A-379B-1F12DD77A799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92CA1BF3-3184-E0EB-692C-4456208A5E8D" name="Customer_Relationship_Internal_Organisation_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>10EF2BFA-DE9E-0A36-DD2D-6B9963D59ABE</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="457DCA0D-D7D0-3C17-3C1A-D59F82BF69AB"/>
+<colUsage columnID="F522043D-DC0C-B918-0F67-9181709C8281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

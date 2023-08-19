@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B96567DB-2D9C-E1F1-F900-2205ADB0CEB8" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="PHYSICAL_CHARACTERISTIC">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PHYSICAL_CHARACTERISTIC</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FROM_DATE" id="7314F6B4-CE57-A7B2-102D-132FC4E55C44">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PHYSICAL_CHARACTERISTIC</sourceObjSchema>
+<sourceObjName>FROM_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THRU_DATE" id="C5F13D55-40DC-5F21-B71E-79CE74DF7DC9">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PHYSICAL_CHARACTERISTIC</sourceObjSchema>
+<sourceObjName>THRU_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHYS_CHAR_TYP_CHAR_TYP_ID" id="E162C080-3328-EE2C-C206-EB096C2524E0">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PHYSICAL_CHARACTERISTIC</sourceObjSchema>
+<sourceObjName>PHYS_CHAR_TYP_CHAR_TYP_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D73716D-BCD3-4943-5BEF-7B2E5E3E7817" referredColumn="417AF7EB-8220-40AF-6CE0-A87364297B9A"/>
+</associations>
+</Column>
+<Column name="PERS_PERS_ID" id="F4845617-1048-E8BD-935B-6ABCEF1DDCB8">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PHYSICAL_CHARACTERISTIC</sourceObjSchema>
+<sourceObjName>PERS_PERS_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5631965-A210-8C6B-B3B8-A8D8E1AE38B6" referredColumn="F6E77457-411B-E93B-2C7C-52A45BFC1DBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCF889B7-880E-BDF9-06C8-7351F46B38CB" name="PHYS_CHAR_PERS_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4845617-1048-E8BD-935B-6ABCEF1DDCB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5856EFE-5A9C-9959-0D09-DAEE9448F40B" name="PHYS_CHAR_PHYS_CHAR_TYP_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E162C080-3328-EE2C-C206-EB096C2524E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

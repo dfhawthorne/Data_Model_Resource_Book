@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00BF10F2-E3C8-B1A7-8439-E0E82E948148" name="PARTY_ROLE_TYPEv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>AB810070-9393-C445-AC16-70DBE1293A56</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARTY_ROLE_TYPE_ID" id="0F09E193-5016-4B0D-8213-A4274D3AFCB2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>77961F82-422F-D058-36ED-2105F4975FE9</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="E3B01911-9F51-1355-963E-B01A411ADE11">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>F3C35BBB-1D1B-5C0C-CDBA-F1A2B0AA1A7C</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="882741F1-8A23-1D5C-9AF0-EC016F60F483" name="PARTY_ROLE_TYPEv1_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>CA435ECC-7ADE-4D93-1771-C5CE27976535</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

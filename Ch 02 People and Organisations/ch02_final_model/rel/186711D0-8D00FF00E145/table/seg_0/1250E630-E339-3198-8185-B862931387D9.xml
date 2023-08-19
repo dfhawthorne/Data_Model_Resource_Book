@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1250E630-E339-3198-8185-B862931387D9" name="Distributor">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>D6914586-6A70-D333-3F41-5B5CD3929361</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="7E2B3EF7-47BC-0764-1D64-389D0065EEA9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>E8A35AD9-F4E9-4645-0852-9A8FD4975FC4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="052CF9FE-8327-C2F2-6583-2B57285573CE" referredColumn="8F9024C5-8D6A-647E-8ED5-6A7F1B30977B"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="FA4C408C-D863-137C-DDD6-1CCA854888F2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>A9E2D563-A300-72F7-C082-54D262723B09</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="052CF9FE-8327-C2F2-6583-2B57285573CE" referredColumn="614D75BF-4205-B598-6088-5A13BFF2F40B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92D7B6D6-F529-7C4F-22BE-620AAE732E45" name="Distributor_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>4A6F199A-3C93-53E3-2F56-63087EE9CF21</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E2B3EF7-47BC-0764-1D64-389D0065EEA9"/>
+<colUsage columnID="FA4C408C-D863-137C-DDD6-1CCA854888F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E16D648A-0DEA-8C6D-49A8-4BC3DE9081C2" name="Distributor_Distribution_Channel_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E2B3EF7-47BC-0764-1D64-389D0065EEA9"/>
+<colUsage columnID="FA4C408C-D863-137C-DDD6-1CCA854888F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

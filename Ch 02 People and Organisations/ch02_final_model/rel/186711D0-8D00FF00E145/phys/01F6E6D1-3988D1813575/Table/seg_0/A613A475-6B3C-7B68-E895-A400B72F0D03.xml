@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Person" directorySegmentName="seg_0" id="A613A475-6B3C-7B68-E895-A400B72F0D03">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="weight" id="17DDC6EE-8CEC-38EA-C997-35E539AE9873">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="marital_status" id="24ADBC49-AA3B-290D-6EFC-943DE7F86C96">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_suffix" id="2B5ACF9A-6C84-CD8B-B251-6A61D7ED1C8B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mothers_maiden_name" id="363906A4-A45E-5AD1-822D-B4AFFFE56235">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comment" id="3BF61245-8ABE-797F-77D8-21F1C2EFABF9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_last_name" id="6F61DA64-227B-070A-D612-1DD1363ABC75">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="social_security_no" id="796D6532-88B3-D5EA-B260-1258B57780CB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_passport_no" id="9DA5F41F-F329-C37B-1E19-1CB884D3765A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_passport_expiry_date" id="AFB8AF54-AE24-21A7-854D-D85698C918D8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total_years_work_experience" id="B6948CDA-ADB4-9A0B-984B-00398B4E71A0">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Party_ID" id="C2B612C9-404A-F2C6-7295-32916A40A0FF">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_first_name" id="C47B0C10-E5E7-B963-D051-58FFDC629156">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gender" id="C4C1F46B-C96D-5ED6-9006-2046A800B8E3">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_nickname" id="C71C6407-4F7A-647B-BDAB-E0B6C3D275C1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="height" id="DA6919EE-5D69-7334-6754-373669021DD1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="birth_date" id="E2EF382B-45E9-0D49-95B6-AC02889FFD64">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_middle_name" id="EBFD2913-38CA-1DD0-43AD-C25620213408">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_personal_title" id="FDEF6F95-DE61-5EFC-A519-F044663A7BC0">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Person_Party_FK" id="5AA07311-FB8A-ACAC-D874-B305B9BBC24A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Person_PK" id="22793FA8-E1C5-4DAB-F3DD-5BF6606942CA">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

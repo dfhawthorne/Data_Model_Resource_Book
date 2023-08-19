@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="AB1D3975-F5A9-7185-F98E-D9946487A993" name="COMMUNICATION_EVENT_PURPOSE">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>B6D168B8-35D0-FFD2-3D03-6C6651B16DF2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DESCRIPTION" id="F13BB785-8313-70FA-5CBE-A5AB6176E8BA">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>3ABC5951-6D43-75D1-1F75-639B8F4879E3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8227C841-06AA-EFC1-D048-22ED2ACE3899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMUNICATION_EVENT_PURPOSE_TYPE_Comm_Event_Purpose_Type_ID" id="1C1EC087-3557-6323-FCCA-EB5BC5E737BF">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>2B256DC7-9194-3DE6-3A17-58B6ADB1E99F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6556127-7C23-6702-7DAD-449287863C11" referredColumn="5C44DF67-606B-CD6A-3BC2-1E36EED72F16"/>
+</associations>
+</Column>
+<Column name="Communication_Event_Communication_Event_ID" id="81389263-9629-83EE-C42E-ADAC005B9EAF">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>1568C334-7E0C-BE8D-6055-9BAF46A6073F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04AFF0E0-12E3-283D-B49F-91E783B12FC8" referredColumn="6E5F5084-BC37-6F80-487B-FBAF54A7CEE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19617251-51BF-9254-F7AB-B61F216579CB" name="COMMUNICATION_EVENT_PURPOSE_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>427873E4-811F-C1A4-14DC-181036CBA486</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C1EC087-3557-6323-FCCA-EB5BC5E737BF"/>
+<colUsage columnID="81389263-9629-83EE-C42E-ADAC005B9EAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77229232-5851-DA7B-4181-44A3793F7634" name="COMMUNICATION_EVENT_PURPOSE_Communication_Event_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81389263-9629-83EE-C42E-ADAC005B9EAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDE4D2B8-FB0E-E757-9FDC-2C2C37CBA6DD" name="COMMUNICATION_EVENT_PURPOSE_COMMUNICATION_EVENT_PURPOSE_TYPE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C1EC087-3557-6323-FCCA-EB5BC5E737BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

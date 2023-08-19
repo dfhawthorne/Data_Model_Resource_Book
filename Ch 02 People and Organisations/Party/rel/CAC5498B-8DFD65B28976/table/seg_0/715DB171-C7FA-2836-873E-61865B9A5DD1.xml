@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="715DB171-C7FA-2836-873E-61865B9A5DD1" name="Party_Type">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>37407C86-FC02-C87F-014B-0B44F8EE434C</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Type_ID" id="8934D4A8-EF9F-4A92-F03C-B35D61BD1CA2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>07AE142C-C45E-493D-814B-7521820F4B96</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="F1702FD5-F2C2-2A2E-C685-B324907FDA30">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>C7281557-4974-2AAC-60E2-B69E8B38D2C4</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF5BB517-E20A-3BB4-709F-F0B52C77D48D" name="Party_Type_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>92BF7D45-2C9E-23C8-258A-AEFE3C731F0A</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8934D4A8-EF9F-4A92-F03C-B35D61BD1CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

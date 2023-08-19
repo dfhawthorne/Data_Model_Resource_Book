@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="MARITAL_STATUS" directorySegmentName="seg_0" id="BE193A3B-ED66-2793-2134-B1CE8E652E8E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CC57BDB9-73D5-23DC-F0B3-5715B8EE0F30</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERS_PERS_ID" id="27425ECC-8017-A153-0575-FC4945876463">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="THRU_DATE" id="42A977EB-3EC4-58CD-FD7A-45A4B4430FE2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARTL_STAT_TYP_ID" id="7DF2B073-6EDE-CC64-6BF1-08BE43FC1F83">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FROM_DATE" id="FFF0A0F9-DD66-805A-03F6-F09F1ABB055A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MARTL_STAT_PK" id="0BFFD58A-7D63-1ECF-2FA7-2F8C6FBDEADB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<segment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MARTL_STAT_MARTL_STAT_TYP_FK" id="646DEAD4-44DD-E19A-B51A-F24B57460C4C">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MARTL_STAT_PERS_FK" id="DD27741E-C0B0-AAFA-661C-737C1043D1A8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MARTL_STAT_PK" id="FB6DAFF9-9070-C614-8B36-EDCBC67F7500">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<segment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<existingIndex>0BFFD58A-7D63-1ECF-2FA7-2F8C6FBDEADB</existingIndex>
+<indexSegment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

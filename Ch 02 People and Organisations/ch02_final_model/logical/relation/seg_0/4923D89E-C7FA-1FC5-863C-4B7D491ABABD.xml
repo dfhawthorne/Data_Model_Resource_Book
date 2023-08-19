@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CITZN_PERS_FK" directorySegmentName="seg_0" id="4923D89E-C7FA-1FC5-863C-4B7D491ABABD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>C20C6174-0B0A-2BED-CC1A-A452B4253904</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<sourcePk>CA8E3B51-0E35-C657-646B-B7A7978196F9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12DF8371-761F-6E20-5D2F-39269255EB78</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09EF45F6-A2E5-67AC-405B-18B5A16C39FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

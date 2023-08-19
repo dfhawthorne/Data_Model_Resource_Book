@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PASSPORT" directorySegmentName="seg_0" id="E831E4FF-501E-EF21-73F4-578B851C2AC2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CC57BDB9-73D5-23DC-F0B3-5715B8EE0F30</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PASSPORT_ID" id="236E8EBC-EDCF-DBD4-5B19-BB36F47D19D6">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXPIRY_DATE" id="277B308E-C358-55AE-F1F5-A00ADCF33636">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSPORT_NUM" id="498C814D-A79E-1A5F-8164-6A711DB35C94">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISSUE_DATE" id="9CDD9423-E698-5BEA-605B-4892D02E32C2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITZN_FROM_DATE" id="A4E16A58-0C6D-BD13-32B6-8F3C6C4EABF9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PASSPORT_PK" id="AB261274-A126-2A39-B794-C6C9102C7128">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<segment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PASSPORT_CITZN_FK" id="F4569E45-B145-FD60-83E4-C3B3E247EF02">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PASSPORT_PK" id="3D7AD7A2-586E-9842-57E7-296A33AD5883">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<segment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<existingIndex>AB261274-A126-2A39-B794-C6C9102C7128</existingIndex>
+<indexSegment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

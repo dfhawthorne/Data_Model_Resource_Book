@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10CAAF3D-8E8A-695F-BE60-94224B3E3E6E" name="PARTY_CONTACT_MECHANISM">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>3C571390-A06D-807D-E11D-06E08447AA57</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FROM_DATE" id="45B0E0FE-4A11-DE6B-80E9-11F28911061B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>880F7AFF-9719-932C-C02F-EA280A802C19</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THRU_DATE" id="A0253A8D-8FA4-2210-C19B-676F37AAB438">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>56854B9F-6628-F84D-47A4-20B6F4BD6519</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NON-SOLICITATION_IND" id="47FCA356-4096-1AE7-6D8B-77329ABA2261">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>A2F4E8DE-4D32-A884-05B3-CC229A91EFA6</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTENSION" id="7AC23B4D-11C6-3120-496A-489F3D3AC9D6">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>586C7D5E-AE56-F570-FAD0-697868CDF3E5</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENT" id="4AD16B27-BCEA-27DF-C71C-ED06419E156E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>6BC17EDE-4FFF-E60F-4579-9E96E29A1FB3</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTACT_MECHANISM_ID" id="32A9B6D4-A5EC-0537-6069-A95CF59E480E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>11C6B77D-9D9F-7B88-15F4-3B64318AF898</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTY_ID" id="1A0009F7-3F5E-F42B-F327-F2EDC9B9AA4D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>4198613B-9B97-259C-8404-965BF616E50E</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTY_ROLE_TYPE_ID" id="D631DF94-44FB-3403-B31B-6B45B82E4DC8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>00C4C986-01AA-F99E-19F0-E6BD06841B5A</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABCCA5F1-4A8F-B109-8A6F-872E7C51548F" name="PARTY_CONTACT_MECHANISM_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:49:29 UTC</createdTime>
+<generatorID>AD645AD1-BAC4-928E-523D-7A2E542DD8F2</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

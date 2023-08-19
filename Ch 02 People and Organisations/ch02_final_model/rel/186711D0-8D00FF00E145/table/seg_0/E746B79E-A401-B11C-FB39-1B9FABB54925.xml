@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E746B79E-A401-B11C-FB39-1B9FABB54925" name="End_User_Customer">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>327E9567-576F-9420-11B4-5DABB990F5B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="CF3C9ABD-363F-A4DF-1403-0100FF586105">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>AFB5782D-00CA-216D-4673-83F31500D955</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E0E6FFC-575C-8E25-C643-D0974A538716" referredColumn="EA7FEBA3-9BBE-FFD1-F66E-0468072B4307"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="B9F76C45-F9D4-9495-D1E0-780292F4814B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>8FF73C37-D2A9-A53C-7F8D-47477721B5C9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E0E6FFC-575C-8E25-C643-D0974A538716" referredColumn="35AC70F0-A5BF-5586-BEE0-D8A294000351"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E53F56A4-6627-E8C6-11D6-1F386F4B1CF4" name="End_User_Customer_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>90B74D83-8992-AB97-13E3-628847AE5ADA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF3C9ABD-363F-A4DF-1403-0100FF586105"/>
+<colUsage columnID="B9F76C45-F9D4-9495-D1E0-780292F4814B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFDBE76B-CA3D-8DB4-6D11-0FBBC1B5BDA2" name="End_User_Customer_Customer_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF3C9ABD-363F-A4DF-1403-0100FF586105"/>
+<colUsage columnID="B9F76C45-F9D4-9495-D1E0-780292F4814B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="886AE645-AAF9-1695-D28D-D1CE89DC70AB" name="Contact">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>E5AB194B-A822-ACCE-B09E-12709EC02C91</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="DFADA782-F72A-CFC6-6825-17D9D4814C24">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>6F2B3FB7-6611-9FD6-D99F-06D3D9F8FF42</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BAF389D-4DDA-F098-5FC5-D59644FA9CA3" referredColumn="14191E99-E848-E938-F54B-90AFD1AF1B6B"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="0BEDC122-CF63-3DF4-A4C1-ACFB64A665D5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>E78C6835-C418-B840-113D-8741DEE61174</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BAF389D-4DDA-F098-5FC5-D59644FA9CA3" referredColumn="9A8E3336-8279-A6B9-7385-E77D3029CEA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BC8D1C5-CAB4-5A81-D4F1-DAFAEEE3F904" name="Contact_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>5FF071D9-9E6D-1262-FE4A-E7EDE21FB328</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFADA782-F72A-CFC6-6825-17D9D4814C24"/>
+<colUsage columnID="0BEDC122-CF63-3DF4-A4C1-ACFB64A665D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51814AB2-3400-670B-414E-F04BE5894A96" name="Contact_Person_Role_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFADA782-F72A-CFC6-6825-17D9D4814C24"/>
+<colUsage columnID="0BEDC122-CF63-3DF4-A4C1-ACFB64A665D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="URM" directorySegmentName="seg_0" id="B2F8AB70-2F42-FAFC-B3B6-F6D33D00C56A">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjName>URM</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:46 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+</UserOraclev10g>

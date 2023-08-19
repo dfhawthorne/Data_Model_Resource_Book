@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5128F20B-3627-DFDF-B74C-CBC7B238BCCC" name="Sales_Follow_Up">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>F072DF02-F3FB-A00E-366E-BC2E44C2C9AC</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Communication_Event_ID" id="2874F600-99AF-90F6-DBF2-47831F7819A2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>9D5A800B-2980-6536-0BB7-CFF32D3F7803</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C9C0B9-018A-AD38-057D-C91278AC5680" referredColumn="1568C334-7E0C-BE8D-6055-9BAF46A6073F"/>
+</associations>
+</Column>
+<Column name="Comm_Event_Purpose_Type_ID" id="61F80DD9-310A-E198-7D3D-42B151836564">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>8FA10F22-1A27-4499-59E3-EF62BC398C9B</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C9C0B9-018A-AD38-057D-C91278AC5680" referredColumn="2B256DC7-9194-3DE6-3A17-58B6ADB1E99F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F6E9EB6-2550-684A-765C-B15E4C761AF3" name="Sales_Follow_Up_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>1D33F80E-86B2-F6A3-AE1C-F11CE9C9D511</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61F80DD9-310A-E198-7D3D-42B151836564"/>
+<colUsage columnID="2874F600-99AF-90F6-DBF2-47831F7819A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="469A3D93-0951-01E0-13B0-B41E2D009BD0" name="Sales_Follow_Up_COMMUNICATION_EVENT_PURPOSE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>8DBD832C-3A88-FEF0-9FD6-751B6D22DF22</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61F80DD9-310A-E198-7D3D-42B151836564"/>
+<colUsage columnID="2874F600-99AF-90F6-DBF2-47831F7819A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

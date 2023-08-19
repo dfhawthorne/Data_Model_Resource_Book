@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Team" directorySegmentName="seg_0" id="6EFCE904-1DD1-180F-A9F1-7956415C7A8B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:17:58 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Informal_Organisation_Organisation_Organisation_ID" id="A6A0C113-6C54-3C4E-2D5D-826F6910B269">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:17:58 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Team_Informal_Organisation_FK" id="FBA44219-98DA-E108-9542-46D69BCB0E82">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:17:58 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Team_PK" id="0439E573-A99D-CD24-BCE8-B9E580070107">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:17:58 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

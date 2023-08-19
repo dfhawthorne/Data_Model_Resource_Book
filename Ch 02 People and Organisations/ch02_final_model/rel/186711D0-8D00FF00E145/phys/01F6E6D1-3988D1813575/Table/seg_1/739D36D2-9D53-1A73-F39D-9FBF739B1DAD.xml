@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Organization_Rollup" directorySegmentName="seg_1" id="739D36D2-9D53-1A73-F39D-9FBF739B1DAD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="From_Date" id="DC07057A-8B15-1617-CE9A-153758655497">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Organization_Rollup_Party_Relationship_FK" id="EEE6E0C6-8022-3658-D8DF-0D03F52AD718">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Organization_Rollup_PK" id="DE5A0205-3813-2E36-A690-53CE2C7F5C6D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

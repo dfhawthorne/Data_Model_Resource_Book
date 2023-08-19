@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09EF45F6-A2E5-67AC-405B-18B5A16C39FF" name="CITIZENSHIP">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>5429D5E3-007B-B72A-9612-81ACE34D51D9</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FROM DATE" id="AD89BF70-7434-55DD-64B1-F774AEAE3CB6">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>784C2201-48D6-2F65-8AE9-DC9665356274</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="THRU DATE" id="4403AE1A-49FE-7CBB-6FB6-85CC2186CDC1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>5D1CEE49-A0A7-2D8C-2D52-3A6736BBEC2F</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY COUNTRY CODE" id="F7CA0AD1-E820-C14A-01FC-608A562003D7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>2DCBEF9E-28D6-8350-669C-08ACD4C233C3</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<referedAttribute>41EFC45D-F00B-FDF5-5085-189612354B3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERS PERS ID" id="9B7F5227-DAEF-14D4-705B-66B1DE8827F5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>4923D89E-C7FA-1FC5-863C-4B7D491ABABD</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<referedAttribute>28CA3B45-A94E-28A1-1B01-81F237D20F23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB314378-F281-1629-DA7C-A59CFEE9304B" name="CITZN PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>DCD6230B-E1DE-4D72-B46A-9FB2D2874C08</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD89BF70-7434-55DD-64B1-F774AEAE3CB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

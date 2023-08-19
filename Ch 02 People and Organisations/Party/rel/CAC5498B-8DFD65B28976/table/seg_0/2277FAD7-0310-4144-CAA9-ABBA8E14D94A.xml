@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2277FAD7-0310-4144-CAA9-ABBA8E14D94A" name="Minority_Classification">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>B2EAA94E-1829-3679-44AA-E2A9BE372844</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="C25A2715-D7C1-3A8B-7211-5F9D662F3BB3">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>DF7A448B-CC89-7CB5-35DE-BB71C8D065CF</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12742867-45F0-3ABC-0CF1-DAA2A5ECBFD1" referredColumn="A88320FD-9EAA-8CC8-0BC0-018C14C0AF88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="594E513C-D9E5-592F-15B2-1E454CEF64DE" name="Minority_Classification_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>47953C91-AE0C-AE7F-73ED-D4A6713710C1</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C25A2715-D7C1-3A8B-7211-5F9D662F3BB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CAD0060-0735-652C-B1A7-32592178640F" name="Minority_Classification_Organization_Classification_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>B987C727-0407-65FD-3D21-BA2904DC1F89</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C25A2715-D7C1-3A8B-7211-5F9D662F3BB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

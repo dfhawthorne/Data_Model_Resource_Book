@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33C2E911-C242-1223-0C0C-0A99C3503E06" containerWithKeyObject="C2B7D020-9624-A8E7-FBFE-7B7BE04A265C" localFKIndex="CA948BC5-17B1-440A-3100-BD32A084C491" name="Minority_Classification_Organization_Classification_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>12742867-45F0-3ABC-0CF1-DAA2A5ECBFD1</importedID>
+<referredTableLongName>Organization_Classification</referredTableLongName>
+<arc>A017DA92-2409-1015-4485-7C46D72FEB1B</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>855D5E79-01A6-22DE-E636-0125661E0E43</referredTableID>
+<keyObject>F8FC0EBA-BAE0-1447-B4B3-2BAC69C10D12</keyObject>
+<referredKeyID>F8FC0EBA-BAE0-1447-B4B3-2BAC69C10D12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>From_Date</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

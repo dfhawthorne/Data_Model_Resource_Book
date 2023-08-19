@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66181CC0-7987-0C64-9920-D047CA813F0F" name="Person_Classification">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>E8CB6991-A051-E90E-7D97-F8F5F49E165D</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="07DA4266-6C1B-5E12-6F9D-E073160DFF7A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>DF7A448B-CC89-7CB5-35DE-BB71C8D065CF</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49041321-F9DB-2640-CED4-79CF6206C792" referredColumn="902F5E6B-D0AE-EE56-2A30-41590FA946D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="813F6A9D-E1E7-78F6-BC34-7C166DD78346" name="Person_Classification_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>47953C91-AE0C-AE7F-73ED-D4A6713710C1</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07DA4266-6C1B-5E12-6F9D-E073160DFF7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C71826F-8520-AC5C-5273-30F93548D692" name="Person_Classification_Party_Classification_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>489000FA-70EA-CB9E-DD1F-80E6377D52BC</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07DA4266-6C1B-5E12-6F9D-E073160DFF7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

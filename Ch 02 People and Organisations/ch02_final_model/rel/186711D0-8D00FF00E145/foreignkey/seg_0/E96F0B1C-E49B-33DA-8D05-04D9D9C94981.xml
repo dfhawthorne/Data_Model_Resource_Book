@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E96F0B1C-E49B-33DA-8D05-04D9D9C94981" containerWithKeyObject="74ECF85E-40ED-03C0-BFA9-1A321283B329" localFKIndex="ADADF8C3-2E6C-DCDB-E81B-3649DC0997B8" name="PERS_GENDER_TYP_FK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PERS_GENDER_TYP_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<referredTableLongName>URM.GENDER_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B64B9EE9-02EE-CCA6-5A25-0BC21D964A90</referredTableID>
+<keyObject>24B3A0D4-F87F-488C-1F81-D9D00F3AAC68</keyObject>
+<referredKeyID>24B3A0D4-F87F-488C-1F81-D9D00F3AAC68</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GENDER_TYPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

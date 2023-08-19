@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERS_GENDER_TYP_FK" directorySegmentName="seg_0" id="5384D849-D877-C66B-9C1D-3695EE2DC72B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>E96F0B1C-E49B-33DA-8D05-04D9D9C94981</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<sourcePk>70D515D2-04E1-2B6C-0491-5F2A300FA180</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C107F17-F70E-3509-57FD-4D5554CE9383</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12DF8371-761F-6E20-5D2F-39269255EB78</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

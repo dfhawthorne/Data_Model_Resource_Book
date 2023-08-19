@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ch02_final_model" id="A48AFE88-4FEB-EB32-B655-19F9E92F87E4" version="3.5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 06:09:05 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A48AFE88-4FEB-EB32-B655-19F9E92F87E4</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C8F2D422-BAB5-0BA8-9B2B-A192ABA85311">
+<designStoragePath>D:\Documents\Oracle SQL Developer Data Modeler\mywork\Data_Model_Resource_Book\Ch 02 People and Organisations\Organisation</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4C106C49-C538-99D4-1409-8E6635500424">
+<designStoragePath>D:\Documents\Oracle SQL Developer Data Modeler\mywork\Data_Model_Resource_Book\Ch 02 People and Organisations\Party</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="983B1DB6-577C-51F1-90DC-6AC01D874CCB">
+<designStoragePath>D:\Documents\Oracle SQL Developer Data Modeler\mywork\Data_Model_Resource_Book\Ch 02 People and Organisations\Party_Role</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FAEFE320-D1B5-45AB-05E2-73E8844003B1">
+<designStoragePath>D:\Documents\Oracle SQL Developer Data Modeler\mywork\Data_Model_Resource_Book\Ch 02 People and Organisations\Party Relationship</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3892D193-1064-92C0-1DD7-5BAA133D83E8">
+<designStoragePath>D:\Documents\Oracle SQL Developer Data Modeler\mywork\Data_Model_Resource_Book\Ch 02 People and Organisations\party_contact_mechanism</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CCA7DA34-F3E9-FF22-41F0-3D83188336C7">
+<designStoragePath>D:\Documents\Oracle SQL Developer Data Modeler\mywork\Data_Model_Resource_Book\Ch 02 People and Organisations\party_communication_event</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

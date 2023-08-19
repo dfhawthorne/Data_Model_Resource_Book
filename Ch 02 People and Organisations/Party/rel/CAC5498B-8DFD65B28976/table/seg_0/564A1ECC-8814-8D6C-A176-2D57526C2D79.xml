@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="564A1ECC-8814-8D6C-A176-2D57526C2D79" name="Party_Classification">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>317E0A3C-BD5F-CAEB-76FF-1304D3865E31</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="902F5E6B-D0AE-EE56-2A30-41590FA946D5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>DF7A448B-CC89-7CB5-35DE-BB71C8D065CF</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Thru_Date" id="262B7F71-560A-17EE-8700-CDFBC55C8877">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>8B3284BE-E711-F32E-D014-31D45C5CB5A3</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party_Type_Party_Type_ID" id="35582EE4-10A0-BF7E-235D-DE1DDB0E0D6A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>32B7D454-DDE2-25A0-1E3A-ECA863EEEF60</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84FD55E4-8F6F-5268-7EA4-601FFA86E310" referredColumn="8934D4A8-EF9F-4A92-F03C-B35D61BD1CA2"/>
+</associations>
+</Column>
+<Column name="From_Date1" id="5C706E23-F247-FBA3-5F79-98E2F40B8D01">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>CAE72E02-5074-FAA8-1076-F97AAF195994</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="291CC964-0259-376E-9761-80BF9726F39E" name="Party_Classification_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>47953C91-AE0C-AE7F-73ED-D4A6713710C1</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="902F5E6B-D0AE-EE56-2A30-41590FA946D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A2EC8C2-9683-6C3C-EAE4-4D8E4A5B7E39" name="Party_Classification_Party_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>500E5ADE-5B99-B595-0416-09F8A7F31DC0</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35582EE4-10A0-BF7E-235D-DE1DDB0E0D6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF6EF1B0-E9F9-CF39-C7A4-8A6F6B8CB97C" name="Party_Classification_Party_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>E444608D-4F00-0522-AEB8-8AFCDA6D4CF0</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

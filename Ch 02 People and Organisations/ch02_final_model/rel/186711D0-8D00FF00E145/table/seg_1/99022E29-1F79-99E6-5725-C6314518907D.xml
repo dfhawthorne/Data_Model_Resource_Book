@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="99022E29-1F79-99E6-5725-C6314518907D" name="Organization_Contact_Relationship">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>9A2DF84E-6A9B-A4F2-9B7B-2EFA40F1A863</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="B1103DAF-A7AD-1BEC-B636-82512ED778C5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>CC4D6BB6-0431-2331-B8A5-3512677467AB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4B647C3-17B0-AFBB-101A-D73B8F7CAE45" referredColumn="77796512-A9E9-9B55-B5E8-FD9F6990B1CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82700D71-794F-A1C4-09F8-7BC3654816FF" name="Organization_Contact_Relationship_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>F8FB6631-C242-71BE-64EB-10FF1CAE4806</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1103DAF-A7AD-1BEC-B636-82512ED778C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FCEA09D-FF00-E912-2E4A-523709AF6696" name="Organization_Contact_Relationship_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:48:26 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1103DAF-A7AD-1BEC-B636-82512ED778C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

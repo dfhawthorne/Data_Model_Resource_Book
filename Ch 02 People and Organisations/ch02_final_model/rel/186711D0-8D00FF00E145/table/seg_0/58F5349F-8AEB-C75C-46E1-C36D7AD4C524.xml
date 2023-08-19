@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58F5349F-8AEB-C75C-46E1-C36D7AD4C524" name="Bill_to_Customer">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>844CB16A-C828-E55A-BE7F-74E7FC03F895</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="164DB10A-E838-C35D-C622-B96E38F912F7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>9C815C67-286E-8323-79BF-01AAC0316890</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AD222B3-C04E-531C-0FE2-DA870D60D0D3" referredColumn="EA7FEBA3-9BBE-FFD1-F66E-0468072B4307"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="6FD3D152-6E7F-E00B-358C-34EBC4F9E63D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>4D427DF4-8683-C9AF-A8B4-A1C30156727F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AD222B3-C04E-531C-0FE2-DA870D60D0D3" referredColumn="35AC70F0-A5BF-5586-BEE0-D8A294000351"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DED8C4F-EF22-414B-FC0C-94D896BDB312" name="Bill_to_Customer_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>4A1DAAFE-98B9-19E8-E8BC-10CFFE9EA3FD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164DB10A-E838-C35D-C622-B96E38F912F7"/>
+<colUsage columnID="6FD3D152-6E7F-E00B-358C-34EBC4F9E63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="908EE33A-25ED-83B7-47B8-E313BAA65F40" name="Bill_to_Customer_Customer_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164DB10A-E838-C35D-C622-B96E38F912F7"/>
+<colUsage columnID="6FD3D152-6E7F-E00B-358C-34EBC4F9E63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

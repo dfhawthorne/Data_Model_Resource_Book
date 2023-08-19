@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F73F0F8D-6745-EEE4-F34F-8E8F4085918C" name="Subsidary">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>00F6C477-E733-8A0B-C1F6-05B50F9FF324</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="21534D6B-3BDF-F062-E843-68BA984E1C34">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>824E91E3-3865-4179-9E96-EFDCE6809BDD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00541B6D-9A7A-D180-5184-1B67C32568F1" referredColumn="0A2E80BC-3DA0-9FA0-0CC0-EC885A08B718"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="6DCB6877-9830-ACF3-1F3A-44330186FCCF">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>CC8D321D-BDF8-92BE-E048-9BCFBA8653B6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00541B6D-9A7A-D180-5184-1B67C32568F1" referredColumn="ADFAD2A0-85C9-8EF3-54EA-BCCE72052FF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0F86CBF-C2B0-E947-B34A-7E50E91718BC" name="Subsidary_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>51FAEDBA-486D-8A08-2838-F8206E1C22E7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21534D6B-3BDF-F062-E843-68BA984E1C34"/>
+<colUsage columnID="6DCB6877-9830-ACF3-1F3A-44330186FCCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB41CC20-3EBB-3B5E-56CF-14BD6B402D3E" name="Subsidary_Organisation_Unit_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21534D6B-3BDF-F062-E843-68BA984E1C34"/>
+<colUsage columnID="6DCB6877-9830-ACF3-1F3A-44330186FCCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

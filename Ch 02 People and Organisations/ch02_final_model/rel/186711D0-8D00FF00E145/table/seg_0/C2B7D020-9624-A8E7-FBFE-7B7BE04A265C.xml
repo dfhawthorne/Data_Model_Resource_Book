@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2B7D020-9624-A8E7-FBFE-7B7BE04A265C" name="Minority_Classification">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>2277FAD7-0310-4144-CAA9-ABBA8E14D94A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="1DCB6488-82A7-7FF2-FF75-F38681B3DD43">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>C25A2715-D7C1-3A8B-7211-5F9D662F3BB3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33C2E911-C242-1223-0C0C-0A99C3503E06" referredColumn="A64F0A21-3E30-86EA-2DE6-A351C730DBD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="118D0D8F-DBD5-25D8-4C47-0D680458613A" name="Minority_Classification_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>594E513C-D9E5-592F-15B2-1E454CEF64DE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DCB6488-82A7-7FF2-FF75-F38681B3DD43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA948BC5-17B1-440A-3100-BD32A084C491" name="Minority_Classification_Organization_Classification_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DCB6488-82A7-7FF2-FF75-F38681B3DD43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

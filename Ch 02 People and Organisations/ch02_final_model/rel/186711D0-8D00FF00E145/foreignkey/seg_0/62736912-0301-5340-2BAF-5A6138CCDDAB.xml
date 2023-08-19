@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62736912-0301-5340-2BAF-5A6138CCDDAB" containerWithKeyObject="F7EA9098-0873-769F-5203-6A2DFF4A990A" localFKIndex="A59C71DF-C468-1F0E-992D-C3D36484F182" name="Organisation_Party_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>A099EE9C-C67F-81C9-FA2D-CFE3BD99FB91</importedID>
+<referredTableLongName>Party</referredTableLongName>
+<arc>E2F87F4F-166A-140E-0495-CF17B9BDA5DF</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>049F5556-E568-E487-62B4-3F5EFE7F77D1</referredTableID>
+<keyObject>8B75F516-252D-E90B-D3C9-D439E30B9E1C</keyObject>
+<referredKeyID>8B75F516-252D-E90B-D3C9-D439E30B9E1C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Party_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

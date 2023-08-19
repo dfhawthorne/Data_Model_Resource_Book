@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E831E4FF-501E-EF21-73F4-578B851C2AC2" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="PASSPORT">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PASSPORT</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PASSPORT_ID" id="236E8EBC-EDCF-DBD4-5B19-BB36F47D19D6">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PASSPORT</sourceObjSchema>
+<sourceObjName>PASSPORT_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSPORT_NUM" id="498C814D-A79E-1A5F-8164-6A711DB35C94">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PASSPORT</sourceObjSchema>
+<sourceObjName>PASSPORT_NUM</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISSUE_DATE" id="9CDD9423-E698-5BEA-605B-4892D02E32C2">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PASSPORT</sourceObjSchema>
+<sourceObjName>ISSUE_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRY_DATE" id="277B308E-C358-55AE-F1F5-A00ADCF33636">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PASSPORT</sourceObjSchema>
+<sourceObjName>EXPIRY_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITZN_FROM_DATE" id="A4E16A58-0C6D-BD13-32B6-8F3C6C4EABF9">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PASSPORT</sourceObjSchema>
+<sourceObjName>CITZN_FROM_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2805A63D-AD7F-E1A4-068F-9FBB279F7AE6" referredColumn="784C2201-48D6-2F65-8AE9-DC9665356274"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D7AD7A2-586E-9842-57E7-296A33AD5883" name="PASSPORT_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PASSPORT_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="236E8EBC-EDCF-DBD4-5B19-BB36F47D19D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB261274-A126-2A39-B794-C6C9102C7128" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="PASSPORT_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PASSPORT_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="236E8EBC-EDCF-DBD4-5B19-BB36F47D19D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4569E45-B145-FD60-83E4-C3B3E247EF02" name="PASSPORT_CITZN_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4E16A58-0C6D-BD13-32B6-8F3C6C4EABF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

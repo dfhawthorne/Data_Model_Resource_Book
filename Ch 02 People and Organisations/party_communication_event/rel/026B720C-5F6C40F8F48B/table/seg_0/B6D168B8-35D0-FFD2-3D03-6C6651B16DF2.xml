@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6D168B8-35D0-FFD2-3D03-6C6651B16DF2" name="COMMUNICATION_EVENT_PURPOSE">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>9C389810-9173-EA0C-9940-B2EE112A2D5B</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DESCRIPTION" id="3ABC5951-6D43-75D1-1F75-639B8F4879E3">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>235065D5-7985-7A84-827E-A32CE106CA15</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8227C841-06AA-EFC1-D048-22ED2ACE3899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMUNICATION_EVENT_PURPOSE_TYPE_Comm_Event_Purpose_Type_ID" id="2B256DC7-9194-3DE6-3A17-58B6ADB1E99F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>8FA10F22-1A27-4499-59E3-EF62BC398C9B</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="409726F2-988C-52A1-C003-9C34394CF581" referredColumn="357E6F28-7696-28ED-4F29-389A86C67227"/>
+</associations>
+</Column>
+<Column name="Communication_Event_Communication_Event_ID" id="1568C334-7E0C-BE8D-6055-9BAF46A6073F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>9D5A800B-2980-6536-0BB7-CFF32D3F7803</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="034CF342-2E1A-1A72-A654-5EEE87E73640" referredColumn="4837D69A-8C83-3718-A45E-E5FD1C67E18D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="427873E4-811F-C1A4-14DC-181036CBA486" name="COMMUNICATION_EVENT_PURPOSE_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>1D33F80E-86B2-F6A3-AE1C-F11CE9C9D511</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B256DC7-9194-3DE6-3A17-58B6ADB1E99F"/>
+<colUsage columnID="1568C334-7E0C-BE8D-6055-9BAF46A6073F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C754EAE4-9B8D-13F0-D0CC-C0B26B04F2EC" name="COMMUNICATION_EVENT_PURPOSE_COMMUNICATION_EVENT_PURPOSE_TYPE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>3970B806-9CC2-B1F8-15D3-AEF65495BF10</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B256DC7-9194-3DE6-3A17-58B6ADB1E99F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FE9B6D5-31F0-F9C7-94DF-7D8E2B128827" name="COMMUNICATION_EVENT_PURPOSE_Communication_Event_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>1EFC33A0-F18E-F6EB-309E-B0A4D6BE049B</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1568C334-7E0C-BE8D-6055-9BAF46A6073F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

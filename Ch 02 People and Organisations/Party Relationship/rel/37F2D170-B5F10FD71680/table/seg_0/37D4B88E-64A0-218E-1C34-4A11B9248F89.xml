@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37D4B88E-64A0-218E-1C34-4A11B9248F89" name="Communication_Event">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>8597B3D5-7F30-5421-402C-DDF397F635F4</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Communication_Event_ID" id="36247F71-9A07-13FF-E97C-0040C3163E87">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>00A4E16E-8846-CD50-D61F-77373D27C2B7</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datetime_Started" id="4363CB16-7D71-2D3A-E4AD-92055FFE376C">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>F7B6881E-1555-3454-6013-933EA5921D5B</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datetime_Ended" id="3377A52D-6C57-99BC-CAB0-3987627DA5E7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>456C257A-DA8B-55F7-5264-FC56595856FC</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Note" id="BA91FE70-9A82-35B1-F67B-53E6873938EB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>30A514B9-1603-B4C3-2020-A5EEA47BFD16</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party_Relationship_From_Date" id="06C1F8F2-7446-DDD7-4B9D-60003C5681C8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>61ED5F50-2FC0-AEF3-E1C8-0953B86043D4</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C9DD913-FEEF-D3C2-FA98-217816D6DE5E" referredColumn="E5B4E1CD-A0C4-5393-ACDB-72C52CB30916"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78ABC81C-DC0A-3350-4DCF-525F26793BFA" name="Communication_Event_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>CF1B56A0-9C86-3AC5-D574-8A60A61BDEB4</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36247F71-9A07-13FF-E97C-0040C3163E87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="065E68AE-EBCB-4BDB-1E1D-3EA960DB461C" name="Communication_Event_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>1F7120DF-6615-877D-9981-38819D9B4597</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06C1F8F2-7446-DDD7-4B9D-60003C5681C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

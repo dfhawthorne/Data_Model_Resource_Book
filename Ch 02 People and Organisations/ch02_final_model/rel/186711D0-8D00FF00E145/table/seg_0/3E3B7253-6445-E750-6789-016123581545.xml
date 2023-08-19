@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E3B7253-6445-E750-6789-016123581545" name="Employee">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>E37A76AD-8CD8-0513-5F4C-4D8B7C568BDB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="BBC1962F-59FD-7F59-990A-93382BF64194">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>AFBCDEF8-403C-DBC7-0CB1-72A7608BE272</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="933A1A41-CC49-DB9D-B431-B6D13A9CFABD" referredColumn="14191E99-E848-E938-F54B-90AFD1AF1B6B"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="3BB9F9E2-81E0-68C2-AE60-F286CDD05D85">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>454C613A-1DB7-F3EA-3276-59F330EE0A31</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="933A1A41-CC49-DB9D-B431-B6D13A9CFABD" referredColumn="9A8E3336-8279-A6B9-7385-E77D3029CEA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B606E911-AAE6-D112-2ED6-4DDEEFCFB9CA" name="Employee_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>38E68D9C-E286-2CC5-2AEB-EA722F09815F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBC1962F-59FD-7F59-990A-93382BF64194"/>
+<colUsage columnID="3BB9F9E2-81E0-68C2-AE60-F286CDD05D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4E34792-133A-331E-4246-06AF931DB2CE" name="Employee_Person_Role_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBC1962F-59FD-7F59-990A-93382BF64194"/>
+<colUsage columnID="3BB9F9E2-81E0-68C2-AE60-F286CDD05D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

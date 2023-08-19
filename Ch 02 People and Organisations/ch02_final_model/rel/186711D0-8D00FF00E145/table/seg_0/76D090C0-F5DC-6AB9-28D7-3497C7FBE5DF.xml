@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76D090C0-F5DC-6AB9-28D7-3497C7FBE5DF" name="Employment">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>C77A98CC-C0A9-80B5-CCD5-7CCA901D0FB9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="5DCA98ED-62B5-AC62-5B2C-63BDFC7491C3">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>C273EED0-1646-BCBA-4CF3-81C2DE5BFE2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7771B5E0-92FE-0146-0EB6-D42F1B8A3624" referredColumn="77796512-A9E9-9B55-B5E8-FD9F6990B1CE"/>
+</associations>
+</Column>
+<Column name="Employee_Party_Role_ID" id="653A07C3-032A-5D84-CC72-2B8D7BF874AD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>52115323-230C-DA19-A902-D6F60E9B0C59</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5B39547-CD41-9C0C-C5A1-184A83740726" referredColumn="BBC1962F-59FD-7F59-990A-93382BF64194"/>
+</associations>
+</Column>
+<Column name="Employee_Role_Type_ID" id="3805FC26-950B-2ED9-362E-A4E8F0F97661">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>FB116D2A-1D78-45D3-1E30-0BACCF216F1B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5B39547-CD41-9C0C-C5A1-184A83740726" referredColumn="3BB9F9E2-81E0-68C2-AE60-F286CDD05D85"/>
+</associations>
+</Column>
+<Column name="Internal_Organisation_Party_Role_ID" id="C9118198-95B1-48C1-BF48-B037D2CF93EE">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>7D7E8318-6A26-4638-03A3-CB94171311C2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D3B5C80-0BF1-9F09-287C-BB71630915BA" referredColumn="02B48539-39DD-682F-2CA0-28242080EF0D"/>
+</associations>
+</Column>
+<Column name="Internal_Organisation_Role_Type_ID" id="C997844A-3139-5763-FE27-C44B6200B383">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>C0718060-16F8-197F-196E-8718EFAAA94B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D3B5C80-0BF1-9F09-287C-BB71630915BA" referredColumn="3697DD08-46BD-D3A7-9617-46A52E41C2CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF025305-4275-6F10-4717-AD5C0799E923" name="Employment_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>18C7B9B2-3ED5-52BD-C556-85564387F0AD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DCA98ED-62B5-AC62-5B2C-63BDFC7491C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7F61D26-449F-815D-FF12-85CA39F69C94" name="Employment_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>B8B07E44-1BB3-701E-1660-0386E7C994E9</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9118198-95B1-48C1-BF48-B037D2CF93EE"/>
+<colUsage columnID="C997844A-3139-5763-FE27-C44B6200B383"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF51B5FD-57BF-F68B-F0ED-D669DDC61C61" name="Employment_Employee_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="653A07C3-032A-5D84-CC72-2B8D7BF874AD"/>
+<colUsage columnID="3805FC26-950B-2ED9-362E-A4E8F0F97661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="550F4A44-34DD-864F-232B-D24DAE1F5933" name="Employment_Internal_Organisation_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9118198-95B1-48C1-BF48-B037D2CF93EE"/>
+<colUsage columnID="C997844A-3139-5763-FE27-C44B6200B383"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1B1E6FC-7B08-3ED9-A2E4-B204DF5F7FA0" name="Employment_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DCA98ED-62B5-AC62-5B2C-63BDFC7491C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0520E73-B7C8-9242-90E0-9130E4FD8B4F" name="Contractor">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>A0E62EDE-5E35-BF25-5DBB-46C9FA5AF99E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="2306935A-0CCE-9B92-C014-988572FACD62">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>07E786B9-B8F3-6920-D1F0-9BB1472C37C8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE957057-9CE2-6C5E-18D4-09F6B12EC1E7" referredColumn="14191E99-E848-E938-F54B-90AFD1AF1B6B"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="A8F19CE6-D4A4-D2AF-78B5-4208C35222EC">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>61EF4D24-86D4-41E8-D2AB-B6296E612B37</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE957057-9CE2-6C5E-18D4-09F6B12EC1E7" referredColumn="9A8E3336-8279-A6B9-7385-E77D3029CEA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="720C4EA2-7974-16CB-239D-2B3539C7D4CC" name="Contractor_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>6980A4B2-5B3E-F324-CDBA-518012A144BC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2306935A-0CCE-9B92-C014-988572FACD62"/>
+<colUsage columnID="A8F19CE6-D4A4-D2AF-78B5-4208C35222EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0044CFF1-9D2A-0452-C9E8-78460BA21469" name="Contractor_Person_Role_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2306935A-0CCE-9B92-C014-988572FACD62"/>
+<colUsage columnID="A8F19CE6-D4A4-D2AF-78B5-4208C35222EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

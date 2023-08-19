@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AEE78C1-8D0F-5557-7BDC-05428CEB494A" name="Party_Role_Type">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>850172EB-05ED-E30F-74D2-A15532DDDA7C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Role_Type_ID" id="7380CE57-7271-3716-9A2D-321A9749DFFB">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>230DA699-BAA5-4E23-6B40-0E560678051D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A8D1F5-6D55-B0CC-08D9-0709E762E46C" referredColumn="1FA70A2F-B809-FF15-D0AB-D001531DCD05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB035A34-B6FF-FBA3-6412-8AA85F232827" name="Party_Role_Type_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>7ABE81CD-7BD9-CF05-9D3C-454896C6D72F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7380CE57-7271-3716-9A2D-321A9749DFFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E89D2702-B138-A892-4AFB-3F973FBFD6E8" name="Party_Role_Type_Role_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7380CE57-7271-3716-9A2D-321A9749DFFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

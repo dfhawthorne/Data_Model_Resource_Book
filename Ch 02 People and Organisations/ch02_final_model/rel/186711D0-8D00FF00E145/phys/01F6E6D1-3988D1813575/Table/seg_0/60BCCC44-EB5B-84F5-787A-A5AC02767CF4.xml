@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PERSON_NAME" directorySegmentName="seg_0" id="60BCCC44-EB5B-84F5-787A-A5AC02767CF4">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AADEE81A-A3B9-D6C9-ACA5-08E902611604</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="93CD7CE0-5E40-F03F-1DFA-97C4B7F1DBF7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FROM_DATE" id="BE080F3E-A9CE-A669-F326-4BED1CB64D4A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="THRU_DATE" id="DE6D0F97-06A2-A104-3AAB-8F66E8B55BCD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERS_PERS_ID" id="E367DDBD-D6CD-C4E5-DF8B-701622247D3F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERS_NAME_TYP_PERS_TYP_ID" id="EA166460-68BD-1DC7-7D5B-874091EF9458">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME_SEQ_ID" id="F6C964F2-E5C6-B7CE-7E85-FCD787A35D0B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PERS_NAME_PK" id="97C597C0-72F7-6B0D-1589-20C64FB5AD7C">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<segment>3063BAA0-A6D1-94E1-4105-2D542B2F08AB</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERS_NAME_PERS_NAME_TYP_FK" id="70E7F6A9-2097-BF32-B46D-0A2C2F9E5869">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERS_NAME_PERS_FK" id="A62D41BC-4DE1-5E9D-D8F1-0D1173623B13">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERS_NAME_PK" id="55A53F36-507E-D08F-96D4-574B4D535BF5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<segment>3063BAA0-A6D1-94E1-4105-2D542B2F08AB</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<existingIndex>97C597C0-72F7-6B0D-1589-20C64FB5AD7C</existingIndex>
+<indexSegment>3063BAA0-A6D1-94E1-4105-2D542B2F08AB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

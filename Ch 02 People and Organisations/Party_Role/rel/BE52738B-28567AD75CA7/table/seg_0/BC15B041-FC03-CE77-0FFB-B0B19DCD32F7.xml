@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC15B041-FC03-CE77-0FFB-B0B19DCD32F7" name="Shareholder">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>75FA67AC-6A8E-A178-6F62-C26BA66767BF</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="1082D746-C34E-3E29-AC42-E2169DF5C544">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>E951BD9C-8AFF-5804-29CE-7A972C334EE0</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C05843BF-02FE-151F-1474-F6CD507A3AC5" referredColumn="3760111B-C21B-ADBC-7676-6E8BAE3BE8A4"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="18E5F190-96A6-D878-FA8C-390F36612A6F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>3F79F611-72D9-57D0-3C0A-9A24663AD01C</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C05843BF-02FE-151F-1474-F6CD507A3AC5" referredColumn="B71D3523-F8BA-E069-5AB5-C3253264CFBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4232ADA-180F-6C68-E0E3-D0D0BE656A86" name="Shareholder_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9712D9B5-B31F-8455-05E1-48B5C5CC088E</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1082D746-C34E-3E29-AC42-E2169DF5C544"/>
+<colUsage columnID="18E5F190-96A6-D878-FA8C-390F36612A6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69603291-7AFF-CABD-C2BA-DAD1789079B6" name="Shareholder_Party_Role_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>C01CEB87-BE97-A93B-5990-D43A20CC8EB5</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1082D746-C34E-3E29-AC42-E2169DF5C544"/>
+<colUsage columnID="18E5F190-96A6-D878-FA8C-390F36612A6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

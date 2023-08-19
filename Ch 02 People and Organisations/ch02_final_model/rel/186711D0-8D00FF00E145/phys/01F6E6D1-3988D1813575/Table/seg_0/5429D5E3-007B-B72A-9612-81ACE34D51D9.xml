@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CITIZENSHIP" directorySegmentName="seg_0" id="5429D5E3-007B-B72A-9612-81ACE34D51D9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CC57BDB9-73D5-23DC-F0B3-5715B8EE0F30</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERS_PERS_ID" id="0141DBA6-4758-1DB2-90EA-F2796B9E3091">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_COUNTRY_CODE" id="07038F96-0C6A-5923-5183-A629702E813F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="THRU_DATE" id="5D1CEE49-A0A7-2D8C-2D52-3A6736BBEC2F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FROM_DATE" id="784C2201-48D6-2F65-8AE9-DC9665356274">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CITZN_PK" id="08C51F97-FF5E-7B3D-DC00-736CE7588079">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<schemaObject>5EA2C2E3-8B51-F04A-A56D-543B79954BD1</schemaObject>
+<segment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CITZN_PERS_FK" id="8AB7EF10-0B13-9360-0FDD-B16EF7EEEF49">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CITZN_COUNTRY_FK" id="DDB7B050-13FF-0AAF-69A5-12CDE55388E7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CITZN_PK" id="DCD6230B-E1DE-4D72-B46A-9FB2D2874C08">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<segment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</segment>
+<tableSpace>54606562-ADFA-C4AD-DAC9-57760C53548A</tableSpace>
+<existingIndex>08C51F97-FF5E-7B3D-DC00-736CE7588079</existingIndex>
+<indexSegment>E323D37B-EFDF-C886-61D7-CFD1A1D780C9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

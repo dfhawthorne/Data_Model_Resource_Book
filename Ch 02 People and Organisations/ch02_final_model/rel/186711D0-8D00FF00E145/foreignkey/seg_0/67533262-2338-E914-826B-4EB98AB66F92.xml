@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67533262-2338-E914-826B-4EB98AB66F92" containerWithKeyObject="D9B487C9-C4C3-3D83-AFCB-DC7D85C30D6C" localFKIndex="F247A314-F459-F353-A8FE-E1FA800BA761" name="Income_Classification_Person_Classification_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:45:06 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>0A553F05-9EA7-9C24-DAFF-E8538742A96A</importedID>
+<referredTableLongName>Person_Classification</referredTableLongName>
+<arc>591D8CCA-B141-1617-ADA9-45384A04D9D9</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5CE036A-03F4-73AD-D847-401BCE4660C6</referredTableID>
+<keyObject>B96DA235-BDF5-3B1A-B8B4-A39032FDC8FD</keyObject>
+<referredKeyID>B96DA235-BDF5-3B1A-B8B4-A39032FDC8FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>From_Date</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

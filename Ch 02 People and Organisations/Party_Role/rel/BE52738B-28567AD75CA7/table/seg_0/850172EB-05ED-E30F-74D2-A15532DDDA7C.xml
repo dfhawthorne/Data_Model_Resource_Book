@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="850172EB-05ED-E30F-74D2-A15532DDDA7C" name="Party_Role_Type">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>6C87CA1B-E94E-FF2E-4308-04D9405F4E51</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Role_Type_ID" id="230DA699-BAA5-4E23-6B40-0E560678051D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>541170AD-B756-D341-F18C-E07FC71C7B44</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEF77C63-A6D7-C297-B6AF-F00F6E1D3F97" referredColumn="03F1C5E9-1129-2CBA-4D64-F73DB6F56733"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ABE81CD-7BD9-CF05-9D3C-454896C6D72F" name="Party_Role_Type_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>0DFC7B15-97F6-181C-903C-33BAE11FE853</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="230DA699-BAA5-4E23-6B40-0E560678051D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A35436A3-EFDB-2FD9-289E-8E6AFE960C9C" name="Party_Role_Type_Role_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>7DB68250-1173-27CF-440E-E23670C32CCD</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="230DA699-BAA5-4E23-6B40-0E560678051D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D73716D-BCD3-4943-5BEF-7B2E5E3E7817" containerWithKeyObject="B96567DB-2D9C-E1F1-F900-2205ADB0CEB8" localFKIndex="B5856EFE-5A9C-9959-0D09-DAEE9448F40B" name="PHYS_CHAR_PHYS_CHAR_TYP_FK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PHYS_CHAR_PHYS_CHAR_TYP_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<referredTableLongName>URM.PHYSICAL_CHARACTERISTIC_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75CCE10A-6ECA-A9AE-9233-C09F8211C95A</referredTableID>
+<keyObject>C401470C-CBA7-7720-2E25-D95B61C47127</keyObject>
+<referredKeyID>C401470C-CBA7-7720-2E25-D95B61C47127</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CHARACTERISTIC_TYPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

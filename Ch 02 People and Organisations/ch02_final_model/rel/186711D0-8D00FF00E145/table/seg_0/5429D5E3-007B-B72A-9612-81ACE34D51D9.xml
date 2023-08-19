@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5429D5E3-007B-B72A-9612-81ACE34D51D9" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="CITIZENSHIP">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>CITIZENSHIP</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FROM_DATE" id="784C2201-48D6-2F65-8AE9-DC9665356274">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>CITIZENSHIP</sourceObjSchema>
+<sourceObjName>FROM_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THRU_DATE" id="5D1CEE49-A0A7-2D8C-2D52-3A6736BBEC2F">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>CITIZENSHIP</sourceObjSchema>
+<sourceObjName>THRU_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_COUNTRY_CODE" id="07038F96-0C6A-5923-5183-A629702E813F">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>CITIZENSHIP</sourceObjSchema>
+<sourceObjName>COUNTRY_COUNTRY_CODE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93F06C8F-14A7-8732-6EBF-E50B4F4379AE" referredColumn="7EA78943-CAE8-91A4-7D19-9442C9F26FC3"/>
+</associations>
+</Column>
+<Column name="PERS_PERS_ID" id="0141DBA6-4758-1DB2-90EA-F2796B9E3091">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>CITIZENSHIP</sourceObjSchema>
+<sourceObjName>PERS_PERS_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C20C6174-0B0A-2BED-CC1A-A452B4253904" referredColumn="F6E77457-411B-E93B-2C7C-52A45BFC1DBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCD6230B-E1DE-4D72-B46A-9FB2D2874C08" name="CITZN_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>CITZN_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="784C2201-48D6-2F65-8AE9-DC9665356274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08C51F97-FF5E-7B3D-DC00-736CE7588079" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="CITZN_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>CITZN_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="784C2201-48D6-2F65-8AE9-DC9665356274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDB7B050-13FF-0AAF-69A5-12CDE55388E7" name="CITZN_COUNTRY_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07038F96-0C6A-5923-5183-A629702E813F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AB7EF10-0B13-9360-0FDD-B16EF7EEEF49" name="CITZN_PERS_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0141DBA6-4758-1DB2-90EA-F2796B9E3091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5631965-A210-8C6B-B3B8-A8D8E1AE38B6" containerWithKeyObject="B96567DB-2D9C-E1F1-F900-2205ADB0CEB8" localFKIndex="DCF889B7-880E-BDF9-06C8-7351F46B38CB" name="PHYS_CHAR_PERS_FK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PHYS_CHAR_PERS_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<referredTableLongName>URM.PERSON</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74ECF85E-40ED-03C0-BFA9-1A321283B329</referredTableID>
+<keyObject>1F5A8890-22A1-37F4-9516-C730074C775F</keyObject>
+<referredKeyID>1F5A8890-22A1-37F4-9516-C730074C775F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PERS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

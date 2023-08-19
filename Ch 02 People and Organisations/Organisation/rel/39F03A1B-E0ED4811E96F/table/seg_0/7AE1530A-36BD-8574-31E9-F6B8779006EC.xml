@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AE1530A-36BD-8574-31E9-F6B8779006EC" name="Legal_Organisation">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<generatorID>FD0C5899-757A-39C8-02F6-807F13AB67F6</generatorID>
+<ownerDesignName>Organisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Organisation_Organisation_ID" id="BD2DF9FF-EA88-EE53-E7A1-2B170C82A613">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<ownerDesignName>Organisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8762B120-5670-8A22-4917-04D2CCF7ADD5" referredColumn="99BE01EC-E72D-6223-9F91-41050FFEDDB0"/>
+</associations>
+</Column>
+<Column name="Federal_Tax_ID_Num" id="0B96FA06-78C5-43E2-F36E-1423DF4470D4">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<generatorID>11D9662A-FC52-B2B6-84BB-412D4F8EF67A</generatorID>
+<ownerDesignName>Organisation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="910FE211-D979-9994-674B-F09ACC3A02A3" name="Legal_Organisation_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<ownerDesignName>Organisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BD2DF9FF-EA88-EE53-E7A1-2B170C82A613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11B94BFB-D0E5-B943-2FD5-00A3DA5945D1" name="Legal_Organisation_Organisation_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:15:09 UTC</createdTime>
+<generatorID>9A30C763-7C70-4B45-6C06-521984E16D43</generatorID>
+<ownerDesignName>Organisation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD2DF9FF-EA88-EE53-E7A1-2B170C82A613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="574C3F43-7CAE-39F7-2ED4-5D2A4FF6F471" name="Organisation">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9BFA3252-5241-56C4-8C96-30C2A0C3DE54</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_ID" id="13AB088E-C2C1-636B-DCBF-99398529B09A">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>A5953D55-059D-25AF-6115-B211F65EEE3A</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A099EE9C-C67F-81C9-FA2D-CFE3BD99FB91" referredColumn="DB22832E-2564-6A32-6D75-703853F05143"/>
+</associations>
+</Column>
+<Column name="Name" id="375B4441-DD88-B9C8-600A-AEE33C7CEDD4">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>23F854A2-C22F-7D34-10B3-9B3049D53374</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Federal_Tax_ID_Num" id="850DEDC3-AB4D-E4E7-7A4F-1DC9A9F0DAC6">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>2CB45FEF-88A6-501C-CBAF-5AF991C360FD</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6849B2D-2814-3555-1C28-8932DDAD3F48" name="Organisation_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9BCDC25C-5B72-FBEE-3E40-B8A2E302E691</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13AB088E-C2C1-636B-DCBF-99398529B09A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="236E5625-18E5-FA4A-5CC6-5BC3594AD838" name="Organisation_Party_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>7989AB31-0A42-BEE4-705B-10D9327D1865</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13AB088E-C2C1-636B-DCBF-99398529B09A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

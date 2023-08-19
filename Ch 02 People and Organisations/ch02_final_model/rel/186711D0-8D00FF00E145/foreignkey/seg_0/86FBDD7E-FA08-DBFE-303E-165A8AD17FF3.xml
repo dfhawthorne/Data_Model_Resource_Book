@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86FBDD7E-FA08-DBFE-303E-165A8AD17FF3" containerWithKeyObject="BE193A3B-ED66-2793-2134-B1CE8E652E8E" localFKIndex="646DEAD4-44DD-E19A-B51A-F24B57460C4C" name="MARTL_STAT_MARTL_STAT_TYP_FK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>MARTL_STAT_MARTL_STAT_TYP_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<referredTableLongName>URM.MARITAL_STATUS_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CF3679E9-870C-3235-70AF-6BD0B8DE7EE4</referredTableID>
+<keyObject>E6C8D758-B746-2A79-F0D1-F7393B023B71</keyObject>
+<referredKeyID>E6C8D758-B746-2A79-F0D1-F7393B023B71</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MARITAL_STATUS_TYPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

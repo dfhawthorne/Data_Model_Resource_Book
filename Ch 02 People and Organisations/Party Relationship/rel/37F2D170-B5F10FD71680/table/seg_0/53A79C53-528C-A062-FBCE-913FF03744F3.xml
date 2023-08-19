@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53A79C53-528C-A062-FBCE-913FF03744F3" name="Distribution_Channel_Relationship">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>C845CD3B-8CD9-93AD-AA7E-7F5CAAE15010</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="0619F5FC-9D80-E369-275E-E82A315FB7ED">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>936AD435-883A-E514-B535-1AC27081B93D</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A9707C2-419C-06EC-67B8-000771571992" referredColumn="E5B4E1CD-A0C4-5393-ACDB-72C52CB30916"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5643040C-2FE4-B2FA-087B-AA16D85C695A" name="Distribution_Channel_Relationship_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>9B5CE9B7-DA2E-F258-4B1F-49B8CA44DE73</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0619F5FC-9D80-E369-275E-E82A315FB7ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8238D159-77DA-9F2A-6150-5F8D705A36D9" name="Distribution_Channel_Relationship_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>7B891E67-1CAC-0E53-05DE-00F6D1808207</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0619F5FC-9D80-E369-275E-E82A315FB7ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

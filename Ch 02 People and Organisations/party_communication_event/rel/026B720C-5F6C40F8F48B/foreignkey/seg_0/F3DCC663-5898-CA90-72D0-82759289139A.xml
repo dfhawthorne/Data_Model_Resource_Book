@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3DCC663-5898-CA90-72D0-82759289139A" containerWithKeyObject="227CA627-A995-DC35-2B98-90810AE3F2C9" localFKIndex="3BEEC45C-CF2E-A8FA-75C8-C414BC1A43DA" name="Inquiry_COMMUNICATION_EVENT_PURPOSE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>6F72AF7C-2AD2-CE64-06DD-FEC78AA2C5B9</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<referredTableLongName>COMMUNICATION_EVENT_PURPOSE</referredTableLongName>
+<arc>337945B6-A25B-585B-FA9E-0E3BF8FA2D23</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6D168B8-35D0-FFD2-3D03-6C6651B16DF2</referredTableID>
+<keyObject>427873E4-811F-C1A4-14DC-181036CBA486</keyObject>
+<referredKeyID>427873E4-811F-C1A4-14DC-181036CBA486</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COMMUNICATION_EVENT_PURPOSE_TYPE_Comm_Event_Purpose_Type_ID,Communication_Event_Communication_Event_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

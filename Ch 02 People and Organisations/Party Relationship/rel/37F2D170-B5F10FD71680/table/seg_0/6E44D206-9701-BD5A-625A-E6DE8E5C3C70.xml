@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E44D206-9701-BD5A-625A-E6DE8E5C3C70" name="Organization_Rollup">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>31DEF16F-7625-D81E-489A-4CF7091FAEA5</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="66EC132A-929A-3774-7024-13F6DF9B5676">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>936AD435-883A-E514-B535-1AC27081B93D</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88E1348C-E5AB-C2C7-0078-881AF57A5842" referredColumn="E5B4E1CD-A0C4-5393-ACDB-72C52CB30916"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="218A1D59-DD0B-0E20-8946-7A8D5ADAEC8B" name="Organization_Rollup_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>9B5CE9B7-DA2E-F258-4B1F-49B8CA44DE73</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66EC132A-929A-3774-7024-13F6DF9B5676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCE7ECE4-EE1A-A14D-4BF9-7CAE89554083" name="Organization_Rollup_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:47:53 UTC</createdTime>
+<generatorID>8265B5E8-4CF7-FA9B-E85B-97238B8F8CDF</generatorID>
+<ownerDesignName>Party Relationship</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66EC132A-929A-3774-7024-13F6DF9B5676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

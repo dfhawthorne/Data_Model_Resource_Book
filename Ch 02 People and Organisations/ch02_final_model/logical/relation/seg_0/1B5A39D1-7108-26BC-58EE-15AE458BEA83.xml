@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASSPORT_CITZN_FK" directorySegmentName="seg_0" id="1B5A39D1-7108-26BC-58EE-15AE458BEA83">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:10:44 UTC</createdTime>
+<generatorID>2805A63D-AD7F-E1A4-068F-9FBB279F7AE6</generatorID>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<engineerTo>
+<item key="186711D0-076F-B8D0-06EF-8D00FF00E145" value="true"/>
+</engineerTo>
+<sourcePk>AB314378-F281-1629-DA7C-A59CFEE9304B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09EF45F6-A2E5-67AC-405B-18B5A16C39FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E2AA871-3CC8-9D05-A1B8-66CD0745D7BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="CA501265-3459-FDD1-3144-455C2F1D547C" containerWithKeyObject="A8E9C74D-69E0-2675-EA9B-A4CE3A75D79F" localFKIndex="7BCA8F25-FAA9-791F-768D-6836DA17DA5D" name="Valid_Contact_Mechanism_Role_Communication_Event_Role_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>32048500-29B5-5792-6FAC-5A371B68C137</importedID>
+<referredTableLongName>Communication_Event_Role_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>24CA44D1-6B20-378B-F1D4-88CA1572315B</referredTableID>
+<keyObject>5DE8F55D-21C7-5A41-0313-4765128DBB28</keyObject>
+<referredKeyID>5DE8F55D-21C7-5A41-0313-4765128DBB28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Communication_Event_Role_Type_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

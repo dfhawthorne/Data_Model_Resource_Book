@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C77A98CC-C0A9-80B5-CCD5-7CCA901D0FB9" name="Employment">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>F6914B65-EC2F-1584-B8DB-B671BA97A285</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="C273EED0-1646-BCBA-4CF3-81C2DE5BFE2E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>355C3B16-2727-057E-8F32-5C458BD4ACDD</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D4C8D96-0325-23A8-BB4F-5D3BBE80B4AF" referredColumn="BDDCDCF0-6B24-D575-77FC-D1D08FA36FAC"/>
+</associations>
+</Column>
+<Column name="Employee_Party_Role_ID" id="52115323-230C-DA19-A902-D6F60E9B0C59">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>0298CFEB-B31B-6996-2935-763A28655133</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C1130F1-37CD-518F-7098-1A76ECB08557" referredColumn="AFBCDEF8-403C-DBC7-0CB1-72A7608BE272"/>
+</associations>
+</Column>
+<Column name="Employee_Role_Type_ID" id="FB116D2A-1D78-45D3-1E30-0BACCF216F1B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>7AD8B40A-6E28-17DB-6D03-E9664BFB1C02</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C1130F1-37CD-518F-7098-1A76ECB08557" referredColumn="454C613A-1DB7-F3EA-3276-59F330EE0A31"/>
+</associations>
+</Column>
+<Column name="Internal_Organisation_Party_Role_ID" id="7D7E8318-6A26-4638-03A3-CB94171311C2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>64C5186C-C5EB-9DC8-3F7F-03A34D1E551B</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A44E916-AB4C-B24A-D328-0BF4588C3813" referredColumn="19E64F82-C073-EC99-78BA-345C42E389CA"/>
+</associations>
+</Column>
+<Column name="Internal_Organisation_Role_Type_ID" id="C0718060-16F8-197F-196E-8718EFAAA94B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>90CE895F-8F07-AE4F-FAED-C8921BEE1909</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A44E916-AB4C-B24A-D328-0BF4588C3813" referredColumn="D2717335-5140-A987-D9CA-E3C4676DDBB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18C7B9B2-3ED5-52BD-C556-85564387F0AD" name="Employment_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9DE26E45-23AB-7797-706E-F276270257EE</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C273EED0-1646-BCBA-4CF3-81C2DE5BFE2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8B07E44-1BB3-701E-1660-0386E7C994E9" name="Employment_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>4B2035D1-7EA2-7820-57A9-B75D4692D069</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D7E8318-6A26-4638-03A3-CB94171311C2"/>
+<colUsage columnID="C0718060-16F8-197F-196E-8718EFAAA94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E95051DB-633E-317C-CE82-F25A55861270" name="Employment_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9105C583-F94B-8097-A3BA-AF032FC7D2BA</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C273EED0-1646-BCBA-4CF3-81C2DE5BFE2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB814019-8FCF-595D-8471-846748222C21" name="Employment_Employee_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>B06D2CC5-0745-EE90-24C2-445DA284F2D3</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52115323-230C-DA19-A902-D6F60E9B0C59"/>
+<colUsage columnID="FB116D2A-1D78-45D3-1E30-0BACCF216F1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE63BAE4-5BE0-7890-8785-0C880835F420" name="Employment_Internal_Organisation_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>0B688FB1-E291-1D02-7727-BEF7AA4FC07B</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D7E8318-6A26-4638-03A3-CB94171311C2"/>
+<colUsage columnID="C0718060-16F8-197F-196E-8718EFAAA94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

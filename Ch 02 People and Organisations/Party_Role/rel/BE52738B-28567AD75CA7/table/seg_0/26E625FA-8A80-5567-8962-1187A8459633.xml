@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26E625FA-8A80-5567-8962-1187A8459633" name="Department">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>86973F23-4765-AFBF-7E94-4712AD862CE4</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="90A2E3E7-1FD6-710A-B31B-A64D1B40C0FD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>E951BD9C-8AFF-5804-29CE-7A972C334EE0</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8994F758-E0CC-6F63-B5EE-5B6DE1D9DA2C" referredColumn="C6F24512-5971-E1C6-7BC3-388FE13F5663"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="E4027E2E-2283-9515-7E39-E76B0D770457">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>3F79F611-72D9-57D0-3C0A-9A24663AD01C</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8994F758-E0CC-6F63-B5EE-5B6DE1D9DA2C" referredColumn="2BCE89BA-B2EA-FADB-9A6D-5579AB37026F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB770C09-ED28-136F-82BE-534828B9A901" name="Department_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9712D9B5-B31F-8455-05E1-48B5C5CC088E</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90A2E3E7-1FD6-710A-B31B-A64D1B40C0FD"/>
+<colUsage columnID="E4027E2E-2283-9515-7E39-E76B0D770457"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC087F8C-C593-AE6F-C583-985E719AEF8D" name="Department_Organisation_Unit_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>E1A0A993-758D-2952-C6F4-7E994052C617</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90A2E3E7-1FD6-710A-B31B-A64D1B40C0FD"/>
+<colUsage columnID="E4027E2E-2283-9515-7E39-E76B0D770457"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

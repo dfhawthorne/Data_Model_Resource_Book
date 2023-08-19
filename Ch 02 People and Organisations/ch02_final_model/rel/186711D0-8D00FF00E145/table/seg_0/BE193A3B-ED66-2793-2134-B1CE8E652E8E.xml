@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE193A3B-ED66-2793-2134-B1CE8E652E8E" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="MARITAL_STATUS">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>MARITAL_STATUS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FROM_DATE" id="FFF0A0F9-DD66-805A-03F6-F09F1ABB055A">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>MARITAL_STATUS</sourceObjSchema>
+<sourceObjName>FROM_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THRU_DATE" id="42A977EB-3EC4-58CD-FD7A-45A4B4430FE2">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>MARITAL_STATUS</sourceObjSchema>
+<sourceObjName>THRU_DATE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARTL_STAT_TYP_ID" id="7DF2B073-6EDE-CC64-6BF1-08BE43FC1F83">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>MARITAL_STATUS</sourceObjSchema>
+<sourceObjName>MARTL_STAT_TYP_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86FBDD7E-FA08-DBFE-303E-165A8AD17FF3" referredColumn="9ABFEB25-16ED-F69D-3537-289EBE999116"/>
+</associations>
+</Column>
+<Column name="PERS_PERS_ID" id="27425ECC-8017-A153-0575-FC4945876463">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>MARITAL_STATUS</sourceObjSchema>
+<sourceObjName>PERS_PERS_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58AD790D-7FDE-09D1-D8D7-7F1603319C17" referredColumn="F6E77457-411B-E93B-2C7C-52A45BFC1DBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB6DAFF9-9070-C614-8B36-EDCBC67F7500" name="MARTL_STAT_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>MARTL_STAT_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFF0A0F9-DD66-805A-03F6-F09F1ABB055A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BFFD58A-7D63-1ECF-2FA7-2F8C6FBDEADB" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="MARTL_STAT_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>MARTL_STAT_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFF0A0F9-DD66-805A-03F6-F09F1ABB055A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="646DEAD4-44DD-E19A-B51A-F24B57460C4C" name="MARTL_STAT_MARTL_STAT_TYP_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DF2B073-6EDE-CC64-6BF1-08BE43FC1F83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD27741E-C0B0-AAFA-661C-737C1043D1A8" name="MARTL_STAT_PERS_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27425ECC-8017-A153-0575-FC4945876463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

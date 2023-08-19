@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="822706E7-197C-C688-2DFE-B466DF7C5584" name="Regulation_Authority">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>ECFD4C20-E2CC-D226-A779-7F041B578732</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="34848168-4845-5BFE-36F9-72B6FA6F615D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>02621090-821E-633A-D669-4312FA7F7042</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="629EBC68-AA90-0BAE-9F0C-711C86EDEDD0" referredColumn="1735AF12-DE3B-AA12-F19A-314DA24A2AB2"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="B0457837-5CBE-D61B-F3E5-701AD2B967C0">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>37DCA025-CAB9-BDF2-A63B-063A7195B84E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="629EBC68-AA90-0BAE-9F0C-711C86EDEDD0" referredColumn="DC018734-57F8-D500-72F4-25055EC85F0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4D05152-E23D-526E-FEB9-AD1A6DE1E727" name="Regulation_Authority_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>ED475ABE-9B1B-F7FA-8901-DF0D66D11DFF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34848168-4845-5BFE-36F9-72B6FA6F615D"/>
+<colUsage columnID="B0457837-5CBE-D61B-F3E5-701AD2B967C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD29199A-9643-C4D7-B935-6C16B954CC71" name="Regulation_Authority_Organisation_Role_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34848168-4845-5BFE-36F9-72B6FA6F615D"/>
+<colUsage columnID="B0457837-5CBE-D61B-F3E5-701AD2B967C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

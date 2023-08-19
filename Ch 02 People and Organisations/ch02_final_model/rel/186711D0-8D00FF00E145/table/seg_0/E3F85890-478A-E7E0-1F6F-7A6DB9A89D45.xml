@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3F85890-478A-E7E0-1F6F-7A6DB9A89D45" name="Family_Member">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>BEEFD9EB-5398-9E49-A967-A69D92E9C1A3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_Role_ID" id="08E9EBE2-837C-8EFD-D6C1-1725A8B7D4ED">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>7E43931F-9038-1BBA-4344-42AFA5DCF380</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84E7CFF0-73CD-C127-1CB9-86AF92D33ECB" referredColumn="14191E99-E848-E938-F54B-90AFD1AF1B6B"/>
+</associations>
+</Column>
+<Column name="Role_Type_ID" id="35677C7B-CE49-FCF1-E33D-884262D8D591">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>A35166B4-ECA8-56A8-84F1-B324B5A3E7D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84E7CFF0-73CD-C127-1CB9-86AF92D33ECB" referredColumn="9A8E3336-8279-A6B9-7385-E77D3029CEA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D31CCE1D-6E80-70AC-E0DA-CD7FF96DE039" name="Family_Member_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>681008F1-6BE8-6463-DFE1-D9CDB9AB6B57</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E9EBE2-837C-8EFD-D6C1-1725A8B7D4ED"/>
+<colUsage columnID="35677C7B-CE49-FCF1-E33D-884262D8D591"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B4B957A-8765-C7BF-1C0F-704A6FD85F63" name="Family_Member_Person_Role_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E9EBE2-837C-8EFD-D6C1-1725A8B7D4ED"/>
+<colUsage columnID="35677C7B-CE49-FCF1-E33D-884262D8D591"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

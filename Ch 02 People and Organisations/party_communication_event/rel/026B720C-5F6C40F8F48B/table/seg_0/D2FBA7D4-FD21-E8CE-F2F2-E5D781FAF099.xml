@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2FBA7D4-FD21-E8CE-F2F2-E5D781FAF099" name="Communication_Event">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>65AA551B-D5F6-057C-77B0-11F76EF43EFB</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Communication_Event_ID" id="4837D69A-8C83-3718-A45E-E5FD1C67E18D">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>A99D5B49-3D8E-D0AC-4E0F-0E45421C2D1E</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datetime_started" id="F43F6B06-48AB-F043-6A1C-893DD113C002">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>045E14CE-52F1-2864-45C6-6B46F1156C94</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>3CBBDE0D-B1DF-66CF-CB5D-5F0CB49BA5D7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datetime_ended" id="0ED612F3-AA99-D1F1-AE8F-EF9873D475A0">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>BECE6D6A-2393-E62F-776D-712325A29BA2</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>3CBBDE0D-B1DF-66CF-CB5D-5F0CB49BA5D7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Note" id="C32AB580-84D3-1DCF-01D3-5E3E23A7B142">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>FB6990BE-605D-A439-0B66-D57F58133B56</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9DC8CD70-3498-6E55-8E26-C8ABA5FB4D22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party_Relationship_From_Date" id="EC244F3C-F7FE-80BB-6952-BAF1A0A2DE7B">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>C98BECBE-E870-C1BE-D367-2B28F5C978F5</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAD691AA-7C81-E63E-A28A-9476E98C7DDA" referredColumn="8337C95F-3143-F4D0-0BCA-406B1F666698"/>
+</associations>
+</Column>
+<Column name="Party_Relationship_Party_Role_ID" id="02FB40FF-52A5-3EA9-A839-FDB97A07A235">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>AA03FF99-BB4F-0F42-812B-EDCF72432711</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAD691AA-7C81-E63E-A28A-9476E98C7DDA" referredColumn="C137307C-189B-CEF5-A377-DB81FE976FB7"/>
+</associations>
+</Column>
+<Column name="Party_Relationship_Party_Role_ID1" id="9573396E-ABBE-FFCE-751D-82AE423B475E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>DF3FC9F8-47E0-91BA-421E-EB3B9628ACD5</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAD691AA-7C81-E63E-A28A-9476E98C7DDA" referredColumn="0465C2C7-2466-D0F2-C129-7B58FBCB067A"/>
+</associations>
+</Column>
+<Column name="Party_Relationship_Party_ID" id="2CC91BCA-0558-10C4-8D8D-9FA27874CA10">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>47CF5497-9A7F-5574-07F1-761B08DFF9F6</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAD691AA-7C81-E63E-A28A-9476E98C7DDA" referredColumn="9A996FB4-A7C2-03FA-B6D8-906643CA31A8"/>
+</associations>
+</Column>
+<Column name="Party_Relationship_Party_ID1" id="68B92B76-88F4-7459-C7F9-462AD7A22DC6">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>A02165DB-14A7-A96A-0A8B-D2666E9A77A9</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAD691AA-7C81-E63E-A28A-9476E98C7DDA" referredColumn="9D62BFB2-01C4-0DE6-4B38-5647ACDC9580"/>
+</associations>
+</Column>
+<Column name="Contact_Mechanism_Type_Contact_Mechanism_type_ID" id="6ACBC655-AF0E-DC11-7B47-498B854AA249">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>04EB9778-12F2-FAA9-27B8-9E4777B237E3</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCC45EB1-7C9A-7B29-09A8-D6DA6D5F5291" referredColumn="28A4F7A5-4232-FAA3-A2A8-7F2E4C91AC20"/>
+</associations>
+</Column>
+<Column name="Communication_Event_Status_Type_Communication_Event_Status_Type_ID" id="CE13D6E3-1399-BF58-9EA0-F7604FFCFE77">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B6554DC-DC43-96A9-000B-A2551157B303" referredColumn="24B92026-163C-2AFF-01EB-D518FE7D7AE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC0E261F-768E-BEB5-EDC3-0E91DEF8A3CD" name="Communication_Event_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>18BA82CE-3A9A-3A52-B997-5802A263300D</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4837D69A-8C83-3718-A45E-E5FD1C67E18D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F942D730-D6A0-8A6C-0976-95EAB6DFF724" name="Communication_Event_Contact_Mechanism_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>03A36900-AA43-1534-72D8-4475A8F53003</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ACBC655-AF0E-DC11-7B47-498B854AA249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5111440C-1904-AA38-2E3B-F6766C98DC4E" name="Communication_Event_Communication_Event_Status_Type_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>DA95282E-227A-C7F7-0B7E-03E7B3E76606</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE13D6E3-1399-BF58-9EA0-F7604FFCFE77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55DC039E-95CE-7381-5BEC-67B69767AF65" name="Communication_Event_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:51:41 UTC</createdTime>
+<generatorID>5465EEA3-D719-B998-3FCC-29626C8D491E</generatorID>
+<ownerDesignName>party_communication_event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC244F3C-F7FE-80BB-6952-BAF1A0A2DE7B"/>
+<colUsage columnID="02FB40FF-52A5-3EA9-A839-FDB97A07A235"/>
+<colUsage columnID="68B92B76-88F4-7459-C7F9-462AD7A22DC6"/>
+<colUsage columnID="9573396E-ABBE-FFCE-751D-82AE423B475E"/>
+<colUsage columnID="2CC91BCA-0558-10C4-8D8D-9FA27874CA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

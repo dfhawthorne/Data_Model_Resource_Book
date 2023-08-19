@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75CCE10A-6ECA-A9AE-9233-C09F8211C95A" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="PHYSICAL_CHARACTERISTIC_TYPE">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PHYSICAL_CHARACTERISTIC_TYPE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CHARACTERISTIC_TYPE_ID" id="417AF7EB-8220-40AF-6CE0-A87364297B9A">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PHYSICAL_CHARACTERISTIC_TYPE</sourceObjSchema>
+<sourceObjName>CHARACTERISTIC_TYPE_ID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="9FC66013-CAD2-77E7-9D3A-27BBE7B3661A">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>PHYSICAL_CHARACTERISTIC_TYPE</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:47 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C401470C-CBA7-7720-2E25-D95B61C47127" name="PHYS_CHAR_TYP_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PHYS_CHAR_TYP_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:51 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="417AF7EB-8220-40AF-6CE0-A87364297B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8787F25-1A5C-D824-D1DC-D2926C3DB0FC" schemaObject="5EA2C2E3-8B51-F04A-A56D-543B79954BD1" name="PHYS_CHAR_TYP_PK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>PHYS_CHAR_TYP_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:49 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="417AF7EB-8220-40AF-6CE0-A87364297B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

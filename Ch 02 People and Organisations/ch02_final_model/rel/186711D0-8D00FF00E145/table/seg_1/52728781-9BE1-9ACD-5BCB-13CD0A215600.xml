@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="52728781-9BE1-9ACD-5BCB-13CD0A215600" name="Activity_Request">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>D9704827-8D20-D242-EE8C-35E84455A50C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Communication_Event_ID1" id="E549923D-2934-FD40-D13C-4DEBC1B87C94">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>8681C851-140F-7EDC-D230-A56A5A6225C9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comm_Event_Purpose_Type_ID" id="EDC6502D-1022-FF77-176D-432C72C9BDC9">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>A44BDDF9-991B-F55C-6876-05383FA248BF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44B8B11E-D8BF-B6D6-1077-089FE801587B" referredColumn="1C1EC087-3557-6323-FCCA-EB5BC5E737BF"/>
+</associations>
+</Column>
+<Column name="Communication_Event_ID" id="91743C72-E5EE-15B8-C233-D0C30E45784F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>30DDF80C-A915-8C8B-CD20-0091637D63E7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E39694A6-4330-D633-6A0D-8B420696591B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44B8B11E-D8BF-B6D6-1077-089FE801587B" referredColumn="81389263-9629-83EE-C42E-ADAC005B9EAF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0765DCA-AAE1-3342-741F-8DA26618D82F" name="Activity_Request_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>E51F1430-D53C-23A7-3CC1-A1FC3E54C367</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDC6502D-1022-FF77-176D-432C72C9BDC9"/>
+<colUsage columnID="91743C72-E5EE-15B8-C233-D0C30E45784F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="667DC000-10EC-3B4B-FB77-4902005689E6" name="Activity_Request_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:11 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<importedID>2870910C-22CA-E773-9191-20E4CF72894E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E549923D-2934-FD40-D13C-4DEBC1B87C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AF0BF4D-2C02-9675-F3A0-8C51B61594FD" name="Activity_Request_COMMUNICATION_EVENT_PURPOSE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:52:12 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDC6502D-1022-FF77-176D-432C72C9BDC9"/>
+<colUsage columnID="91743C72-E5EE-15B8-C233-D0C30E45784F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

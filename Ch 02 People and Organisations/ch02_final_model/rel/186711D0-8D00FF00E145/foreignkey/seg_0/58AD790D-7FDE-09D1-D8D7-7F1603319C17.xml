@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58AD790D-7FDE-09D1-D8D7-7F1603319C17" containerWithKeyObject="BE193A3B-ED66-2793-2134-B1CE8E652E8E" localFKIndex="DD27741E-C0B0-AAFA-661C-737C1043D1A8" name="MARTL_STAT_PERS_FK">
+<sourceConnName>xe_urm</sourceConnName>
+<sourceObjSchema>URM</sourceObjSchema>
+<sourceObjName>MARTL_STAT_PERS_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:09:53 UTC</createdTime>
+<ownerDesignName>ch02_final_model</ownerDesignName>
+<referredTableLongName>URM.PERSON</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74ECF85E-40ED-03C0-BFA9-1A321283B329</referredTableID>
+<keyObject>1F5A8890-22A1-37F4-9516-C730074C775F</keyObject>
+<referredKeyID>1F5A8890-22A1-37F4-9516-C730074C775F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PERS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

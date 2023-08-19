@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1092DFC-8334-DACD-C9DB-B2D01B3C48E9" name="Organization">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>94025F56-9FFC-655E-1452-18B8B60D40AD</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Party_ID" id="E95CC754-92F9-60B0-848F-A2597C188179">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>6A449C2D-ADD5-1F8D-AE65-3727A4889339</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2CB8F0F-879A-07C6-51C3-456FD16234B4" referredColumn="E6F66E8A-3F43-B0C3-775B-C54D081D9F3F"/>
+</associations>
+</Column>
+<Column name="Name" id="EE7110B5-A2B7-0A1F-6B75-F8AB7E02A44E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>CEE6E6F9-9585-9339-232C-37496C073F08</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A439F2C-0165-3794-4C26-7CBDDA7473CC" name="Organization_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>DC45A2FA-8244-6763-110A-DBBC3961AA96</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E95CC754-92F9-60B0-848F-A2597C188179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75C3D4F1-18D6-E69E-96D4-9C95989F7CE1" name="Organization_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>283843FF-ED2B-08FC-EA20-0CC6A74F0B0A</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="765782E2-4500-52AA-5C47-833640CDDEF9" name="Organization_Party_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 09:20:12 UTC</createdTime>
+<generatorID>AAC92B07-E539-FF1B-AFDF-871EA423911B</generatorID>
+<ownerDesignName>Party</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E95CC754-92F9-60B0-848F-A2597C188179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

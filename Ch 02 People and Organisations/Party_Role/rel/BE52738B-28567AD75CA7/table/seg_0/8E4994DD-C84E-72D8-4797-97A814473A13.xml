@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E4994DD-C84E-72D8-4797-97A814473A13" name="Organisation_Rollup">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>29C0B6FE-D494-59CB-425A-BECEA75C72F7</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="From_Date" id="656828E7-8AB5-5BD3-3AC2-F729B22E92D5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>355C3B16-2727-057E-8F32-5C458BD4ACDD</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5931775C-C976-D706-FEF8-C96857B16008" referredColumn="BDDCDCF0-6B24-D575-77FC-D1D08FA36FAC"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Party_Role_ID2" id="98D5133D-F673-90D4-ED5A-59244743FD9F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>DDDE886A-9C65-7445-5417-90CC4C518792</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="494F41AF-CD53-52BF-2AAF-DD4CCB4B05B8" referredColumn="C6F24512-5971-E1C6-7BC3-388FE13F5663"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Role_Type_ID2" id="F21FB838-1959-2A55-7F74-654DB0D4C5F7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>8B7DD56F-8BFC-93B8-9B13-DE88C07F4F18</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="494F41AF-CD53-52BF-2AAF-DD4CCB4B05B8" referredColumn="2BCE89BA-B2EA-FADB-9A6D-5579AB37026F"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Party_Role_ID" id="88FB337C-3301-98F9-A69F-1798B6674706">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>6BFD501B-A34E-53B9-E518-12A1E81B2100</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A47E371-53E9-BAD7-E8C3-0D5B3C22CCA1" referredColumn="C6F24512-5971-E1C6-7BC3-388FE13F5663"/>
+</associations>
+</Column>
+<Column name="Organisation_Unit_Role_Type_ID" id="6C9006E4-4075-DB30-9EBF-2206F7728620">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>D7293ABE-9774-F006-4BDB-CD75761A9213</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A47E371-53E9-BAD7-E8C3-0D5B3C22CCA1" referredColumn="2BCE89BA-B2EA-FADB-9A6D-5579AB37026F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD01F5E8-F9FF-72F4-8A89-29C42EEDCEE5" name="Organisation_Rollup_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>9DE26E45-23AB-7797-706E-F276270257EE</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="656828E7-8AB5-5BD3-3AC2-F729B22E92D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12157488-8846-4DEC-DEE2-7AA294D15C23" name="Organisation_Rollup_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>EE840B42-B3D3-7857-B412-241CD88A845B</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88FB337C-3301-98F9-A69F-1798B6674706"/>
+<colUsage columnID="6C9006E4-4075-DB30-9EBF-2206F7728620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="731E9473-B519-4F23-3B5C-B6B07F4E66E9" name="Organisation_Rollup_Party_Relationship_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>0495648F-F1A5-C051-9333-604EFC9AC1D8</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="656828E7-8AB5-5BD3-3AC2-F729B22E92D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="893A6BEA-8DFE-C2EF-E54D-9FAD908472E0" name="Organisation_Rollup_Organisation_Unit_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>C35D0788-C2C5-F874-7F69-B39FE067A8A0</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88FB337C-3301-98F9-A69F-1798B6674706"/>
+<colUsage columnID="6C9006E4-4075-DB30-9EBF-2206F7728620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB6D21A9-6D3C-9905-6B5B-6CB6D4EF6A0B" name="Organisation_Rollup_Organisation_Unit_FKv2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-19 12:46:14 UTC</createdTime>
+<generatorID>489E5F59-E232-58F7-4C79-F5F9F0C5764F</generatorID>
+<ownerDesignName>Party_Role</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98D5133D-F673-90D4-ED5A-59244743FD9F"/>
+<colUsage columnID="F21FB838-1959-2A55-7F74-654DB0D4C5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
