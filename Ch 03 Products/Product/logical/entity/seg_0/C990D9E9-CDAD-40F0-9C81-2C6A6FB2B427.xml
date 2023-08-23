@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C990D9E9-CDAD-40F0-9C81-2C6A6FB2B427" name="PRODUCT">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:31:13 UTC</createdTime>
+<comment><![CDATA[Models all products including the products the enterprise sells, products from suppliers, and competitor's products.]]></comment>
+<commentInRDBMS><![CDATA[Models all products including the products the enterprise sells, products from suppliers, and competitor's products]]></commentInRDBMS>
+<notes><![CDATA[Fig 3.1]]></notes>
+<ownerDesignName>Product</ownerDesignName>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCT ID" id="95E6CF48-5CA0-AF29-44F5-C5518F15ADF7">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:31:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifier for product]]></commentInRDBMS>
+<ownerDesignName>Product</ownerDesignName>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="EED2FA49-3DB9-4E19-8333-6E0B130A0E46">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:31:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Uniquely describes the product]]></commentInRDBMS>
+<ownerDesignName>Product</ownerDesignName>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Introduction Date" id="70EC29E2-27EF-E3C9-C914-543CC809120E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:31:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date when product was first available to be sold]]></commentInRDBMS>
+<ownerDesignName>Product</ownerDesignName>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales discontinuation date" id="644911B6-566C-1DCB-BE92-D717B89064C8">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:31:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[States when product will not be sold anymore by the manufacturer]]></commentInRDBMS>
+<ownerDesignName>Product</ownerDesignName>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Support discontinuation date" id="72A214DB-50AE-C4AB-B347-1D6E1BAF0ABD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:31:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[When the product will no longer be supported by the manufacturer]]></commentInRDBMS>
+<ownerDesignName>Product</ownerDesignName>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMMENT" id="41004281-C248-E76B-D55C-7ADED6BD551E">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:31:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Documents particular descriptions or notes relating to the product]]></commentInRDBMS>
+<ownerDesignName>Product</ownerDesignName>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8F287E-1D7D-9828-513A-4293447C926F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56F9BD99-39A3-4772-EA9B-8E9B3383902E" name="PRODUCT PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:32:03 UTC</createdTime>
+<ownerDesignName>Product</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95E6CF48-5CA0-AF29-44F5-C5518F15ADF7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7D38BBD0-8643-96C8-2D0D-30BB9EECE4D9" name="PRODUCT  UN">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:45:36 UTC</createdTime>
+<generatorID>36DD9EA7-B898-A9E2-E3FC-7632FA61CE32</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0EF2BB26-B868-BA8A-F135-279066ACD575" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>EED2FA49-3DB9-4E19-8333-6E0B130A0E46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

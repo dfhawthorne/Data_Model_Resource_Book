@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="661696B7-1E2E-7912-EA7D-B0CA7097AD91" name="PRODUCT">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<comment><![CDATA[Models all products including the products the enterprise sells, products from suppliers, and competitor's products.]]></comment>
+<generatorID>C990D9E9-CDAD-40F0-9C81-2C6A6FB2B427</generatorID>
+<notes><![CDATA[Fig 3.1]]></notes>
+<ownerDesignName>Product</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="F65EB624-C0A5-BF99-B01F-2A9D6F16E7B5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifier for product]]></commentInRDBMS>
+<generatorID>95E6CF48-5CA0-AF29-44F5-C5518F15ADF7</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="2B5AA645-4D00-55C6-091A-9F62CB785021">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Uniquely describes the product]]></commentInRDBMS>
+<generatorID>EED2FA49-3DB9-4E19-8333-6E0B130A0E46</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="intro_Date" id="C66EE020-67C2-4AF7-DD0D-3CDFA9C2BD3F">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date when product was first available to be sold]]></commentInRDBMS>
+<generatorID>70EC29E2-27EF-E3C9-C914-543CC809120E</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_discont_date" id="C00FB39B-6910-140F-7052-B0201A8781DE">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[States when product will not be sold anymore by the manufacturer]]></commentInRDBMS>
+<generatorID>644911B6-566C-1DCB-BE92-D717B89064C8</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Support_discont_date" id="C4207034-53B7-14B6-C0E9-F5382D6217A1">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[When the product will no longer be supported by the manufacturer]]></commentInRDBMS>
+<generatorID>72A214DB-50AE-C4AB-B347-1D6E1BAF0ABD</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>AA45A5AC-A97B-5247-7CA5-3A6925320017</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENT" id="EA0C4BF6-5259-4827-0C2B-4979146FB1E2">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Documents particular descriptions or notes relating to the product]]></commentInRDBMS>
+<generatorID>41004281-C248-E76B-D55C-7ADED6BD551E</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8F287E-1D7D-9828-513A-4293447C926F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AACEE5E-130A-3BA5-D67B-A08F0193863E" name="PRODUCT_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:40:59 UTC</createdTime>
+<generatorID>56F9BD99-39A3-4772-EA9B-8E9B3383902E</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F65EB624-C0A5-BF99-B01F-2A9D6F16E7B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36DD9EA7-B898-A9E2-E3FC-7632FA61CE32" name="PRODUCT_NAME_UN">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 12:45:01 UTC</createdTime>
+<ownerDesignName>Product</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5AA645-4D00-55C6-091A-9F62CB785021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

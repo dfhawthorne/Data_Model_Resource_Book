@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="228B8729-9D57-3D4D-75D1-0C9357E53EB8" name="GOOD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 13:09:51 UTC</createdTime>
+<generatorID>E25C24FE-5DC6-F434-69E8-C703C2838632</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="6F1C37C5-CE7A-0D7A-4210-53E583F345AD">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 13:09:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifier for product]]></commentInRDBMS>
+<generatorID>95E6CF48-5CA0-AF29-44F5-C5518F15ADF7</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13E2C71D-E2FA-9677-C06B-D19BFF7E85A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FB58777-0733-2B15-EC52-B68087899D12" referredColumn="F65EB624-C0A5-BF99-B01F-2A9D6F16E7B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDDD46E5-72E1-98BC-870B-97E855DAC339" name="GOOD_PK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 13:09:51 UTC</createdTime>
+<generatorID>56F9BD99-39A3-4772-EA9B-8E9B3383902E</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1C37C5-CE7A-0D7A-4210-53E583F345AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2783449C-9318-8488-E90B-8B392D3FF899" name="GOOD_PRODUCT_FK">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-23 13:09:51 UTC</createdTime>
+<generatorID>3F0C9BF5-D89A-B18D-BB01-CB08E217495A</generatorID>
+<ownerDesignName>Product</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1C37C5-CE7A-0D7A-4210-53E583F345AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
