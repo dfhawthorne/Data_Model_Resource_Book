@@ -27,6 +27,30 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT008</logicalDatatype>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="flag" id="49BFB1FF-41FB-3699-02C7-61B447671712">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-24 11:04:06 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT006</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="blob" id="71DF4739-0AA9-A48E-31C5-837D953EA9E5">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-24 11:02:32 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="floating point" id="724BBF5F-7EA2-B28D-7D4D-F4314872AF4C">
+<createdBy>PC</createdBy>
+<createdTime>2023-08-24 11:03:03 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="number" id="76FD3E0E-7612-889E-664D-76118636535F">
 <createdBy>PC</createdBy>
 <createdTime>2023-08-08 10:54:19 UTC</createdTime>
@@ -89,13 +113,14 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <unitOfMeasure>AUD</unitOfMeasure>
 </Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="flag" id="C0E99AB4-D3FF-6F0F-2E6C-4F7FCACAA53D">
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="indicator" id="C0E99AB4-D3FF-6F0F-2E6C-4F7FCACAA53D">
 <createdBy>PC</createdBy>
 <createdTime>2023-08-08 10:42:35 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 CHAR</dataTypeSize>
 <fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>PC</createdBy>
@@ -129,7 +154,7 @@
 <createdTime>2023-07-04 12:24:32 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
-<dataTypeSize>1024</dataTypeSize>
+<dataTypeSize>255 CHAR</dataTypeSize>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
